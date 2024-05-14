@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "Name": "Najsłabszy 8%"
+    },
+    {
+        "id":2,
+        "Name": "Słabe poniżej 20%"
+    },
+    {
+        "id":3,
+        "Name": "Mocne powyżej 20%"
+    },
+    {
+        "id":4,
+        "Name": "Najmocniejsze powyżej 35%"
+    }
+]

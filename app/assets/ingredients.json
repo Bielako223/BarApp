@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "Name": "Słodki"
+    },
+    {
+        "id":2,
+        "Name": "Wytrawny"
+    },
+    {
+        "id":3,
+        "Name": "Kwaśny"
+    },
+    {
+        "id":4,
+        "Name": "Ostry"
+    },
+    {
+        "id":5,
+        "Name": "Owocowy"
+    },
+    {
+        "id":6,
+        "Name": "Orzeźwiający"
+    }
+]
