@@ -1,0 +1,123 @@
+[
+    {
+        "id":1,
+        "value": "Wódka"
+    },
+    {
+        "id":2,
+        "value": "Rum"
+    },
+    {
+        "id":3,
+        "value": "Likier kawowy"
+    },
+    {
+        "id":4,
+        "value": "Triple sec"
+    },
+    {
+        "id":5,
+        "value": "Gin"
+    },
+    {
+        "id":6,
+        "value": "Wermut"
+    },
+    {
+        "id":7,
+        "value": "Campari"
+    },
+    {
+        "id":8,
+        "value": "Likier brzoskwiniowy"
+    },
+    {
+        "id":9,
+        "value": "Prosecco"
+    },
+    {
+        "id":10,
+        "value": "Aperol"
+    },
+    {
+        "id":11,
+        "value": "piwo imbirowe"
+    },
+    {
+        "id":12,
+        "value": "Jagermeister"
+    },
+    {
+        "id":13,
+        "value": "Tequila"
+    },
+    {
+        "id":14,
+        "value": "cointreau"
+    },
+    {
+        "id":15,
+        "value": "wytrawny wermut"
+    },
+    {
+        "id":16,
+        "value": "wódka waniliowa"
+    },
+    {
+        "id":17,
+        "value": "szampan"
+    },
+    {
+        "id":18,
+        "value": "burbon"
+    },
+    {
+        "id":19,
+        "value": "whiskey"
+    },
+    {
+        "id":20,
+        "value": "cachaca"
+    },
+    {
+        "id":21,
+        "value": "lillet blanc"
+    },
+    {
+        "id":22,
+        "value": "słodki wermut"
+    },
+    {
+        "id":23,
+        "value": "angostura"
+    },
+    {
+        "id":24,
+        "value": "angostura"
+    },
+    {
+        "id":25,
+        "value": "ciemny rum"
+    },
+    {
+        "id":26,
+        "value": "likier pomarańczowy"
+    },
+    {
+        "id":27,
+        "value": "likier morelowy"
+    },
+    {
+        "id":28,
+        "value": "Amaretto"
+    },
+    {
+        "id":29,
+        "value": "biały wytrawny wermut"
+    },
+    {
+        "id":30,
+        "value": "jasny rum"
+    }
+    
+]

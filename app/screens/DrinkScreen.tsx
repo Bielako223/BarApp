@@ -5,12 +5,15 @@ import { useRoute } from "@react-navigation/native"
 let drinksArray: DrinkClass[] = require('../assets/drinks.json');
 function DrinkScreen({navigation}: {navigation: any}) {
   const route = useRoute()
-  const ZupaZtrupa=route.params?.Zupa
+  const taste=route.params?.taste
+  const strength=route.params?.strength
+  const alcohols=route.params?.alcohols
+  const ingredients=route.params?.ingredients
     return (
       <View style={styles.container}>
       <Text>ZSE2</Text>
       <Text>{drinksArray[0].Name}</Text>
-      <Text>{ZupaZtrupa}</Text>
+      <Text>{strength[0].value}</Text>
       <Button
       title="Back"
       onPress={() =>

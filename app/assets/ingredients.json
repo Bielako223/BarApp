@@ -1,26 +1,134 @@
 [
     {
         "id":1,
-        "Name": "Słodki"
+        "value": "Cola"
     },
     {
         "id":2,
-        "Name": "Wytrawny"
+        "value": "Limonka"
     },
     {
         "id":3,
-        "Name": "Kwaśny"
+        "value": "śmietanka"
     },
     {
         "id":4,
-        "Name": "Ostry"
+        "value": "Mięta"
     },
     {
         "id":5,
-        "Name": "Owocowy"
+        "value": "Cukier"
     },
     {
         "id":6,
-        "Name": "Orzeźwiający"
+        "value": "Sok żurawinowy"
+    },
+    {
+        "id":7,
+        "value": "Sok z limonk"
+    },
+    {
+        "id":8,
+        "value": "Sok ananasowy"
+    },
+    {
+        "id":9,
+        "value": "Woda gazowana"
+    },
+    {
+        "id":10,
+        "value": "Sok z cytryny"
+    },
+    {
+        "id":11,
+        "value": "redbull"
+    },
+    {
+        "id":12,
+        "value": "sok pomarańczowy"
+    },
+    {
+        "id":13,
+        "value": "grenadyna"
+    },
+    {
+        "id":14,
+        "value": "syrop cukrowy"
+    },
+    {
+        "id":15,
+        "value": "sok pomidorowy"
+    },
+    {
+        "id":16,
+        "value": "sól"
+    },
+    {
+        "id":17,
+        "value": "pieprz"
+    },
+    {
+        "id":18,
+        "value": "sos worcester"
+    },
+    {
+        "id":19,
+        "value": "tabasco"
+    },
+    {
+        "id":20,
+        "value": "chrzan"
+    },
+    {
+        "id":21,
+        "value": "puree z marakui"
+    },
+    {
+        "id":22,
+        "value": "syrop cukrowy waniliowy"
+    },
+    {
+        "id":23,
+        "value": "passoa"
+    },
+    {
+        "id":24,
+        "value": "angostura"
+    },
+    {
+        "id":25,
+        "value": "liście bazylii"
+    },
+    {
+        "id":26,
+        "value": "maliny"
+    },
+    {
+        "id":27,
+        "value": "białko jajka"
+    },
+    {
+        "id":28,
+        "value": "sok z grejfruta"
+    },
+    {
+        "id":29,
+        "value": "miód"
+    },
+    {
+        "id":30,
+        "value": "imbir"
+    },
+    {
+        "id":31,
+        "value": "sok z oliwek"
+    },
+    {
+        "id":32,
+        "value": "espresso"
+    },
+    {
+        "id":33,
+        "value": "mleko kokosowe"
     }
 ]
