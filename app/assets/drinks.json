@@ -1,8 +1,325 @@
 [
     {
         "Id":1,
-        "Name":"Zupa",
-        "Description": "ZSE",
+        "Name":"Cuba Libre",
+        "Strength":[2,"13-18%"],
+        "Taste": [1],
+        "Alcohol": [2],
+        "Ingredients": [1,2],
+        "Points": 0
+    },{
+        "Id":2,
+        "Name":"White Russian",
+        "Strength":[3," 25%"],
+        "Taste": [1],
+        "Alcohol": [1,3],
+        "Ingredients": [3],
+        "Points": 0
+    },
+    {
+        "Id":3,
+        "Name":"Black Russian",
+        "Strength":[3,"32%"],
+        "Taste": [1],
+        "Alcohol": [1,3],
+        "Ingredients": [],
+        "Points": 0
+    },
+    {
+        "Id":4,
+        "Name":"Mojito",
+        "Strength":[2,"13%"],
+        "Taste": [1,6],
+        "Alcohol": [2],
+        "Ingredients": [2,4,5],
+        "Points": 0
+    },
+    {
+        "Id":5,
+        "Name":"Cosmopolitan",
+        "Strength":[3,"27%"],
+        "Taste": [1,5],
+        "Alcohol": [1,4],
+        "Ingredients": [6,7],
+        "Points": 0
+    },
+    {
+        "Id":6,
+        "Name":"Negroni",
+        "Strength":[3,"24%"],
+        "Taste": [1,2],
+        "Alcohol": [5,6,7],
+        "Ingredients": [],
+        "Points": 0
+    },
+    {
+        "Id":7,
+        "Name":"Sex On The Beach",
+        "Strength":[2,"11,5%"],
+        "Taste": [1,5],
+        "Alcohol": [8,1],
+        "Ingredients": [6,8],
+        "Points": 0
+    },
+    {
+        "Id":8,
+        "Name":"Aperol Spritz",
+        "Strength":[2,"11%"],
+        "Taste": [2,6],
+        "Alcohol": [9,10],
+        "Ingredients": [9],
+        "Points": 0
+    },
+    {
+        "Id":9,
+        "Name":"Tom Collins",
+        "Strength":[2,"15,5%"],
+        "Taste": [6],
+        "Alcohol": [5],
+        "Ingredients": [10,9,5],
+        "Points": 0
+    },
+    {
+        "Id":10,
+        "Name":"Moscow Mule",
+        "Strength":[2,"11%"],
+        "Taste": [1],
+        "Alcohol": [1,11],
+        "Ingredients": [7],
+        "Points": 0
+    },
+    {
+        "Id":11,
+        "Name":"Jagerbomb",
+        "Strength":[1,"8%"],
+        "Taste": [1],
+        "Alcohol": [12],
+        "Ingredients": [11],
+        "Points": 0
+    },
+    {
+        "Id":12,
+        "Name":"Tequila Sunrise",
+        "Strength":[2,"13,5%"],
+        "Taste": [1],
+        "Alcohol": [13],
+        "Ingredients": [13,12],
+        "Points": 0
+    },
+    {
+        "Id":13,
+        "Name":"Long Island Iced Tea",
+        "Strength":[3,"22%"],
+        "Taste": [1,3],
+        "Alcohol": [1,5,2,13,14],
+        "Ingredients": [14,7,10,1],
+        "Points": 0
+    },
+    {
+        "Id":14,
+        "Name":"Krwawa Mary",
+        "Strength":[2,"10%"],
+        "Taste": [2,4],
+        "Alcohol": [1],
+        "Ingredients": [15,16,17,18,19,20],
+        "Points": 0
+    },
+    {
+        "Id":15,
+        "Name":"Martini",
+        "Strength":[4,"35%"],
+        "Taste": [2],
+        "Alcohol": [5,15],
+        "Ingredients": [],
+        "Points": 0
+    },
+    {
+        "Id":16,
+        "Name":"Pornstar Martini",
+        "Strength":[2,"13,5%"],
+        "Taste": [1,5],
+        "Alcohol": [16,17],
+        "Ingredients": [21,7,22,23],
+        "Points": 0
+    },
+    {
+        "Id":17,
+        "Name":"Old Fashioned",
+        "Strength":[3,"32%"],
+        "Taste": [2],
+        "Alcohol": [18],
+        "Ingredients": [14,24],
+        "Points": 0
+    },
+    {
+        "Id":18,
+        "Name":"Whisky Sour",
+        "Strength":[2,"15%"],
+        "Taste": [3],
+        "Alcohol": [19],
+        "Ingredients": [24,14,10],
+        "Points": 0
+    },
+    {
+        "Id":19,
+        "Name":"Margarita",
+        "Strength":[3,"33%"],
+        "Taste": [1],
+        "Alcohol": [4,13],
+        "Ingredients": [7,14],
+        "Points": 0
+    },
+    {
+        "Id":20,
+        "Name":"Caipirinia",
+        "Strength":[3,"30%"],
+        "Taste": [3,6],
+        "Alcohol": [20],
+        "Ingredients": [14,2],
+        "Points": 0
+    },
+    {
+        "Id":21,
+        "Name":"Vesper Martin",
+        "Strength":[3,"31%"],
+        "Taste": [6],
+        "Alcohol": [1,5],
+        "Ingredients": [],
+        "Points": 0
+    },
+    {
+        "Id":22,
+        "Name":"Manhattan",
+        "Strength":[3,"30%"],
+        "Taste": [2],
+        "Alcohol": [18,22],
+        "Ingredients": [],
+        "Points": 0
+    },
+    {
+        "Id":23,
+        "Name":"Daiquiri",
+        "Strength":[3,"20-25%"],
+        "Taste": [3],
+        "Alcohol": [2],
+        "Ingredients": [7,14],
+        "Points": 0
+    },
+    {
+        "Id":24,
+        "Name":"Basil Smash",
+        "Strength":[],
+        "Taste": [6],
+        "Alcohol": [5],
+        "Ingredients": [10,14,25],
+        "Points": 0
+    },
+    {
+        "Id":25,
+        "Name":"Dark ’n’stormy",
+        "Strength":[2,"10%"],
+        "Taste": [1,6],
+        "Alcohol": [25,11],
+        "Ingredients": [7,14],
+        "Points": 0
+    },
+    {
+        "Id":26,
+        "Name":"Zombie",
+        "Strength":[2,"18%"],
+        "Taste": [5],
+        "Alcohol": [30,25,26,27,2],
+        "Ingredients": [7,13],
+        "Points": 0
+    },
+    {
+        "Id":27,
+        "Name":"Amaretto Sour",
+        "Strength":[2,"13%"],
+        "Taste": [1,3],
+        "Alcohol": [18,28],
+        "Ingredients": [14,10],
+        "Points": 0
+    },
+    {
+        "Id":28,
+        "Name":"Clover club",
+        "Strength":[2,"11%"],
+        "Taste": [1,5],
+        "Alcohol": [5,29],
+        "Ingredients": [10,26,27],
+        "Points": 0
+    },
+    {
+        "Id":29,
+        "Name":"Americano",
+        "Strength":[2,"10%"],
+        "Taste": [1,2],
+        "Alcohol": [7,22],
+        "Ingredients": [9],
+        "Points": 0
+    },
+    {
+        "Id":30,
+        "Name":"Mai Tai",
+        "Strength":[3,"20%"],
+        "Taste": [1,5],
+        "Alcohol": [30,25,26],
+        "Ingredients": [2,34],
+        "Points": 0
+    },
+    {
+        "Id":31,
+        "Name":"Paloma",
+        "Strength":[2,"11%"],
+        "Taste": [3,5],
+        "Alcohol": [13],
+        "Ingredients": [28,14,9],
+        "Points": 0
+    },
+    {
+        "Id":32,
+        "Name":"Penicylina",
+        "Strength":[2,"19%"],
+        "Taste": [3,4],
+        "Alcohol": [19],
+        "Ingredients": [29,30,10],
+        "Points": 0
+    },
+    {
+        "Id":33,
+        "Name":"Dry Martini",
+        "Strength":[3,"30%"],
+        "Taste": [2],
+        "Alcohol": [1,15],
+        "Ingredients": [31],
+        "Points": 0
+    },
+    {
+        "Id":34,
+        "Name":"Espresso Martini",
+        "Strength":[3,"20,5%"],
+        "Taste": [1],
+        "Alcohol": [1,3],
+        "Ingredients": [32],
+        "Points": 0
+    },
+    {
+        "Id":35,
+        "Name":"French 75",
+        "Strength":[2,"19%"],
+        "Taste": [6],
+        "Alcohol": [5],
+        "Ingredients": [10,14],
+        "Points": 0
+    },
+    {
+        "Id":36,
+        "Name":"Pina colada",
+        "Strength":[2,"13%"],
+        "Taste": [1,6],
+        "Alcohol": [2],
+        "Ingredients": [33,8],
         "Points": 0
     }
 ]

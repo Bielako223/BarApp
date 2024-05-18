@@ -25,7 +25,7 @@
     },
     {
         "id":7,
-        "value": "Sok z limonk"
+        "value": "Sok z limonki"
     },
     {
         "id":8,
@@ -130,5 +130,9 @@
     {
         "id":33,
         "value": "mleko kokosowe"
+    },
+    {
+        "id":34,
+        "value": "falernum"
     }
 ]
