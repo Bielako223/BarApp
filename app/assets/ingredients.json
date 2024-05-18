@@ -1,138 +1,138 @@
 [
     {
-        "id":1,
+        "key":1,
         "value": "Cola"
     },
     {
-        "id":2,
+        "key":2,
         "value": "Limonka"
     },
     {
-        "id":3,
+        "key":3,
         "value": "śmietanka"
     },
     {
-        "id":4,
+        "key":4,
         "value": "Mięta"
     },
     {
-        "id":5,
+        "key":5,
         "value": "Cukier"
     },
     {
-        "id":6,
+        "key":6,
         "value": "Sok żurawinowy"
     },
     {
-        "id":7,
+        "key":7,
         "value": "Sok z limonki"
     },
     {
-        "id":8,
+        "key":8,
         "value": "Sok ananasowy"
     },
     {
-        "id":9,
+        "key":9,
         "value": "Woda gazowana"
     },
     {
-        "id":10,
+        "key":10,
         "value": "Sok z cytryny"
     },
     {
-        "id":11,
+        "key":11,
         "value": "redbull"
     },
     {
-        "id":12,
+        "key":12,
         "value": "sok pomarańczowy"
     },
     {
-        "id":13,
+        "key":13,
         "value": "grenadyna"
     },
     {
-        "id":14,
+        "key":14,
         "value": "syrop cukrowy"
     },
     {
-        "id":15,
+        "key":15,
         "value": "sok pomidorowy"
     },
     {
-        "id":16,
+        "key":16,
         "value": "sól"
     },
     {
-        "id":17,
+        "key":17,
         "value": "pieprz"
     },
     {
-        "id":18,
+        "key":18,
         "value": "sos worcester"
     },
     {
-        "id":19,
+        "key":19,
         "value": "tabasco"
     },
     {
-        "id":20,
+        "key":20,
         "value": "chrzan"
     },
     {
-        "id":21,
+        "key":21,
         "value": "puree z marakui"
     },
     {
-        "id":22,
+        "key":22,
         "value": "syrop cukrowy waniliowy"
     },
     {
-        "id":23,
+        "key":23,
         "value": "passoa"
     },
     {
-        "id":24,
+        "key":24,
         "value": "angostura"
     },
     {
-        "id":25,
+        "key":25,
         "value": "liście bazylii"
     },
     {
-        "id":26,
+        "key":26,
         "value": "maliny"
     },
     {
-        "id":27,
+        "key":27,
         "value": "białko jajka"
     },
     {
-        "id":28,
+        "key":28,
         "value": "sok z grejfruta"
     },
     {
-        "id":29,
+        "key":29,
         "value": "miód"
     },
     {
-        "id":30,
+        "key":30,
         "value": "imbir"
     },
     {
-        "id":31,
+        "key":31,
         "value": "sok z oliwek"
     },
     {
-        "id":32,
+        "key":32,
         "value": "espresso"
     },
     {
-        "id":33,
+        "key":33,
         "value": "mleko kokosowe"
     },
     {
-        "id":34,
+        "key":34,
         "value": "falernum"
     }
 ]

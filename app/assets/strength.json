@@ -1,18 +1,18 @@
 [
     {
-        "id":1,
+        "key":"1",
         "value": "Najsłabszy 8%"
     },
     {
-        "id":2,
+        "key":"2",
         "value": "Słabe poniżej 20%"
     },
     {
-        "id":3,
+        "key":"3",
         "value": "Mocne powyżej 20%"
     },
     {
-        "id":4,
+        "key":"4",
         "value": "Najmocniejsze powyżej 35%"
     }
 ]

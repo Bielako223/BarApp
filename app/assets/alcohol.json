@@ -1,118 +1,118 @@
 [
     {
-        "id":1,
+        "key":"1",
         "value": "Wódka"
     },
     {
-        "id":2,
+        "key":"2",
         "value": "Rum"
     },
     {
-        "id":3,
+        "key":"3",
         "value": "Likier kawowy"
     },
     {
-        "id":4,
+        "key":"4",
         "value": "Triple sec"
     },
     {
-        "id":5,
+        "key":"5",
         "value": "Gin"
     },
     {
-        "id":6,
+        "key":"6",
         "value": "Wermut"
     },
     {
-        "id":7,
+        "key":"7",
         "value": "Campari"
     },
     {
-        "id":8,
+        "key":"8",
         "value": "Likier brzoskwiniowy"
     },
     {
-        "id":9,
+        "key":"9",
         "value": "Prosecco"
     },
     {
-        "id":10,
+        "key":"10",
         "value": "Aperol"
     },
     {
-        "id":11,
+        "key":"11",
         "value": "piwo imbirowe"
     },
     {
-        "id":12,
+        "key":"12",
         "value": "Jagermeister"
     },
     {
-        "id":13,
+        "key":"13",
         "value": "Tequila"
     },
     {
-        "id":14,
+        "key":"14",
         "value": "cointreau"
     },
     {
-        "id":15,
+        "key":"15",
         "value": "wytrawny wermut"
     },
     {
-        "id":16,
+        "key":"16",
         "value": "wódka waniliowa"
     },
     {
-        "id":17,
+        "key":"17",
         "value": "szampan"
     },
     {
-        "id":18,
+        "key":"18",
         "value": "burbon"
     },
     {
-        "id":19,
+        "key":"19",
         "value": "whiskey"
     },
     {
-        "id":20,
+        "key":"20",
         "value": "cachaca"
     },
     {
-        "id":21,
+        "key":"21",
         "value": "lillet blanc"
     },
     {
-        "id":22,
+        "key":"22",
         "value": "słodki wermut"
     },
     {
-        "id":23,
+        "key":"23",
         "value": "angostura"
     },
     {
-        "id":25,
+        "key":"25",
         "value": "ciemny rum"
     },
     {
-        "id":26,
+        "key":"26",
         "value": "likier pomarańczowy"
     },
     {
-        "id":27,
+        "key":"27",
         "value": "likier morelowy"
     },
     {
-        "id":28,
+        "key":"28",
         "value": "Amaretto"
     },
     {
-        "id":29,
+        "key":"29",
         "value": "biały wytrawny wermut"
     },
     {
-        "id":30,
+        "key":"30",
         "value": "jasny rum"
     }
     

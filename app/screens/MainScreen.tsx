@@ -10,7 +10,7 @@ const ingredients :TasteClass[]= require('../assets/ingredients.json');
 function MainScreen({navigation}: {navigation: any}) {
 
   const [tasteSelected, setTasteSelected] = React.useState([]);
-  const [strengthSelected, setStrengthSelected] = React.useState([]);
+  const [strengthSelected, setStrengthSelected] = React.useState();
   const [alcoholsSelected, setAlcoholsSelected] = React.useState([]);
   const [ingredientsSelected, setIngredientsSelected] = React.useState([]);
 
@@ -20,34 +20,34 @@ function MainScreen({navigation}: {navigation: any}) {
       <MultipleSelectList 
         setSelected={(val:any) => setTasteSelected(val)} 
         data={taste} 
-        save="value"
+        save="key"
         label="Smak"
         search={false}
     />
     <SelectList
         setSelected={(val:any) => setStrengthSelected(val)} 
         data={strength} 
-        save="value"
+        save="key"
         placeholder='Moc'
         search={false}
     />
     <MultipleSelectList 
         setSelected={(val:any) => setAlcoholsSelected(val)} 
         data={alcohols} 
-        save="value"
+        save="key"
         label="Alkohole"
         search={false}
     />
     <MultipleSelectList 
         setSelected={(val:any) => setIngredientsSelected(val)} 
         data={ingredients} 
-        save="value"
+        save="key"
         label="Dodatki których nie lubisz"
     />
       <Button
       title="Drink"
       onPress={() =>
-        navigation.navigate("Drink",{taste:taste,strength:strength,alcohols:alcohols,ingredients:ingredients})
+        navigation.navigate("Drink",{taste:tasteSelected,strength:strengthSelected,alcohols:alcoholsSelected,ingredients:ingredientsSelected})
       }
     />
     </View>
@@ -66,6 +66,6 @@ const styles = StyleSheet.create({
 export default MainScreen;
 
 class TasteClass{
-  'Id': number;
+  'key': string;
   'value': string;
 }

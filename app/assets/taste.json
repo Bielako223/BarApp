@@ -1,26 +1,26 @@
 [
     {
-        "id":1,
+        "key":1,
         "value": "Słodki"
     },
     {
-        "id":2,
+        "key":2,
         "value": "Wytrawny"
     },
     {
-        "id":3,
+        "key":3,
         "value": "Kwaśny"
     },
     {
-        "id":4,
+        "key":4,
         "value": "Ostry"
     },
     {
-        "id":5,
+        "key":5,
         "value": "Owocowy"
     },
     {
-        "id":6,
+        "key":6,
         "value": "Orzeźwiający"
     }
 ]
