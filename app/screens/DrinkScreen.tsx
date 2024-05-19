@@ -12,7 +12,7 @@ function DrinkScreen({navigation}: {navigation: any}) {
   const alcohols=route.params?.alcohols
   const ingredients=route.params?.ingredients
   DrinksPoints(taste,strength,alcohols,ingredients);
-  const arrayDataItems = drinksArray.map((c) => <View><Text>{c.Name} {c.Points}</Text></View>);
+  const arrayDataItems = drinksArray.map((c) => <View><Text>{c.Name} {c.Percentage}%</Text></View>);
     return (
       <View style={styles.container}>
       <Text>ZSE2</Text>
@@ -30,12 +30,13 @@ function DrinkScreen({navigation}: {navigation: any}) {
 let DrinksPoints=(taste: Array<string>,strength: string,alcohols: Array<string>,ingredients: Array<string>)=>{
   drinksArray.forEach((e) => { e.Points = 0; });
   drinksArray.forEach((element) => {
-    if (element.Strength[0] == strength) element.Points += 1;
-    element.Alcohol.forEach((x) => { alcohols.forEach((y) => { if (x == y) element.Points += 1; }); });
-    element.Taste.forEach((x) => { taste.forEach((y) => { if (x == y) element.Points += 1; }); });
-    element.Ingredients.forEach((x) => { ingredients.forEach((y) => { if (x == y) element.Points += 1; }); });
+    if (element.Strength[0] == strength) element.Points += 4;
+    element.Alcohol.forEach((x) => { alcohols.forEach((y) => { if (x == y) element.Points += 2; }); });
+    element.Taste.forEach((x) => { taste.forEach((y) => { if (x == y) element.Points += 4; }); });
+    element.Ingredients.forEach((x) => { ingredients.forEach((y) => { if (x == y) element.Points -= 3; }); });
+    element.Percentage=Math.round((100*element.Points)/element.PointsMax)
   })
-  drinksArray=drinksArray.sort((a,b)=>b.Points-a.Points)
+  drinksArray=drinksArray.sort((a,b)=>b.Percentage-a.Percentage)
 }
 
 
@@ -60,9 +61,6 @@ class DrinkClass{
   "Alcohol": Array<string>;
   "Ingredients": Array<string>;
   'Points': number;
-}
-
-class ObjectClass{
-  'Id': number;
-  'value': string;
+  'PointsMax': number;
+  'Percentage': number;
 }
