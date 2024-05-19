@@ -18,6 +18,7 @@ function MainScreen({navigation}: {navigation: any}) {
       <View style={styles.container}>
       <Text>ZSE1</Text>
       <MultipleSelectList 
+      placeholder="Wybrane"
         setSelected={(val:any) => setTasteSelected(val)} 
         data={taste} 
         save="key"
@@ -32,6 +33,7 @@ function MainScreen({navigation}: {navigation: any}) {
         search={false}
     />
     <MultipleSelectList 
+    placeholder="Wybrane"
         setSelected={(val:any) => setAlcoholsSelected(val)} 
         data={alcohols} 
         save="key"
@@ -42,7 +44,11 @@ function MainScreen({navigation}: {navigation: any}) {
         setSelected={(val:any) => setIngredientsSelected(val)} 
         data={ingredients} 
         save="key"
+        placeholder="Wybrane"
         label="Dodatki których nie lubisz"
+        searchPlaceholder="Szukaj"
+        notFoundText="Brak"
+        
     />
       <Button
       title="Drink"

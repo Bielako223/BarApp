@@ -12,11 +12,17 @@ function DrinkScreen({navigation}: {navigation: any}) {
   const alcohols=route.params?.alcohols
   const ingredients=route.params?.ingredients
   DrinksPoints(taste,strength,alcohols,ingredients);
+  const finalShow:DrinkClass[]=final5drinks(drinksArray);
   const arrayDataItems = drinksArray.map((c) => <View><Text>{c.Name} {c.Percentage}%</Text></View>);
     return (
       <View style={styles.container}>
-      <Text>ZSE2</Text>
-      {arrayDataItems}
+      <Text>Twój drink to:</Text>
+      <Text>!!!!!{finalShow[0].Name} {finalShow[0].Percentage}%!!!!!</Text>
+      <Text>również mogą ci się spodobać:</Text>
+      <Text>{finalShow[1].Name} {finalShow[1].Percentage}%</Text>
+      <Text>{finalShow[2].Name} {finalShow[2].Percentage}%</Text>
+      <Text>{finalShow[3].Name} {finalShow[3].Percentage}%</Text>
+      <Text>{finalShow[4].Name} {finalShow[4].Percentage}%</Text>
       <Button
       title="Back"
       onPress={() =>
@@ -39,7 +45,11 @@ let DrinksPoints=(taste: Array<string>,strength: string,alcohols: Array<string>,
   drinksArray=drinksArray.sort((a,b)=>b.Percentage-a.Percentage)
 }
 
-
+function final5drinks(drink:DrinkClass[]){
+  const finalShow:DrinkClass[]=[];
+  for(let i=0;i<5;i++) if(drink[i].Points>0)finalShow.push(drink[i])
+    return finalShow
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -62,5 +72,6 @@ class DrinkClass{
   "Ingredients": Array<string>;
   'Points': number;
   'PointsMax': number;
+  'Description': string;
   'Percentage': number;
 }
