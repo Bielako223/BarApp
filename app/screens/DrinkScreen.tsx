@@ -24,7 +24,7 @@ function DrinkScreen({navigation}: {navigation: any}) {
       <Text>{finalShow[3].Name} {finalShow[3].Percentage}%</Text>
       <Text>{finalShow[4].Name} {finalShow[4].Percentage}%</Text>
       <Button
-      title="Back"
+      title="Wróć na początek"
       onPress={() =>
         navigation.navigate("Main")
       }
