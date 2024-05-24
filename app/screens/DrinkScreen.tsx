@@ -3,7 +3,6 @@ import {  Text, View, Pressable,TouchableOpacity} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import { useState } from 'react';
 import styles from './styles';
-import Slider from '@react-native-community/slider';
 
 
 let drinksArray: DrinkClass[] = require('../assets/drinks.json');

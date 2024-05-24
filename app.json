@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "BarApp",
-    "slug": "BarApp",
+    "name": "DrinkDecider",
+    "slug": "Drink-Decider",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,6 +22,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb4950e8-ef31-40f1-af6e-d0f9ec1a1f31"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/eb4950e8-ef31-40f1-af6e-d0f9ec1a1f31"
     }
   }
 }
