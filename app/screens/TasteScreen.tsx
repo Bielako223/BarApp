@@ -41,7 +41,9 @@ const TasteScreen = ({navigation}: {navigation: any}) => {
   
   return (
     <SafeAreaView style={styles.container}>
+      <Text style={styles.topText}>Wybierz smak/smaki.</Text>
     <FlatList
+    style={styles.bottomSpace}
       data={taste}
       renderItem={renderItem}
       keyExtractor={item => item.key}

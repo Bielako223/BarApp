@@ -36,6 +36,7 @@ const StrengthScreen = ({navigation}: {navigation: any}) => {
   
   return (
     <SafeAreaView style={styles.container}>
+      <Text style={styles.topText}>Wybierz moc drinka.</Text>
     <FlatList
       data={strength}
       renderItem={renderItem}

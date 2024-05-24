@@ -41,7 +41,9 @@ const AlcoholScreen = ({navigation}: {navigation: any}) => {
   
   return (
     <SafeAreaView style={styles.container}>
+      <Text style={styles.topText}>Wybierz alkohole.</Text>
     <FlatList
+    style={styles.bottomSpace}
       data={alcohol}
       renderItem={renderItem}
       keyExtractor={item => item.key}

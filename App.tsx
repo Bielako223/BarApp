@@ -7,6 +7,7 @@ import TasteScreen from './app/screens/TasteScreen';
 import AlcoholScreen from './app/screens/AlcoholScreen';
 import StrengthScreen from './app/screens/StrengthScreen';
 import IngredientsScreen from './app/screens/IngredientsScreen';
+import RandomDrinkScreen from './app/screens/RandomDrinkScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +26,7 @@ export default function App() {
         <Stack.Screen name="Strength" component={StrengthScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Ingredients" component={IngredientsScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Drink" component={DrinkScreen} options={{headerShown: false}}/>
+        <Stack.Screen name="RandomDrink" component={RandomDrinkScreen} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

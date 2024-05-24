@@ -1,7 +1,9 @@
 
-import { StyleSheet, Text, View, Button } from 'react-native';
+import {  Text, View, Pressable,TouchableOpacity} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
-
+import { useState } from 'react';
+import styles from './styles';
+import Slider from '@react-native-community/slider';
 
 
 let drinksArray: DrinkClass[] = require('../assets/drinks.json');
@@ -14,21 +16,72 @@ function DrinkScreen({navigation}: {navigation: any}) {
   DrinksPoints(taste,strength,alcohols,ingredients);
   const finalShow:DrinkClass[]=final5drinks(drinksArray);
   const arrayDataItems = drinksArray.map((c) => <View><Text>{c.Name} {c.Percentage}%</Text></View>);
+
+
+  const [show,setShow]=useState<boolean[]>([true,false,false,false,false])
+
+  const setSpecificBoolean = (index: number) => {
+    const newBooleans = [false,false,false,false,false]
+    newBooleans[index] = !newBooleans[index];
+    setShow(newBooleans)
+  };
+
+  const selectedDrink=(drink:DrinkClass,position:number)=>{
+    const alcohol :TasteClass[]= require('../assets/alcohol.json');
+    const ingredients :TasteClass[]= require('../assets/ingredients.json');
+    const taste :TasteClass[]= require('../assets/taste.json');
+    const alcoholsSpecific:TasteClass[]= alcohol.filter(item=> drink.Alcohol.includes(item.key));
+    const ingredientsSpecific:TasteClass[]= ingredients.filter(item=> drink.Ingredients.includes(item.key));
+    const tasteSpecific:TasteClass[]= taste.filter(item=> drink.Taste.includes(item.key));
+    return(
+      <TouchableOpacity
+        onPress={() => {const newBool = [...show];newBool[position] = !newBool[position];setShow(newBool)}}
+        >
+        <View style={position==0?styles.mainDrink:styles.othersDrinks}>
+            <Text style={[styles.itemText,{marginBottom:7}]}>{drink.Name}</Text>
+            <View>
+            <Text style={styles.percentageText1}>Drink dopasowany w <Text style={styles.drinkTextBold}>{drink.Percentage}%</Text> do twoich upodobań!</Text>
+            <Text></Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Smak:</Text> {tasteSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Zwartośc alkoholu:</Text> {drink.Strength[1]}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Alkohol:</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Składniki:</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            </View>
+        </View>
+      </TouchableOpacity>
+    )
+  }
+    const notSelectedDrink=(drink:DrinkClass,position:number)=>{
+  
+      return(
+        <TouchableOpacity
+        onPress={() => {setSpecificBoolean(position)}}
+        >
+          <View style={position==0?styles.mainDrink:styles.othersDrinks}>
+            <Text style={styles.itemText}>{drink.Name} <Text style={styles.percentageText}>Dopasowany w {drink.Percentage}%.</Text></Text>
+        </View>
+        </TouchableOpacity>
+      )
+    }
+
+
     return (
-      <View style={styles.container}>
-      <Text>Twój drink to:</Text>
-      <Text>!!!!!{finalShow[0].Name} {finalShow[0].Percentage}%!!!!!</Text>
-      <Text>również mogą ci się spodobać:</Text>
-      <Text>{finalShow[1].Name} {finalShow[1].Percentage}%</Text>
-      <Text>{finalShow[2].Name} {finalShow[2].Percentage}%</Text>
-      <Text>{finalShow[3].Name} {finalShow[3].Percentage}%</Text>
-      <Text>{finalShow[4].Name} {finalShow[4].Percentage}%</Text>
-      <Button
-      title="Wróć na początek"
-      onPress={() =>
+      <View style={[styles.container,styles.finalDrinkContainer]}>
+        <Text style={styles.topText}>Najlepiej dopasowany drink:</Text>
+      {show[0]?selectedDrink(finalShow[0],0):notSelectedDrink(finalShow[0],0)}
+      <Text style={styles.topText}>Mogą ci się spodobać:</Text>
+      {show[1]?selectedDrink(finalShow[1],1):notSelectedDrink(finalShow[1],1)}
+      {show[2]?selectedDrink(finalShow[2],2):notSelectedDrink(finalShow[2],2)}
+      {show[3]?selectedDrink(finalShow[3],3):notSelectedDrink(finalShow[3],3)}
+      {show[4]?selectedDrink(finalShow[4],4):notSelectedDrink(finalShow[4],4)}
+      
+      <View style={styles.finalDrinkbuttonContainer}>
+    <Pressable style={[styles.startButton]} onPress={() =>
         navigation.navigate("Main")
-      }
-    />
+      }>
+        <Text style={styles.buttonText} >Spróbuj ponownie</Text>
+      </Pressable>
+      </View>
     </View>
   );
 }
@@ -51,15 +104,6 @@ function final5drinks(drink:DrinkClass[]){
     return finalShow
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-
 
 export default DrinkScreen;
 
@@ -74,4 +118,9 @@ class DrinkClass{
   'PointsMax': number;
   'Description': string;
   'Percentage': number;
+}
+
+type  TasteClass={
+  key: string;
+  value: string;
 }

@@ -43,7 +43,9 @@ const IngredientsScreen = ({navigation}: {navigation: any}) => {
   
   return (
     <SafeAreaView style={styles.container}>
+      <Text style={styles.topText}>Wybierz składniki, których{"\n"} <Text style={styles.boldText}>nie</Text> lubisz(opcjonalnie).</Text>
     <FlatList
+    style={styles.bottomSpace}
       data={ingredients}
       renderItem={renderItem}
       keyExtractor={item => item.key}
