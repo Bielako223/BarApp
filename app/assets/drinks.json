@@ -2,6 +2,7 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
+        "Description": "",
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -11,6 +12,7 @@
     },{
         "Id":2,
         "Name":"White Russian",
+        "Description": "",
         "Strength":[3," 25%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -21,6 +23,7 @@
     {
         "Id":3,
         "Name":"Black Russian",
+        "Description": "",
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -31,6 +34,7 @@
     {
         "Id":4,
         "Name":"Mojito",
+        "Description": "",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -41,6 +45,7 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
+        "Description": "",
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -51,6 +56,7 @@
     {
         "Id":6,
         "Name":"Negroni",
+        "Description": "",
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -61,6 +67,7 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
+        "Description": "",
         "Strength":[2,"11,5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -71,6 +78,7 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
+        "Description": "",
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -81,6 +89,7 @@
     {
         "Id":9,
         "Name":"Tom Collins",
+        "Description": "",
         "Strength":[2,"15,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -91,6 +100,7 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
+        "Description": "",
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1,11],
@@ -101,6 +111,7 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
+        "Description": "",
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -111,6 +122,7 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
+        "Description": "",
         "Strength":[2,"13,5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -121,6 +133,7 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
+        "Description": "",
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -131,6 +144,7 @@
     {
         "Id":14,
         "Name":"Krwawa Mary",
+        "Description": "",
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -141,6 +155,7 @@
     {
         "Id":15,
         "Name":"Martini",
+        "Description": "",
         "Strength":[4,"35%"],
         "Taste": [2],
         "Alcohol": [5,15],
@@ -151,6 +166,7 @@
     {
         "Id":16,
         "Name":"Pornstar Martini",
+        "Description": "",
         "Strength":[2,"13,5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -161,6 +177,7 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
+        "Description": "",
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -171,6 +188,7 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
+        "Description": "",
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -181,6 +199,7 @@
     {
         "Id":19,
         "Name":"Margarita",
+        "Description": "",
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -191,6 +210,7 @@
     {
         "Id":20,
         "Name":"Caipirinia",
+        "Description": "",
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -201,6 +221,7 @@
     {
         "Id":21,
         "Name":"Vesper Martin",
+        "Description": "",
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -211,6 +232,7 @@
     {
         "Id":22,
         "Name":"Manhattan",
+        "Description": "",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -221,6 +243,7 @@
     {
         "Id":23,
         "Name":"Daiquiri",
+        "Description": "",
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -231,6 +254,7 @@
     {
         "Id":24,
         "Name":"Basil Smash",
+        "Description": "",
         "Strength":[3,"21,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -241,6 +265,7 @@
     {
         "Id":25,
         "Name":"Dark ’n’stormy",
+        "Description": "",
         "Strength":[2,"10%"],
         "Taste": [1,6],
         "Alcohol": [25,11],
@@ -251,6 +276,7 @@
     {
         "Id":26,
         "Name":"Zombie",
+        "Description": "",
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -261,6 +287,7 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
+        "Description": "",
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -271,6 +298,7 @@
     {
         "Id":28,
         "Name":"Clover club",
+        "Description": "",
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -281,6 +309,7 @@
     {
         "Id":29,
         "Name":"Americano",
+        "Description": "",
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -291,6 +320,7 @@
     {
         "Id":30,
         "Name":"Mai Tai",
+        "Description": "",
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -301,6 +331,7 @@
     {
         "Id":31,
         "Name":"Paloma",
+        "Description": "",
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -311,6 +342,7 @@
     {
         "Id":32,
         "Name":"Penicylina",
+        "Description": "",
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -321,6 +353,7 @@
     {
         "Id":33,
         "Name":"Dry Martini",
+        "Description": "",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -331,6 +364,7 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
+        "Description": "",
         "Strength":[3,"20,5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -341,6 +375,7 @@
     {
         "Id":35,
         "Name":"French 75",
+        "Description": "",
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -351,6 +386,7 @@
     {
         "Id":36,
         "Name":"Pina colada",
+        "Description": "",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],

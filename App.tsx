@@ -8,12 +8,15 @@ import AlcoholScreen from './app/screens/AlcoholScreen';
 import StrengthScreen from './app/screens/StrengthScreen';
 import IngredientsScreen from './app/screens/IngredientsScreen';
 import RandomDrinkScreen from './app/screens/RandomDrinkScreen';
+import { I18nextProvider } from 'react-i18next';
+import i18next from './services/i18next'
 
 const Stack = createNativeStackNavigator();
 
 
 export default function App() {
   return (
+    <I18nextProvider i18n={i18next}>
    <NavigationContainer>
       <Stack.Navigator initialRouteName='Main'>
         <Stack.Screen
@@ -29,6 +32,7 @@ export default function App() {
         <Stack.Screen name="RandomDrink" component={RandomDrinkScreen} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
+    </I18nextProvider>
   );
 }
 

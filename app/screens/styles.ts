@@ -154,7 +154,20 @@ const styles = StyleSheet.create({
       marginTop:8,
       padding:5,
       fontWeight: '500',
-    }
+    },
+    langContainer:{
+      position: 'absolute',
+    top: 20,
+    right: 20,
+    width: 100,
+    flexDirection: 'row',
+    },
+    langflagContainer:{
+      flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin:5
+    },
     
   });
 
