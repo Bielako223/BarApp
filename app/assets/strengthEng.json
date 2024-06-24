@@ -1,0 +1,18 @@
+[
+    {
+        "key":"1",
+        "value": "Weakest 8%"
+    },
+    {
+        "key":"2",
+        "value": "Weak below 20%"
+    },
+    {
+        "key":"3",
+        "value": "Strong above 20%"
+    },
+    {
+        "key":"4",
+        "value": "Strongest above 35%"
+    }
+]

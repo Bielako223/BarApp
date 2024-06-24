@@ -1,51 +1,66 @@
 
-import {  Text, View, Pressable,TouchableOpacity} from 'react-native';
-import { useRoute, RouteProp } from "@react-navigation/native"
+import {  Text, View, Pressable,Image} from 'react-native';
 import { useState } from 'react';
 import styles from './styles';
+import { useTranslation } from 'react-i18next';
+import {ObjectClass, DrinkClass} from './Classes';
+import Images from './Images'
 
 
-let drinksArray: DrinkClass[] = require('../assets/drinks.json');
+
 
 function RandomDrinkScreen({navigation}: {navigation: any}) {
 
-    const [randomNumber, setRandomNumber] = useState( Math.floor(Math.random() * 36) + 1);
+  const {t}= useTranslation();
+  let drinksArray: DrinkClass[] = t('Lang')=='pl' ? require('../assets/drinks.json') : require('../assets/drinksEng.json');
 
+    const [randomNumber, setRandomNumber] = useState( Math.floor(Math.random() * 36) + 1);
+  
     const newRandomDrink=()=>{
         setRandomNumber(Math.floor(Math.random() * 36) + 1);
     }
 
-    const randomDrink= drinksArray.find(item => item.Id === randomNumber);
-  const alcohol :TasteClass[]= require('../assets/alcohol.json');
-    const ingredients :TasteClass[]= require('../assets/ingredients.json');
-    const taste :TasteClass[]= require('../assets/taste.json');
-    const alcoholsSpecific:TasteClass[]= alcohol.filter(item=> randomDrink?.Alcohol.includes(item.key));
-    const ingredientsSpecific:TasteClass[]= ingredients.filter(item=> randomDrink?.Ingredients.includes(item.key));
-    const tasteSpecific:TasteClass[]= taste.filter(item=> randomDrink?.Taste.includes(item.key));
+    const randomDrink:DrinkClass= drinksArray.find(item => item.Id === randomNumber)!;
+    const ImgPath=randomDrink.Img;
+    const alcohol :ObjectClass[]=t('Lang')=='pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+    const ingredients :ObjectClass[]=t('Lang')=='pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
+    const taste :ObjectClass[]=t('Lang')=='pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
+    const alcoholsSpecific:ObjectClass[]= alcohol.filter(item=> randomDrink?.Alcohol.includes(item.key));
+    const ingredientsSpecific:ObjectClass[]= ingredients.filter(item=> randomDrink?.Ingredients.includes(item.key));
+    const tasteSpecific:ObjectClass[]= taste.filter(item=> randomDrink?.Taste.includes(item.key));
 
     return (
       <View style={[styles.container,styles.finalDrinkContainer]}>
-        <Text style={styles.topText}>Losowy drink:</Text>
+        <Text style={styles.topText}>{t('RandomDrinkText')}</Text>
         <View style={styles.othersDrinks}>
             <Text style={[styles.itemText,{ fontSize:25}]}>{randomDrink?.Name}</Text>
             <View>
             <Text></Text>
-            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Smak:</Text> {tasteSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
-            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Zwartośc alkoholu:</Text> {randomDrink?.Strength[1]}</Text>
-            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Alkohol:</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
-            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>Składniki:</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <View style={styles.drinkImgContainer2}>
+            <View style={styles.drinkImgContainer}>
+            <Image
+        source={Images[ImgPath]}
+        style={styles.drinkImg}
+      />
+            </View>
+            </View>
+            <Text></Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkTaste')}</Text> {tasteSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcoholPercentage')}</Text> {randomDrink?.Strength[1]}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             </View>
             </View>
             <View style={styles.finalDrinkbuttonContainer}>
             <Pressable style={[styles.startButton,{marginBottom:15}]} onPress={() =>
         newRandomDrink()
       }>
-        <Text style={styles.buttonText} >Losuj ponownie</Text>
+        <Text style={styles.buttonText} >{t('RandomDrinkTryAgain')}</Text>
       </Pressable>
             <Pressable style={[styles.startButton]} onPress={() =>
         navigation.navigate("Main")
       }>
-        <Text style={styles.buttonText} >Powrót</Text>
+        <Text style={styles.buttonText} >{t('ButtonTextBack')}</Text>
       </Pressable>
       </View>
       </View>
@@ -53,21 +68,3 @@ function RandomDrinkScreen({navigation}: {navigation: any}) {
 }
 
 export default RandomDrinkScreen;
-
-class DrinkClass{
-  'Id': number;
-  'Name': string;
-  "Strength": Array<any>;
-  "Taste": Array<string>;
-  "Alcohol": Array<string>;
-  "Ingredients": Array<string>;
-  'Points': number;
-  'PointsMax': number;
-  'Description': string;
-  'Percentage': number;
-}
-
-type  TasteClass={
-  key: string;
-  value: string;
-}

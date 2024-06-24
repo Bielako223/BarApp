@@ -2,7 +2,7 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A refreshing, classic cocktail with a tropical twist",
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -10,11 +10,12 @@
         "Points": 0,
         "PointsMax":10,
         "Img":"image1"
-    },{
+    },
+    {
         "Id":2,
         "Name":"White Russian",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[3," 25%"],
+        "Description": "A creamy and rich cocktail with a smooth finish",
+        "Strength":[3,"25%"],
         "Taste": [1],
         "Alcohol": [1,3],
         "Ingredients": [3],
@@ -25,7 +26,7 @@
     {
         "Id":3,
         "Name":"Black Russian",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A strong and bold cocktail with deep flavors",
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -37,7 +38,7 @@
     {
         "Id":4,
         "Name":"Mojito",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A minty fresh cocktail perfect for hot summer days",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -49,7 +50,7 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A chic and sophisticated cocktail with a hint of citrus",
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -61,7 +62,7 @@
     {
         "Id":6,
         "Name":"Negroni",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A balanced cocktail with a bitter and sweet profile",
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -73,8 +74,8 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[2,"11,5%"],
+        "Description": "A fruity and vibrant cocktail, great for parties",
+        "Strength":[2,"11.5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
         "Ingredients": [6,8],
@@ -85,7 +86,7 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A light and bubbly cocktail with a touch of bitterness",
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -97,8 +98,8 @@
     {
         "Id":9,
         "Name":"Tom Collins",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[2,"15,5%"],
+        "Description": "A classic, refreshing cocktail with a zesty finish",
+        "Strength":[2,"15.5%"],
         "Taste": [6],
         "Alcohol": [5],
         "Ingredients": [10,9,5],
@@ -109,7 +110,7 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A spicy and invigorating cocktail with a cool touch",
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1,11],
@@ -121,7 +122,7 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "An energetic cocktail perfect for a boost of fun",
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -133,8 +134,8 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[2,"13,5%"],
+        "Description": "A colorful cocktail with a sweet and tangy flavor",
+        "Strength":[2,"13.5%"],
         "Taste": [1],
         "Alcohol": [13],
         "Ingredients": [13,12],
@@ -145,7 +146,7 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A potent cocktail with a blend of complex flavors",
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -156,8 +157,8 @@
     },
     {
         "Id":14,
-        "Name":"Krwawa Mary",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Bloody Mary",
+        "Description": "A savory cocktail with a spicy kick",
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -169,7 +170,7 @@
     {
         "Id":15,
         "Name":"Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A sophisticated and timeless cocktail",
         "Strength":[4,"35%"],
         "Taste": [2],
         "Alcohol": [5,15],
@@ -181,8 +182,8 @@
     {
         "Id":16,
         "Name":"Pornstar Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[2,"13,5%"],
+        "Description": "A tantalizing and exotic cocktail with a tropical vibe",
+        "Strength":[2,"13.5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
         "Ingredients": [21,7,22,23],
@@ -193,7 +194,7 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A classic and robust cocktail with a hint of sweetness",
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -205,7 +206,7 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A tart and smooth cocktail with a balanced flavor",
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -217,7 +218,7 @@
     {
         "Id":19,
         "Name":"Margarita",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A tangy and refreshing cocktail with a salty rim",
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -228,8 +229,8 @@
     },
     {
         "Id":20,
-        "Name":"Caipirinia",
-       "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Caipirinha",
+        "Description": "A zesty and strong cocktail with a Brazilian twist",
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -240,8 +241,8 @@
     },
     {
         "Id":21,
-        "Name":"Vesper Martin",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Vesper Martini",
+        "Description": "A sophisticated cocktail with a sharp, smooth taste",
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -253,7 +254,7 @@
     {
         "Id":22,
         "Name":"Manhattan",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A classic cocktail with a rich and smooth profile",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -265,31 +266,31 @@
     {
         "Id":23,
         "Name":"Daiquiri",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A tangy and refreshing cocktail with a hint of sweetness",
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
         "Ingredients": [7,14],
         "Points": 0,
-        "PointsMax":10,
+        "PointsMax":12,
         "Img":"image23"
     },
     {
         "Id":24,
-        "Name":"Basil Smash",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[3,"21,5%"],
-        "Taste": [6],
-        "Alcohol": [5],
-        "Ingredients": [10,14,25],
+        "Name":"Pina Colada",
+        "Description": "A creamy and tropical cocktail perfect for a beach day",
+        "Strength":[2,"13%"],
+        "Taste": [5,1],
+        "Alcohol": [21,2],
+        "Ingredients": [25,26],
         "Points": 0,
-        "PointsMax":10,
+        "PointsMax":12,
         "Img":"image24"
     },
     {
         "Id":25,
-        "Name":"Dark ’n’stormy",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Dark ’n’ Stormy",
+        "Description": "A bold and spicy cocktail with a refreshing finish",
         "Strength":[2,"10%"],
         "Taste": [1,6],
         "Alcohol": [25,11],
@@ -301,7 +302,7 @@
     {
         "Id":26,
         "Name":"Zombie",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A potent and fruity cocktail with multiple layers of flavor",
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -313,7 +314,7 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A sweet and sour cocktail with almond undertones",
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -324,8 +325,8 @@
     },
     {
         "Id":28,
-        "Name":"Clover club",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Clover Club",
+        "Description": "A vibrant and fruity cocktail with a rich history",
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -337,7 +338,7 @@
     {
         "Id":29,
         "Name":"Americano",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A light and refreshing cocktail with a bittersweet edge",
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -349,7 +350,7 @@
     {
         "Id":30,
         "Name":"Mai Tai",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A tropical cocktail with a perfect balance of sweet and sour",
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -361,7 +362,7 @@
     {
         "Id":31,
         "Name":"Paloma",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A refreshing and tangy cocktail with a grapefruit twist",
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -372,8 +373,8 @@
     },
     {
         "Id":32,
-        "Name":"Penicylina",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Penicillin",
+        "Description": "A smoky and spicy cocktail with a touch of sweetness",
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -385,7 +386,7 @@
     {
         "Id":33,
         "Name":"Dry Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A timeless and elegant cocktail with a crisp finish",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -397,8 +398,8 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[3,"20,5%"],
+        "Description": "A rich and bold cocktail with a caffeine kick",
+        "Strength":[3,"20.5%"],
         "Taste": [1],
         "Alcohol": [1,3],
         "Ingredients": [32],
@@ -409,7 +410,7 @@
     {
         "Id":35,
         "Name":"French 75",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "A bubbly and citrusy cocktail with a hint of gin",
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -420,8 +421,8 @@
     },
     {
         "Id":36,
-        "Name":"Pina colada",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Name":"Pina Colada",
+        "Description": "A creamy and tropical cocktail perfect for a beach day",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -431,3 +432,4 @@
         "Img":"image36"
     }
 ]
+

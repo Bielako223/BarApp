@@ -2,22 +2,24 @@ import React, { useState } from 'react';
 import { FlatList, Text, TouchableOpacity, View,SafeAreaView, StyleSheet, Pressable } from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from './styles';
-
-type  TasteClass={
-  key: string;
-  value: string;
-}
-
-const alcohol :TasteClass[]= require('../assets/alcohol.json');
-
-
+import { useTranslation } from 'react-i18next';
+import {ObjectClass} from './Classes';
 
 const AlcoholScreen = ({navigation}: {navigation: any}) => {
-
-  let route: RouteProp<{params: {taste: Array<string>}}, 'params'> = useRoute();
+  const {t}= useTranslation();
+  const alcohol :ObjectClass[]= t('Lang')=='pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+  let route: RouteProp<{params: {taste: Array<string>, strength: string}}, 'params'> = useRoute();
   const taste=route.params?.taste
-  
-
+  const strength=route.params?.strength
+  alcohol.sort((a, b) => {
+    if (a.value < b.value) {
+        return -1;
+    }
+    if (a.value > b.value) {
+        return 1;
+    }
+    return 0;
+  });
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
   const handleSelect = (key: string) => {
@@ -28,7 +30,7 @@ const AlcoholScreen = ({navigation}: {navigation: any}) => {
     }
   };
 
-  const renderItem = ({ item }: { item: TasteClass }) => {
+  const renderItem = ({ item }: { item: ObjectClass }) => {
     const isSelected = selectedItems.includes(item.key);
     return (
       <TouchableOpacity
@@ -41,7 +43,7 @@ const AlcoholScreen = ({navigation}: {navigation: any}) => {
   
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.topText}>Wybierz alkohole.</Text>
+      <Text style={styles.topText}>{t('SelectAlcohol')}</Text>
     <FlatList
     style={styles.bottomSpace}
       data={alcohol}
@@ -51,13 +53,13 @@ const AlcoholScreen = ({navigation}: {navigation: any}) => {
     />
       <View>
       <Pressable style={styles.button} onPress={() => navigation.goBack()}>
-        <Text style={styles.buttonText} >Wstecz</Text>
+        <Text style={styles.buttonText} >{t('ButtonTextBack')}</Text>
       </Pressable>
-      <Pressable disabled={typeof selectedItems[0]!=='undefined'?false:true} style={typeof selectedItems[0]!=='undefined'?styles.button2:styles.button2off} onPress={() =>{
-    navigation.navigate("Strength",{taste:taste,alcohols:selectedItems})
+      <Pressable style={styles.button2} onPress={() =>{
+    navigation.navigate("Ingredients",{taste:taste,alcohols:selectedItems,strength:strength})
     }  
       }>
-        <Text style={styles.buttonText} >Dalej</Text>
+        <Text style={styles.buttonText} >{t('ButtonTextNext')}</Text>
       </Pressable>
       </View>
     </SafeAreaView>

@@ -1,7 +1,7 @@
 [
     {
         "key":1,
-        "value": "Wódka"
+        "value": "Vodka"
     },
     {
         "key":2,
@@ -9,7 +9,7 @@
     },
     {
         "key":3,
-        "value": "Likier kawowy"
+        "value": "Coffee liqueur"
     },
     {
         "key":4,
@@ -21,7 +21,7 @@
     },
     {
         "key":6,
-        "value": "Wermut"
+        "value": "Vermouth"
     },
     {
         "key":7,
@@ -29,7 +29,7 @@
     },
     {
         "key":8,
-        "value": "Likier brzoskwiniowy"
+        "value": "Peach liqueur"
     },
     {
         "key":9,
@@ -41,7 +41,7 @@
     },
     {
         "key":11,
-        "value": "Piwo imbirowe"
+        "value": "Ginger beer"
     },
     {
         "key":12,
@@ -57,19 +57,19 @@
     },
     {
         "key":15,
-        "value": "Wytrawny wermut"
+        "value": "Dry vermouth"
     },
     {
         "key":16,
-        "value": "Wódka waniliowa"
+        "value": "Vanilla vodka"
     },
     {
         "key":17,
-        "value": "Szampan"
+        "value": "Champagne"
     },
     {
         "key":18,
-        "value": "Burbon"
+        "value": "Bourbon"
     },
     {
         "key":19,
@@ -85,7 +85,7 @@
     },
     {
         "key":22,
-        "value": "Słodki wermut"
+        "value": "Sweet vermouth"
     },
     {
         "key":23,
@@ -93,15 +93,15 @@
     },
     {
         "key":25,
-        "value": "Ciemny rum"
+        "value": "Dark rum"
     },
     {
         "key":26,
-        "value": "Likier pomarańczowy"
+        "value": "Orange liqueur"
     },
     {
         "key":27,
-        "value": "Likier morelowy"
+        "value": "Apricot liqueur"
     },
     {
         "key":28,
@@ -109,11 +109,12 @@
     },
     {
         "key":29,
-        "value": "Biały wytrawny wermut"
+        "value": "White dry vermouth"
     },
     {
         "key":30,
-        "value": "Jasny rum"
+        "value": "White rum"
     }
     
 ]
+

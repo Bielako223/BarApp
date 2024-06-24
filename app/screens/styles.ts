@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     boldText:{
       fontWeight: 'bold',
       textDecorationLine: 'underline',
-      fontSize:25,
+      fontSize:21,
     },
     bottomSpace:{
       marginBottom:'20%'
@@ -159,14 +159,30 @@ const styles = StyleSheet.create({
       position: 'absolute',
     top: 20,
     right: 20,
-    width: 100,
+    width: 120,
     flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
     },
     langflagContainer:{
       flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     margin:5
+    },
+    drinkImg:{
+      width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    borderRadius:25
+    },
+    drinkImgContainer:{
+      width: 200,  // specify the width of the image
+      height: 200, // specify the height of the image
+    },
+    drinkImgContainer2:{
+      justifyContent: 'center',
+    alignItems: 'center',
     },
     
   });

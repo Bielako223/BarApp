@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "value": "Sweet"
+    },
+    {
+        "key": 2,
+        "value": "Dry"
+    },
+    {
+        "key": 3,
+        "value": "Sour"
+    },
+    {
+        "key": 4,
+        "value": "Spicy"
+    },
+    {
+        "key": 5,
+        "value": "Fruity"
+    },
+    {
+        "key": 6,
+        "value": "Refreshing"
+    }
+]
