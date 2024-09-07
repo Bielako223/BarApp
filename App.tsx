@@ -8,6 +8,7 @@ import AlcoholScreen from './app/screens/AlcoholScreen';
 import StrengthScreen from './app/screens/StrengthScreen';
 import IngredientsScreen from './app/screens/IngredientsScreen';
 import RandomDrinkScreen from './app/screens/RandomDrinkScreen';
+import DrinkListScreen from './app/screens/DrinkListScreen';
 import { I18nextProvider } from 'react-i18next';
 import i18next from './services/i18next'
 
@@ -30,6 +31,7 @@ export default function App() {
         <Stack.Screen name="Ingredients" component={IngredientsScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Drink" component={DrinkScreen} options={{headerShown: false}}/>
         <Stack.Screen name="RandomDrink" component={RandomDrinkScreen} options={{headerShown: false}}/>
+        <Stack.Screen name="DrinkList" component={DrinkListScreen} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
     </I18nextProvider>

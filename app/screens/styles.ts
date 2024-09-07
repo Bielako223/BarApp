@@ -184,7 +184,29 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     alignItems: 'center',
     },
-    
+    buttonDrinkList: {
+      
+      width:'90%',
+      backgroundColor: '#F39C12',
+      padding: 15,
+      borderRadius:30,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    drinkListButtonContainer:{
+      justifyContent: 'center',
+    alignItems: 'center',
+    padding: 3,
+    backgroundColor: 'rgba(52, 52, 52, 0.0)'
+    },
+    buttonContainer: {
+      position: 'absolute',
+      bottom: 20, // Odstęp od dołu ekranu
+      left: 0,
+      right: 0,
+      alignItems: 'center', // Centrowanie przycisku na środku
+      zIndex: 100, // Zwiększenie priorytetu, aby przycisk zawsze był nad innymi elementami
+    },
   });
 
   export default styles;
