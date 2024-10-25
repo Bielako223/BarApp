@@ -11,6 +11,7 @@ import RandomDrinkScreen from './app/screens/RandomDrinkScreen';
 import DrinkListScreen from './app/screens/DrinkListScreen';
 import { I18nextProvider } from 'react-i18next';
 import i18next from './services/i18next'
+import Toast from 'react-native-toast-message';
 
 const Stack = createNativeStackNavigator();
 

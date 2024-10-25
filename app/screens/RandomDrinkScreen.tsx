@@ -49,6 +49,7 @@ function RandomDrinkScreen({navigation}: {navigation: any}) {
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcoholPercentage')}</Text> {randomDrink?.Strength[1]}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
+            <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('Description')}</Text> {randomDrink.Description}</Text>
             </View>
             </View>
             <View style={styles.finalDrinkbuttonContainer}>

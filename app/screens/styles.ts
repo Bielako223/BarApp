@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     },
     buttonDrinkList: {
       
-      width:'90%',
+      width:'40%',
       backgroundColor: '#F39C12',
       padding: 15,
       borderRadius:30,

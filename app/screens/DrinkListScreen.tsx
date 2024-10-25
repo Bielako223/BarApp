@@ -60,7 +60,7 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
     <SafeAreaView style={styles.container}>
       <ScrollView
         onScroll={handleScroll}
-        scrollEventThrottle={16} // Wywoływanie scrolla co 16ms dla płynnej animacji
+        scrollEventThrottle={16}
       >
         {arrayDataItems}
       </ScrollView>
