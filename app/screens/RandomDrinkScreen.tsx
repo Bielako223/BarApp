@@ -5,6 +5,7 @@ import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass, DrinkClass} from './Classes';
 import Images from './Images'
+import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinks, GetTasteSpecific} from './DataAccess';
 
 
 
@@ -12,7 +13,7 @@ import Images from './Images'
 function RandomDrinkScreen({navigation}: {navigation: any}) {
 
   const {t}= useTranslation();
-  let drinksArray: DrinkClass[] = t('Lang')=='pl' ? require('../assets/drinks.json') : require('../assets/drinksEng.json');
+  let drinksArray: DrinkClass[] = GetDrinks();
 
     const [randomNumber, setRandomNumber] = useState( Math.floor(Math.random() * 36) + 1);
   
@@ -22,12 +23,9 @@ function RandomDrinkScreen({navigation}: {navigation: any}) {
 
     const randomDrink:DrinkClass= drinksArray.find(item => item.Id === randomNumber)!;
     const ImgPath=randomDrink.Img;
-    const alcohol :ObjectClass[]=t('Lang')=='pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
-    const ingredients :ObjectClass[]=t('Lang')=='pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
-    const taste :ObjectClass[]=t('Lang')=='pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
-    const alcoholsSpecific:ObjectClass[]= alcohol.filter(item=> randomDrink?.Alcohol.includes(item.key));
-    const ingredientsSpecific:ObjectClass[]= ingredients.filter(item=> randomDrink?.Ingredients.includes(item.key));
-    const tasteSpecific:ObjectClass[]= taste.filter(item=> randomDrink?.Taste.includes(item.key));
+    const alcoholsSpecific: ObjectClass[] = GetAlcoholSpecific(randomDrink);
+    const ingredientsSpecific: ObjectClass[] = GetIngredientsSpecific(randomDrink);
+    const tasteSpecific: ObjectClass[] = GetTasteSpecific(randomDrink);
 
     return (
       <View style={[styles.container,styles.finalDrinkContainer]}>

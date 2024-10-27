@@ -3,11 +3,12 @@ import { FlatList, Text, TouchableOpacity,SafeAreaView,View, Pressable, Alert } 
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from './Classes';
+import {GetTaste} from './DataAccess';
 
 
 const TasteScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
-  const taste:ObjectClass[] = t('Lang')=='pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
+  const taste:ObjectClass[] = GetTaste();
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
   const handleSelect = (key: string) => {

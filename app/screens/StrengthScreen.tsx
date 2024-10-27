@@ -4,11 +4,12 @@ import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from './Classes';
+import {GetStrength} from './DataAccess';
 
 
 const StrengthScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
-  const strength:ObjectClass[] =t('Lang')=='pl' ? require('../assets/strength.json') : require('../assets/strengthEng.json');
+  const strength:ObjectClass[] =GetStrength();
 
   let route: RouteProp<{params: {taste: Array<string>}}, 'params'> = useRoute();
   const taste=route.params?.taste

@@ -4,10 +4,12 @@ import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from './Classes';
+import {GetAlcohol} from './DataAccess';
+
 
 const AlcoholScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
-  const alcohol :ObjectClass[]= t('Lang')=='pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+  const alcohol :ObjectClass[]=GetAlcohol();
   let route: RouteProp<{params: {taste: Array<string>, strength: string}}, 'params'> = useRoute();
   const taste=route.params?.taste
   const strength=route.params?.strength
