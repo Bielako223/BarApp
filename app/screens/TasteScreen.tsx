@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { FlatList, Text, TouchableOpacity,SafeAreaView,View, Pressable } from 'react-native';
+import { FlatList, Text, TouchableOpacity,SafeAreaView,View, Pressable, Alert } from 'react-native';
 import styles from './styles';
-import Toast from 'react-native-simple-toast';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from './Classes';
+import {GetTaste} from './DataAccess';
 
 
 const TasteScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
-  const taste:ObjectClass[] = t('Lang')=='pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
+  const taste:ObjectClass[] = GetTaste();
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
   const handleSelect = (key: string) => {
@@ -19,7 +19,11 @@ const TasteScreen = ({navigation}: {navigation: any}) => {
         setSelectedItems([...selectedItems, key]);
       }
       else{
-        Toast.show(t('SelectTasteAlert'), Toast.SHORT, {backgroundColor:'#DF3E3E'});
+        Alert.alert(
+          t('SelectTasteAlert'),  // Title of the alert (your translated message)
+          '',                      // Message content (leave empty if not needed)
+          [{ text: 'OK' }]         // Button text
+        );
       }
     }
   };

@@ -13,7 +13,7 @@
     },{
         "Id":2,
         "Name":"White Russian",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Kremowość śmietanki, słodycz i aromat kawowego likieru oraz charakterny smak wódki. Ten miks oferuje nam właśnie white russian. Powstał poprzez częste dodawanie śmietanki do innego koktajlu-black russian.Co ciekawe, wcale nie wywodzi się z Rosji. Nazwa jest nawiązaniem do tego kraju z powodu wódki, która jest tam popularnym trunkiem.",
         "Strength":[3," 25%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -37,7 +37,7 @@
     {
         "Id":4,
         "Name":"Mojito",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Koktajl stworzony z myślą o ciepłych, letnich wieczorach. Słowo ,,orzeźwiający” to zdecydowanie za mało, aby oddać jego smak. W przypadku tego trunku, łatwiej go przygotować, niż prawidłowo wymówić jego nazwę. Powstał w latach 80 na kubie i od tamtego czasu, nie było osoby która o nim nie słyszała.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -49,7 +49,7 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Nazywany ,,synonimem kobiecości”. Klasyczny już drink łączący w sobie słodki i owocowy smak, a przy tym jest lekki. Swoja popularność zawdzięcza serii ,,Sex w wielkim mieście”, jednak pierwsze wzmianki i przepisy tego koktajlu sięgają lat 30 XX wieku. Z pewnością drink ten usłyszał niejedną plotkę i towarzyszył wielu ciekawym rozmową.",
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -61,7 +61,7 @@
     {
         "Id":6,
         "Name":"Negroni",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Klasyk klasyków. Znany na całym świecie i przez wielu uznawany za ,,króla aperitifu”.Jest stosunkowo mocny, wytrawny i dobrze pobudza apetyt. Prawdopodobnie pierwsze podanie tego koktajlu miało miejsce we florenckiej kawiarni w 1919 roku na żądanie samego hrabiego Camilla Negroniego. Według magazynu ,,Drinks International” jest 2 najczęściej zamawianym drinkiem na świecie.",
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -73,7 +73,7 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jak wiadomo, alkohol sprzyja różnym nieco bardziej pikantnym rozmową, dlatego drink ten zapada każdemu w pamięć. Jego popularność trwa nieprzerwanie od lat 80 XX wieku i nie zapowiada się, by miala się zmniejszyć. W USA koktajl ten ma rzesze wiernych fanów, którzy co roku, w dzień National Vodka Day 4 października, rozkoszują się owym trunkiem. Najbardziej przypada do gustu fanom  lżejszych, owocowych i letnich napojów. Łączy ze sobą smak brzoskwini, pomarańczy oraz żurawiny.",
         "Strength":[2,"11,5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -85,7 +85,7 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Flagowy koktajl europy południowej, który kradnie serca ludziom na całym świecie. Powstał w latach 50 ubiegłego wieku.  Oferuje wytrawny i niezwykle orzeźwiający smak, idealny na letnią pogodę. Jest to połączenie prosecco oraz znanego włoskiego aperitifu-Aperolu, a całość dopełnia woda gazowana.",
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -97,7 +97,7 @@
     {
         "Id":9,
         "Name":"Tom Collins",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Koktajl z ponad 100 letnią tradycją. Powstał w 1867 roku w Stanach zjednoczonych, gdzie niejaki Jerry Thomas umieścił ten napój w swojej książce pod tytułem ,,Przewodnik Barmana”. Jak na drinki na bazie ginu przystało, collins jest niezwykle orzeźwiający. Jego bąbelki tworzą wspaniałą kompozycję ze słodko kwaśnymi cytrusami. Z pewnością jest to propozycja zarówno dla weteranów jak i nowicjuszy barmańskiego świata.",
         "Strength":[2,"15,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -109,7 +109,7 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Kiedy nie wiecie co zrobić z nadmiarem jakiegoś składnika, to zróbcie z niego drinka! To właśnie historia moscow mule, który z europejska stolica ma niewiele wspólnego. Znacznie bliżej mu do Ameryki, gdzie pewien bar w roku 1941 musiał pozbyć się nadmiaru piwa imbirowego. Ten słodki napój najlepiej podawać w miedzianym kubku z lodem, aby był idealnie schłodzony.",
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1,11],
@@ -121,7 +121,7 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jak sama nazwa mówi, mieszanka iście wybuchowa! Połączenie niemieckiego likieru ziołowego z napojem energetyczny z pewnością zapewni wam energię na cały wieczór, albo i dłużej… Jest to koktajl z którym szczególnie radziłbym uważać. Jagerbomb posiada specyficzny sposób podania. Kieliszek z jagerem wrzuca się do szklanicy wypełnionej ,,energetykiem”, najlepiej jakby wleciał z hukiem. Koktajl w smaku jest bardzo słodki o mocnych korzennych nutach.",
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -145,7 +145,7 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Z tym drinkiem lepiej uważać! Jest to połączenie kilku naprawdę mocnych alkoholi takich jak gin czy rum, a dopełnione odrobiną coli dla koloru. Koktajl ten jak sama nazwa mówi pochodzi z Long Island w Stanach zjednoczonych, i według niektórych historii powstał już w okresie prohibicji, gdzie wspomniana wcześniej cola miała maskować zawartość alkoholu. Dzisiaj nie trzeba już nic ukrywać ale tego drinka bałbym się dalej.",
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -157,7 +157,7 @@
     {
         "Id":14,
         "Name":"Krwawa Mary",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Albo się kocha, albo nienawidzi. Z pewnością koktajl ten budzi wiele kontrowersji na całym świecie. Wszystko za sprawą połączenia alkoholu z sokiem pomidorowym. Posiada wiele różnych wariacji, gdzie zmieniany jest nie tylko bazowy alkohol, a również sosy czy dodatki. Jego przygotowanie i smak przypomina gotowanie polskiej ,,pomidorówki”, gdzie dodajemy różne przyprawy aby osiągnąć ten jeden idealny smak. Smak tego drinka to kwestia sporna i osobista lecz jedno jest pewne, jest idealny gdy ciągle czujesz się ,,wczorajszy”.",
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -253,7 +253,7 @@
     {
         "Id":22,
         "Name":"Manhattan",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Styl i elegancja, tak najprościej opisać ten klasyczny już koktajl. Jego wytrawny smak przyciąga swoich zwolenników już od ponad stu lat. Jak opisuje jedna z wielu historii o tym drinku, powstał podczas przyjęcia w Manhattan Club w 1874 roku. Wyprawione zostało przez amerykańską matkę Winstona churchila- Jennie Churchill. Autor koktajlu pozostaje jednak nieznany, a szkoda, bo niejeden fan bourbonu i słodkiego wermutu chciałby poznać tą osobę.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -361,7 +361,7 @@
     {
         "Id":31,
         "Name":"Paloma",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jeżeli szukasz letniego orzeźwienia w drinku to meksykańska paloma z pewnością przypadnie ci do gustu. Wszystko za sprawą owocowych smaków pochodzących z grejpfruta i limonki których doświadczymy w tym koktajlu. Z pewnością jest to bezpieczna i ,,lekka” pozycja której nie sposób nie polecić. Nazwa prawdopodobnie pochodzi z hiszpańskiego słowa ,,pomelo”, czyli grejpfrut.",
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -421,7 +421,7 @@
     {
         "Id":36,
         "Name":"Pina colada",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": ",,Egzotyczne wakacje w szklance”. Idealny synonim dla tego pysznego, przepełnionego karaibskim smakiem  koktajlu jakim jest Pina colada. Jego tropikalność  i wyjątkowość sprawia, że drink cieszy się niesłabnącą popularnością tych, którzy kochają smak ananasa i kokosa. Do dziś nie wiadomo kto jest odpowiedzialny za stworzenie tej receptury, lecz przyjmuje się, że pochodzi z Portoryko.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],

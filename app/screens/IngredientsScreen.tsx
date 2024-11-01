@@ -4,12 +4,13 @@ import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from './Classes';
+import {GetIngredients} from './DataAccess';
 
 
 
 const IngredientsScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
-  const ingredients :ObjectClass[]= t('Lang')=='pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
+  const ingredients :ObjectClass[]= GetIngredients();
 ingredients.sort((a, b) => {
   if (a.value < b.value) {
       return -1;
