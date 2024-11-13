@@ -25,7 +25,7 @@
     {
         "Id":3,
         "Name":"Black Russian",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Pozycja idealna dla smakoszy kawy lub dla tych, co stawiają na prostotę. Jest mocny, i konkretny, a w jego przygotowaniu nikt się nie natrudzi. Łączy ze sobą wódkę oraz meksykański liker kawowy- kahluę. Przez małą liczbę składników drink ten często jest modyfikowany. Najpopularniejszą z jego odmian jest white russian, który powstał poprzez częste dodawanie śmietany do tego koktajlu.",
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -112,8 +112,8 @@
         "Description": "Kiedy nie wiecie co zrobić z nadmiarem jakiegoś składnika, to zróbcie z niego drinka! To właśnie historia moscow mule, który z europejska stolica ma niewiele wspólnego. Znacznie bliżej mu do Ameryki, gdzie pewien bar w roku 1941 musiał pozbyć się nadmiaru piwa imbirowego. Ten słodki napój najlepiej podawać w miedzianym kubku z lodem, aby był idealnie schłodzony.",
         "Strength":[2,"11%"],
         "Taste": [1],
-        "Alcohol": [1,11],
-        "Ingredients": [7],
+        "Alcohol": [1],
+        "Ingredients": [7,35],
         "Points": 0,
         "PointsMax":12,
         "Img":"image10"
@@ -133,7 +133,7 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Wielu z nas marzyło o wylegiwaniu się na piaszczystej plaży przy jednoczesnym rozkoszowaniu się malowniczym zachodem słońca. Ten koktajl jest właśnie dla tych osób! Nie zawsze trzeba ruszyć się z domu czy rodzinnego miasta aby przeżyć piękne chwile. Drink ten w smaku jest słodki i owocowy, czyli idealny na lato, a do tego wygląda efektownie. Jeśli odwrócimy proces przygotowania tego koktajlu to powstanie nam nowy- Tequila Sunset.",
         "Strength":[2,"13,5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -167,21 +167,9 @@
         "Img":"image14"
     },
     {
-        "Id":15,
-        "Name":"Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
-        "Strength":[4,"35%"],
-        "Taste": [2],
-        "Alcohol": [5,15],
-        "Ingredients": [],
-        "Points": 0,
-        "PointsMax":12,
-        "Img":"image15"
-    },
-    {
         "Id":16,
         "Name":"Pornstar Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Czasami trzeba wzbudzić kontrowersje aby o czymś było głośno. Zdanie to idealnie opisuje ten ponad 20 letni koktajl, choć jak mówi sam autor, zabieg ten nie był celowy, nazwa ta miała podkreślić styl i elegancję. Co ciekawe mimo nazwy, drink ten wcale nie jest klasyfikowany jako martini. Ta odmienna receptura to połączenie marakui wódki oraz wanilii, więc z pewnością jest to ciekawy smak. Do drinka podaje się kieliszek szampana i tu według przepisu oba napoje pijemy oddzielnie!",
         "Strength":[2,"13,5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -193,7 +181,7 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Koktajl ten z pewnością może nosić miano ,,starodawnego” ,albowiem posiada on już ponad 200 letnią historię. Przez ten cały czas sporów o sposób przygotowania tego drinka nie było końca. Ilu barmanów tyle różnych wersji i przeróżnych wariacji. Mimo to jedno pozostawało niezmienne, jest to pozycja którą pokochały miliony, szczególnie smakosze whisky czy bourbon, którzy cenią jego wytrawność oraz moc.",
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -205,7 +193,7 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "W koktajlu tym głównie chodzi o proces jego przygotowania a nie zawarty w nim alkohol. Niczym filozofia gdzie trzeba podążać pewnymi ustalonymi z góry ścieżkami i zasadami. Przygotować go można na różnych alkoholach, zarówno na mocnych jak i słabszych, a wersja na whisky jest po prostu najbardziej popularna. Do tajnych składników sauera zaliczamy sok z cytryny oraz syrop cukrowy, które nadają koktajlowi słodko kwaśnego balansu. Często dodaje się również białko jaja kurzego aby otrzymać niesamowitą piankę i kremową teksturę. Na koniec zaleca się skropić angostura.",
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -217,7 +205,7 @@
     {
         "Id":19,
         "Name":"Margarita",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jedna z bardziej rozpoznawalnych letnich pozycji, łącząca ze sobą cztery główne smaki. Margarita o której mowa pochodzi z Meksyku, a nie z Włoskiego Neapolu z którą często jest mylona. Koktajl z początku wygląda niepozornie lecz należy do tych zdradliwych, głównie przez to że robiony jest na tequili. Dlatego radziłbym nie stracić rachuby sącząc tego słodko kwaśnego drinka gdzieś na pięknej plaży, jeśli nie chcemy odpaść za szybko.",
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -229,7 +217,7 @@
     {
         "Id":20,
         "Name":"Caipirinia",
-       "Description": "aaaaaaaaa bbbbbbb i cccccc",
+       "Description": "Narodowy koktajl Brazylii, który robiony jest na ich domowym alkoholu- cachaca. Trunek ten podobny jest do rumu, lecz zamiast być wytwarzanym z melasy trzciny cukrowej, produkuje się go na świeżym soku z tej właśnie rośliny. Przez to drink ma bardziej kwiatowy posmak, co rożni go od klasycznego daiquiri, który jest robiony na rumie. Oprócz tego ich smak i sposób przygotowania jest identyczny.",
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -265,7 +253,7 @@
     {
         "Id":23,
         "Name":"Daiquiri",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Klasyka, klasyka i jeszcze raz klasyka! Jest to myślę najprostszy koktajl na bazie rumu ze wszystkich, lecz niech nas to nie zwiedzie. Mimo swej prostoty zawiera wszystko co trzeba. Jest to iście karaibska mieszanka, gdyż wszystkie składniki pochodzą z ich ,,podwórka”. Daiquiri należy do koktajli gdzie nie ilość składników, a jakość liczy się najbardziej. Łączy ze sobą kwasowość limonki i trzcinowy smak rumu, lecz mimo to jest otwarty na eksperymenty. Jego procentowość wskazuję bardziej na powolne delektowanie się, najlepiej na plaży, niż na szybki imprezowy drink.",
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -277,7 +265,7 @@
     {
         "Id":24,
         "Name":"Basil Smash",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Z czystym sumieniem można powiedzieć, że to jedna z ciekawszych pozycji w barowym menu. Nie często bowiem trafimy na napój, który zawiera w sobie bazylię. Przedtem była zaklepana przez świat kulinarny, lecz w 2008 dołączyłą do grona napoi wyskokowych za sprawą Jorga Meyera który opracował recepturę Basil Smash. Ziołowa mieszanka ginu oraz bazyli sprawia, że koktajl ten jest niezwykle orzeźwiający, idealny do picia na łonie natury, a całość dopieszcza słodko kwaśna cytryna.",
         "Strength":[3,"21,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -289,11 +277,11 @@
     {
         "Id":25,
         "Name":"Dark ’n’stormy",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Z tym drinkiem lepiej nie kombinować. Jako jeden z niewielu chroniony jest oficjalnym znakiem towarowym, gdzie każde odstępstwo od oryginalnej receptury przy jednoczesnym pozostawieniu nazwy nie jest zgodne z wytycznymi rodziny Gosling, właścicieli tego znaku. Powstał już podczas I wojny światowej poprzez pomieszanie okolicznego rumu z piwem imbirowym. Imbir oraz limonka odpowiada za jego orzeźwiający i słodki smak który łączy się z gorzkim stworzonym rumem. Może nie należy do najmocniejszych drinków ale to prawdziwa burza w szklance.",
         "Strength":[2,"10%"],
         "Taste": [1,6],
-        "Alcohol": [25,11],
-        "Ingredients": [7,14],
+        "Alcohol": [25],
+        "Ingredients": [7,14,35],
         "Points": 0,
         "PointsMax":16,
         "Img":"image25"
@@ -301,7 +289,7 @@
     {
         "Id":26,
         "Name":"Zombie",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Niektórzy twierdzą, że jak wypijesz go trochę za dużo, to rano skończysz właśnie jako zombie. Ciężko się z tym nie zgodzić, gdyż z  koktajlem tym łatwo przesadzić. Głównie dlatego, że jest on bardzo dobry i niepozorny. Łączy ze sobą 3 rodzaje rumu i 2 likiery a jak wiemy mieszanie alkoholi nie wróży dobrze na kolejny dzień. Całość jest dobrze zamaskowane pod sokami z owoców: ananasowym, limonkowym oraz pomarańczowym, dlatego ciężko jest określić ile się wypiło. Z pewnością poleciłbym go tym, którzy szukają wrażeń i nie boją się poświęcić całego następnego dnia na ,,odpoczynek”.",
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -313,7 +301,7 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jak z innymi drinkami sauer, głownie chodzi o sposób przygotowania i składniki, czyli sok z cytryny czy syrop cukrowy, a nie o bazowy alkohol. Najpopularniejszym mocnym sauerem jest ten na bazie whisky a na słabszym-Amaretto, i na tym właśnie się skupimy. Jest to likier głównie migdałowy wywodzący się z włoch. Często dodaje się go do deserów lub kawy przez jego intrygujący smak, dlatego świetnie sprawdza się również w drinku sauer.",
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -337,7 +325,7 @@
     {
         "Id":29,
         "Name":"Americano",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jak to mówią, najlepiej zamawiać nieskomplikowane drinki, aby barman musiał naprawdę się postarać, żeby je zepsuć. Do takich koktajli z pewnością zaliczyć Americano. Wywodzi się od innego drinka, Milano-Torino, który jest połączeniem słodkiego wermutu oraz campari. Jego ,,Amerykańska” wersja powstała po dodaniu do tej mieszanki wody gazowanej, aby koktajl nie był taki mocny. Polecany jest osobom, które lubią zarówno gorzki jak i słodki smak pomarańczy z odrobina ziołowego aromatu.",
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -349,7 +337,7 @@
     {
         "Id":30,
         "Name":"Mai Tai",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Jeden z głównych przedstawicieli drinków ,,Tiki”, czyli dość specyficznych koktajli które często są bogato zdobione różnymi dodatkami jak palemki , a podawane albo w wydrążonych owocach czy ceramicznych kubkach. Z pewnością tak przygotowane drinki zrobią wrażenie na niejednej osobie. Sączenie takiego napoju przypomina bardziej maoryski rytuał niż zwykły wypad do baru. Mai tai łączy ze sobą smak korzenno-migdałowego syropu falernum z rumem oraz pomarańczowym likierem.",
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -397,7 +385,7 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Kolejna pozycja dla smakoszy kawy. Wykwintna i nieco mocniejsza niż większość popularnych koktajli. Stworzony do powolnego rozkoszowania się i pobudzania zmysłów. Pierwszy raz zamówiony w latach 80 gdy pewna kilentka powiedziała, że chcę czegoś na pobudzenie. Jak sama nazwa mówi koktajl ten to mieszanka wódki, espresso oraz kawowego likieru kahlua aby dodać drinku słodyczy. Warto mieć tą pozycję na uwadzę, gdy na imprezie zaczniecie czuć się zmęczeni.",
         "Strength":[3,"20,5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -409,7 +397,7 @@
     {
         "Id":35,
         "Name":"French 75",
-        "Description": "aaaaaaaaa bbbbbbb i cccccc",
+        "Description": "Koktajl który łączy ze sobą uwielbiany na całym świecie gin oraz francuskiego szampana. Jego smak to mieszanka ziołowego aromatu z kwaśnością cytryny przez co jest bardzo orzeźwiający. Jego powstanie datuje się na okolice I wojny światowej, a mówiło się o nim tak: ,,Kombinacja ta ma tak dużą siłę rażenia, że odczuwa się to jak ostrzał z potężnego francuskiego działa polowego kalibru 75 mm”.",
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
