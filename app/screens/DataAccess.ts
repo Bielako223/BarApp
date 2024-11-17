@@ -32,6 +32,13 @@ export function GetDrinks(){
     return drinks;
 }
 
+export function GetDrinksSorted(){
+    const {t}= useTranslation();
+    const drinks: DrinkClass[] = t('Lang') == 'pl' ? require('../assets/drinks.json') : require('../assets/drinksEng.json');
+    const sortedDrinks = drinks.sort((a, b) => a.Name.localeCompare(b.Name));
+    return sortedDrinks;
+}
+
 export function GetTasteSpecific(drink: DrinkClass){
     const taste:ObjectClass[] = GetTaste();
     const tasteSpecific: ObjectClass[] = taste.filter(item => drink.Taste.includes(item.key));

@@ -5,12 +5,12 @@ import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import { DrinkClass, ObjectClass } from './Classes';
 import Images from './Images'
-import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinks, GetTasteSpecific} from './DataAccess';
+import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinksSorted, GetTasteSpecific} from './DataAccess';
 
 
 const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const { t } = useTranslation();
-  const drinks: DrinkClass[] = GetDrinks();
+  const drinks: DrinkClass[] = GetDrinksSorted();
 
   const scrollY = useRef(new Animated.Value(0)).current;
 
@@ -41,6 +41,7 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
               />
             </View>
           </View>
+          <Text></Text>
           <Text style={styles.percentageText1}>
             <Text style={styles.drinkTextBold}>{t('DrinkTaste')}</Text> {tasteSpecific.map((v, index, row) => { return <Text key={index}>{row.length - 1 === index ? <Text>{v.value}.</Text> : <Text>{v.value},</Text>} </Text> })}
           </Text>
