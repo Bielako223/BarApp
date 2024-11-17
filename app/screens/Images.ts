@@ -34,7 +34,8 @@ const Images : { [key: string]: any }= {
     image33: require('../DrinksImg/DryMartini.png'),
     image34: require('../DrinksImg/EspressoMartini.png'),
     image35: require('../DrinksImg/French75.png'),
-    image36: require('../DrinksImg/PinaColada.png')
+    image36: require('../DrinksImg/PinaColada.png'),
+    image37: require('../DrinksImg/PDirtyMartini.png')
 };
 
 export default Images;

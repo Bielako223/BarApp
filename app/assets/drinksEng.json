@@ -230,7 +230,7 @@
     {
         "Id":21,
         "Name":"Vesper Martini",
-        "Description": "",
+        "Description": "\"Shaken, not stirred.\" Surely no one needs an introduction to the person behind these famous words. The Vesper is a special variation of the martini, created by Ian Fleming, author of Casino Royale, where the exact recipe for the drink is described. Unlike the classic martini, the Vesper includes vodka and is shaken rather than stirred. Alongside vodka, you’ll find gin and Lillet Blanc vermouth in this cocktail. Whenever a new James Bond film is released, this drink becomes one of the most ordered items at bars worldwide. It has become something of a ritual: after a successful screening, fans head to the bar to channel their favorite agent.",
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -314,7 +314,7 @@
     {
         "Id":28,
         "Name":"Clover Club",
-        "Description": "",
+        "Description": "Born in the early 20th century, this cocktail takes its name from an exclusive club in Philadelphia where it was originally served. It quickly gained fame across America and eventually around the world. Like many pre-Prohibition cocktails, it was soon declared a classic. The Clover Club is a delightful combination of herbal gin and sweet raspberries, offering a light and approachable flavor. Enhanced with lemon juice and dry white vermouth, the cocktail gains extra creaminess with the addition of egg white.",
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -362,7 +362,7 @@
     {
         "Id":32,
         "Name":"Penicillin",
-        "Description": "",
+        "Description": "It may not work like an antibiotic, but it will surely help during those cold winter days. With its unique blend of ingredients, it brings comfort and even provides a dose of vitamin C. This cocktail combines classic whisky with a modern twist: honey, lemon, and warming ginger. Its flavor is bold, balancing sweet, sour, and smoky whisky notes with the spiciness and freshness of ginger. It’s a drink that appeals both to beginners exploring whisky and to seasoned aficionados.",
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -374,7 +374,7 @@
     {
         "Id":33,
         "Name":"Dry Martini",
-        "Description": "",
+        "Description": "One of the most iconic cocktails in the world. Everyone recognizes the signature cone-shaped glass and the symbolic olive garnish. Despite its popularity, the origins of the Dry Martini remain a mystery. What’s more, the original recipe for this cocktail differed from today’s version, as it included sweeter ingredients. Interestingly, its name is also associated with a well-known vermouth brand, though that wasn’t part of the original mix. Regardless of its history, this dry blend of gin and vermouth has become an essential element of bartending culture.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -418,6 +418,18 @@
         "Points": 0,
         "PointsMax":14,
         "Img":"image36"
+    },
+    {
+        "Id":37,
+        "Name":"Dirty Martini",
+        "Description": "One of many variations on the classic dry martini, a cocktail renowned for its simple yet versatile composition. The Dirty Martini is for those who think one small olive isn’t enough and prefer to \"season\" the drink with a splash of olive brine. This addition gives the cocktail depth, smoothness, and an intriguing new layer of flavor. While still a dry drink, it is enriched with distinctive salty notes, making it perfect for those open to exploring bold and unique tastes. It's best enjoyed as a summer drink, though one with character and complexity.",
+        "Strength":[3,"30%"],
+        "Taste": [2],
+        "Alcohol": [1,15],
+        "Ingredients": [31],
+        "Points": 0,
+        "PointsMax":12,
+        "Img":"image37"
     }
 ]
 
