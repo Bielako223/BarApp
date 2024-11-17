@@ -2,7 +2,7 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
-        "Description": "A refreshing, classic cocktail with a tropical twist",
+        "Description": "\"Free Cuba.\" A simple and sweet drink, often referred to simply as \"rum and cola.\" Its history dates back to the late 19th century, originating during the Spanish-American War for Cuban independence and the battle for influence over the territory. The drink combines symbolic ingredients from each side, American cola and Cuban rum, all enhanced by the tartness of lime.",
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -14,7 +14,7 @@
     {
         "Id":2,
         "Name":"White Russian",
-        "Description": "A creamy and rich cocktail with a smooth finish",
+        "Description": "Creamy with a blend of sweetness and the aroma of coffee liqueur balanced by vodka’s strong character. The White Russian evolved from the Black Russian, simply by adding cream. Despite its name, it’s not Russian, but named for its vodka content, commonly associated with Russia.",
         "Strength":[3,"25%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -26,7 +26,7 @@
     {
         "Id":3,
         "Name":"Black Russian",
-        "Description": "A strong and bold cocktail with deep flavors",
+        "Description": "Ideal for coffee lovers and fans of simplicity. It’s strong and straightforward, combining vodka and the Mexican coffee liqueur Kahlúa. This minimal-ingredient drink is often modified; the most popular version, White Russian, simply adds cream to the mix.",
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -38,7 +38,7 @@
     {
         "Id":4,
         "Name":"Mojito",
-        "Description": "A minty fresh cocktail perfect for hot summer days",
+        "Description": "Created with warm summer nights in mind, the word \"refreshing\" barely captures its taste. This drink, easier to make than to pronounce, was born in Cuba in the 1980s, and since then, almost everyone has heard of it.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -50,7 +50,7 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
-        "Description": "A chic and sophisticated cocktail with a hint of citrus",
+        "Description": "Dubbed a \"synonym for femininity,\" this classic drink combines sweetness with a fruity flavor in a light cocktail. Popularized by the series \"Sex and the City,\" its origins trace back to the 1930s. This cocktail has undoubtedly accompanied many interesting conversations and juicy gossip.",
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -62,7 +62,7 @@
     {
         "Id":6,
         "Name":"Negroni",
-        "Description": "A balanced cocktail with a bitter and sweet profile",
+        "Description": "A true classic, often hailed as the \"king of aperitifs.\" It’s relatively strong and dry, stimulating the appetite. Its first appearance was likely in a Florence café in 1919 at the request of Count Camillo Negroni. According to \"Drinks International\" magazine, it’s the second most-ordered cocktail worldwide.",
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -74,7 +74,7 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
-        "Description": "A fruity and vibrant cocktail, great for parties",
+        "Description": "Known for sparking lively conversations, this cocktail has remained popular since the 1980s, especially in the U.S., where it’s celebrated annually on National Vodka Day, October 4th. It’s a favorite for those who enjoy lighter, fruity drinks, combining flavors of peach, orange, and cranberry.",
         "Strength":[2,"11.5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -86,7 +86,7 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
-        "Description": "A light and bubbly cocktail with a touch of bitterness",
+        "Description": "The iconic cocktail of Southern Europe, capturing hearts worldwide. Created in the 1950s, it offers a dry and incredibly refreshing taste, perfect for summer. It’s a mix of prosecco and the famous Italian aperitif, Aperol, topped with sparkling water.",
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -98,7 +98,7 @@
     {
         "Id":9,
         "Name":"Tom Collins",
-        "Description": "A classic, refreshing cocktail with a zesty finish",
+        "Description": "A cocktail with over 100 years of tradition, originating in 1867 in the United States, where Jerry Thomas featured it in his \"Bartender’s Guide.\" A gin-based drink, it’s exceptionally refreshing, combining citrusy sweetness and bubbles. Suitable for both cocktail veterans and newcomers.",
         "Strength":[2,"15.5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -110,11 +110,11 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
-        "Description": "A spicy and invigorating cocktail with a cool touch",
+        "Description": "When you have too much of one ingredient, turn it into a drink! That’s the story of the Moscow Mule, which actually has little to do with the Russian capital. Created in 1941 in the U.S., when a bar needed to use up a surplus of ginger beer. This sweet cocktail is best served in a copper mug over ice for the perfect chill.",
         "Strength":[2,"11%"],
         "Taste": [1],
-        "Alcohol": [1,11],
-        "Ingredients": [7],
+        "Alcohol": [1],
+        "Ingredients": [7,35],
         "Points": 0,
         "PointsMax":12,
         "Img":"image10"
@@ -122,7 +122,7 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
-        "Description": "An energetic cocktail perfect for a boost of fun",
+        "Description": "As the name suggests, it’s an explosive blend! This cocktail combines German herbal liqueur with an energy drink, delivering a surge of energy for the evening. The unique serving method involves dropping a shot of Jägermeister into a glass of energy drink, best done with a loud clink. Sweet with intense herbal notes.",
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -134,7 +134,7 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
-        "Description": "A colorful cocktail with a sweet and tangy flavor",
+        "Description": "A cocktail for those dreaming of lounging on a sandy beach at sunset. With its sweet, fruity taste, it’s a summer favorite and visually stunning. Reversing the preparation process creates a new variation: the Tequila Sunset.",
         "Strength":[2,"13.5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -146,7 +146,7 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
-        "Description": "A potent cocktail with a blend of complex flavors",
+        "Description": "Handle with caution! This cocktail combines several strong spirits, such as gin and rum, with a splash of cola for color. Originating from Long Island, USA, some say it dates back to Prohibition, when cola masked its alcohol content. Today, no disguise is needed, but the potency remains a cause for caution.",
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -158,7 +158,7 @@
     {
         "Id":14,
         "Name":"Bloody Mary",
-        "Description": "A savory cocktail with a spicy kick",
+        "Description": "A drink you either love or hate. Its combination of alcohol and tomato juice is polarizing, with countless variations that alter both the base alcohol and the seasonings. Its taste is as controversial as it is personal, but one thing is certain: it’s perfect for those “morning after” recovery days.",
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -168,21 +168,9 @@
         "Img":"image14"
     },
     {
-        "Id":15,
-        "Name":"Martini",
-        "Description": "A sophisticated and timeless cocktail",
-        "Strength":[4,"35%"],
-        "Taste": [2],
-        "Alcohol": [5,15],
-        "Ingredients": [],
-        "Points": 0,
-        "PointsMax":12,
-        "Img":"image15"
-    },
-    {
         "Id":16,
         "Name":"Pornstar Martini",
-        "Description": "A tantalizing and exotic cocktail with a tropical vibe",
+        "Description": "Sometimes controversy is necessary for attention, a sentiment embodied by this cocktail. Despite the name, it’s not a true martini. Created 20 years ago, this distinct recipe combines passion fruit, vodka, and vanilla, resulting in a unique flavor. A shot of champagne is served alongside, sipped separately from the cocktail.",
         "Strength":[2,"13.5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -194,7 +182,7 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
-        "Description": "A classic and robust cocktail with a hint of sweetness",
+        "Description": "Truly deserving of its \"old-fashioned\" label, this cocktail boasts over 200 years of history. Its preparation has seen endless debates among bartenders, each with their unique take. Loved by millions, it’s a favorite among whiskey and bourbon aficionados who appreciate its dry, potent flavor.",
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -206,7 +194,7 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
-        "Description": "A tart and smooth cocktail with a balanced flavor",
+        "Description": "This cocktail’s focus is more on the process than the alcohol. With a foundation of lemon juice and sugar syrup, it’s a sweet and sour balance. Egg whites are often added for a creamy texture, topped with a dash of Angostura for extra depth.",
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -218,7 +206,7 @@
     {
         "Id":19,
         "Name":"Margarita",
-        "Description": "A tangy and refreshing cocktail with a salty rim",
+        "Description": "One of the most recognizable summer cocktails, blending four primary flavors. The Margarita originates from Mexico, not to be confused with Italy’s Naples. Although seemingly unassuming, its tequila base makes it deceptively strong.",
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -230,7 +218,7 @@
     {
         "Id":20,
         "Name":"Caipirinha",
-        "Description": "A zesty and strong cocktail with a Brazilian twist",
+        "Description": "Brazil’s national cocktail, made with their traditional spirit, cachaça. Similar to rum, cachaça uses fresh sugarcane juice instead of molasses. This floral-flavored cocktail distinguishes it from the classic daiquiri, though their preparation and taste are similar.",
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -242,7 +230,7 @@
     {
         "Id":21,
         "Name":"Vesper Martini",
-        "Description": "A sophisticated cocktail with a sharp, smooth taste",
+        "Description": "",
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -254,7 +242,7 @@
     {
         "Id":22,
         "Name":"Manhattan",
-        "Description": "A classic cocktail with a rich and smooth profile",
+        "Description": "Style and elegance best describe this classic cocktail with a dry, sophisticated flavor that’s captivated fans for over a century. One story suggests it was created at a party at the Manhattan Club in 1874, hosted by Winston Churchill's American mother, Jennie Churchill. The drink’s creator remains unknown, leaving bourbon and sweet vermouth fans intrigued.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -266,7 +254,7 @@
     {
         "Id":23,
         "Name":"Daiquiri",
-        "Description": "A tangy and refreshing cocktail with a hint of sweetness",
+        "Description": "A quintessential classic, simple yet impactful. Despite its few ingredients, the quality is key. This Caribbean blend features lime’s acidity with sugarcane rum, encouraging slow savoring, especially on a beach.",
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -278,7 +266,7 @@
     {
         "Id":24,
         "Name":"Pina Colada",
-        "Description": "A creamy and tropical cocktail perfect for a beach day",
+        "Description": "\"Exotic vacation in a glass.\" The perfect description for this delicious Caribbean-flavored cocktail. Its tropical taste and unique flavor have sustained its popularity with those who love the flavors of pineapple and coconut. While its creator is unknown, it’s generally accepted that it originated in Puerto Rico.",
         "Strength":[2,"13%"],
         "Taste": [5,1],
         "Alcohol": [21,2],
@@ -290,11 +278,11 @@
     {
         "Id":25,
         "Name":"Dark ’n’ Stormy",
-        "Description": "A bold and spicy cocktail with a refreshing finish",
+        "Description": "Not a cocktail for experimentation, as it’s protected by trademark. The original mix, crafted during WWI, combines local rum and ginger beer with a twist of lime. This drink has a stormy yet sweet flavor that doesn’t pack too much of a punch.",
         "Strength":[2,"10%"],
         "Taste": [1,6],
-        "Alcohol": [25,11],
-        "Ingredients": [7,14],
+        "Alcohol": [25],
+        "Ingredients": [7,14,35],
         "Points": 0,
         "PointsMax":16,
         "Img":"image25"
@@ -302,7 +290,7 @@
     {
         "Id":26,
         "Name":"Zombie",
-        "Description": "A potent and fruity cocktail with multiple layers of flavor",
+        "Description": "Said to make you feel like a zombie the next morning if overindulged. This blend of three types of rum and two liqueurs is expertly masked by pineapple, lime, and orange juices, making it hard to gauge intake. Perfect for thrill-seekers willing to dedicate the next day to recovery.",
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -314,7 +302,7 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
-        "Description": "A sweet and sour cocktail with almond undertones",
+        "Description": "Like other sour cocktails, the focus is on the ingredients rather than the base spirit. This sweet sour is made with Amaretto, a popular almond liqueur from Italy, often used in desserts and coffee for its intriguing flavor.",
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -326,7 +314,7 @@
     {
         "Id":28,
         "Name":"Clover Club",
-        "Description": "A vibrant and fruity cocktail with a rich history",
+        "Description": "",
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -338,7 +326,7 @@
     {
         "Id":29,
         "Name":"Americano",
-        "Description": "A light and refreshing cocktail with a bittersweet edge",
+        "Description": "Simplicity at its finest. The Americano evolved from the Milano-Torino, a mix of sweet vermouth and Campari, with soda added to lighten the flavor. It’s perfect for those who enjoy both the sweet and bitter notes of orange and herbal undertones.",
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -350,7 +338,7 @@
     {
         "Id":30,
         "Name":"Mai Tai",
-        "Description": "A tropical cocktail with a perfect balance of sweet and sour",
+        "Description": "A staple of Tiki-style cocktails, often served in elaborately decorated vessels or hollowed fruits. Sipping this cocktail feels more like a ritual than a casual outing. Mai Tai combines the spiced, nutty flavors of falernum syrup with rum and orange liqueur.",
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -362,7 +350,7 @@
     {
         "Id":31,
         "Name":"Paloma",
-        "Description": "A refreshing and tangy cocktail with a grapefruit twist",
+        "Description": "If you're looking for a refreshing summer drink, the Mexican Paloma will likely be your favorite. It features fruity flavors from grapefruit and lime, making it a light and easy recommendation. Its name likely comes from the Spanish word \"pomelo,\" meaning grapefruit.",
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -374,7 +362,7 @@
     {
         "Id":32,
         "Name":"Penicillin",
-        "Description": "A smoky and spicy cocktail with a touch of sweetness",
+        "Description": "",
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -386,7 +374,7 @@
     {
         "Id":33,
         "Name":"Dry Martini",
-        "Description": "A timeless and elegant cocktail with a crisp finish",
+        "Description": "",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -398,7 +386,7 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
-        "Description": "A rich and bold cocktail with a caffeine kick",
+        "Description": "A treat for coffee aficionados, this drink is both sophisticated and strong, created to be savored slowly. First ordered in the 1980s when a customer requested something to “wake them up,” it blends vodka, espresso, and the coffee liqueur Kahlúa.",
         "Strength":[3,"20.5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -410,7 +398,7 @@
     {
         "Id":35,
         "Name":"French 75",
-        "Description": "A bubbly and citrusy cocktail with a hint of gin",
+        "Description": "This cocktail combines the world-favorite gin with French champagne. With a blend of herbal and citrus notes, it’s exceptionally refreshing. Created around WWI, it was known for having a kick “as powerful as a French 75mm field gun.”",
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -422,7 +410,7 @@
     {
         "Id":36,
         "Name":"Pina Colada",
-        "Description": "A creamy and tropical cocktail perfect for a beach day",
+        "Description": "\"Exotic vacation in a glass.\" The perfect description for this delicious Caribbean-flavored cocktail. Its tropical taste and unique flavor have sustained its popularity with those who love the flavors of pineapple and coconut. While its creator is unknown, it’s generally accepted that it originated in Puerto Rico.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
