@@ -167,6 +167,18 @@
         "Img":"image14"
     },
     {
+        "Id":15,
+        "Name":"Dirty Martini",
+        "Description": "Jedna z wielu odmian klasycznego wręcz dry martini, koktajlu, który Przez swój prosty skład jest bardzo chętnie modyfikowany. Wersja dirty jest dla tych, dla których jedna mała oliwka w środku to za mało, więc „doprawiają” drink zalewą ze wspomnianych oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitność, wzbogaca już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla tych bardziej otwartych na nowe doznania i smaki. Koktajl ten zaliczyłbym bardziej do letnich trunków – tych bardziej charakternych i trudniejszych w odbiorze.",
+        "Strength":[3,"30%"],
+        "Taste": [2],
+        "Alcohol": [1,15],
+        "Ingredients": [31],
+        "Points": 0,
+        "PointsMax":12,
+        "Img":"image37"
+    },
+    {
         "Id":16,
         "Name":"Pornstar Martini",
         "Description": "Czasami trzeba wzbudzić kontrowersje aby o czymś było głośno. Zdanie to idealnie opisuje ten ponad 20 letni koktajl, choć jak mówi sam autor, zabieg ten nie był celowy, nazwa ta miała podkreślić styl i elegancję. Co ciekawe mimo nazwy, drink ten wcale nie jest klasyfikowany jako martini. Ta odmienna receptura to połączenie marakui wódki, oraz wanilii, więc z pewnością jest to ciekawy smak. Do drinka podaje się kieliszek szampana i tu według przepisu oba napoje pijemy oddzielnie!",
@@ -417,17 +429,6 @@
         "Points": 0,
         "PointsMax":14,
         "Img":"image36"
-    },
-    {
-        "Id":37,
-        "Name":"Dirty Martini",
-        "Description": "Jedna z wielu odmian klasycznego wręcz dry martini, koktajlu, który Przez swój prosty skład jest bardzo chętnie modyfikowany. Wersja dirty jest dla tych, dla których jedna mała oliwka w środku to za mało, więc „doprawiają” drink zalewą ze wspomnianych oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitność, wzbogaca już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla tych bardziej otwartych na nowe doznania i smaki. Koktajl ten zaliczyłbym bardziej do letnich trunków – tych bardziej charakternych i trudniejszych w odbiorze.",
-        "Strength":[3,"30%"],
-        "Taste": [2],
-        "Alcohol": [1,15],
-        "Ingredients": [31],
-        "Points": 0,
-        "PointsMax":12,
-        "Img":"image37"
     }
+    
 ]
