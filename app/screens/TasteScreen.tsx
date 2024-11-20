@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FlatList, Text, TouchableOpacity,SafeAreaView,View, Pressable, Alert } from 'react-native';
-import styles from './styles';
+import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import {ObjectClass} from './Classes';
-import {GetTaste} from './DataAccess';
+import {ObjectClass} from '../Classes';
+import {GetTaste} from '../DataAccess';
 
 
 const TasteScreen = ({navigation}: {navigation: any}) => {

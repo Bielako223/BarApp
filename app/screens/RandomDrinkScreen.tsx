@@ -1,11 +1,11 @@
 
 import {  Text, View, Pressable,Image} from 'react-native';
 import { useState } from 'react';
-import styles from './styles';
+import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import {ObjectClass, DrinkClass} from './Classes';
-import Images from './Images'
-import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinks, GetTasteSpecific} from './DataAccess';
+import {ObjectClass, DrinkClass} from '../Classes';
+import Images from '../Images'
+import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinks, GetTasteSpecific} from '../DataAccess';
 
 
 

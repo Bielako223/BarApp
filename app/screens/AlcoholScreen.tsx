@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { FlatList, Text, TouchableOpacity, View,SafeAreaView, StyleSheet, Pressable } from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
-import styles from './styles';
+import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import {ObjectClass} from './Classes';
-import {GetAlcohol} from './DataAccess';
+import {ObjectClass} from '../Classes';
+import {GetAlcohol} from '../DataAccess';
 
 
 const AlcoholScreen = ({navigation}: {navigation: any}) => {

@@ -2,10 +2,10 @@
 import {  Text, View, Pressable,TouchableOpacity,Image,SafeAreaView, ScrollView} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import { useState } from 'react';
-import styles from './styles';
+import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import {ObjectClass, DrinkClass} from './Classes';
-import Images from './Images'
+import {ObjectClass, DrinkClass} from '../Classes';
+import Images from '../Images'
 
 
 

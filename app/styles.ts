@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     },
     langContainer:{
       position: 'absolute',
-    top: 20,
+    top: 30,
     right: 20,
     width: 120,
     flexDirection: 'row',
