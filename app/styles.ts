@@ -76,10 +76,19 @@ const styles = StyleSheet.create({
       padding:5,
       fontWeight: '500',
     },
+    topText1:{
+      textAlign: 'center',
+      fontSize:24,
+      margin:5,
+      marginTop:8,
+      padding:5,
+      fontWeight: '500',
+    },
     boldText:{
       fontWeight: 'bold',
       textDecorationLine: 'underline',
-      fontSize:21,
+      fontSize:25,
+      color: 'red'
     },
     bottomSpace:{
       marginBottom:'20%'

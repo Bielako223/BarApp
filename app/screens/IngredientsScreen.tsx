@@ -49,7 +49,7 @@ ingredients.sort((a, b) => {
   
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.topText}>{t('IngredientsText1')}{"\n"} <Text style={styles.boldText}>{t('IngredientsText2')}</Text>{t('IngredientsText3')}</Text>
+      <Text style={styles.topText1}>{t('IngredientsText1')}{"\n"} <Text style={styles.boldText}>{t('IngredientsText2')}</Text>{t('IngredientsText3')}</Text>
     <FlatList
     style={styles.bottomSpace}
       data={ingredients}

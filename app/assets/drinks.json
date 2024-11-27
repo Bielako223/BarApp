@@ -2,7 +2,7 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
-        "Description": "„Wolna Kuba”. Prosty i słodki drink, często sprowadzany do prostej nazwy „rum z colą”. Jego historia sięga końca XIX wieku. Powstał podczas wojny amerykańsko-hiszpańskiej o niepodległość Kuby oraz o przejęcie wpływów na tym terytorium. Drink jest połączeniem symbolicznych składników każdej ze stron, amerykańskiej coca-coli oraz kubańskiego rumu, a całość przypieczętowane kwaskowatością limonki.",
+        "Description":",,Wolna Kuba”. Prosty i słodki drink, często sprowadzany do prostej nazwy ,,rum z colą”. Jego historia sięga końca XIX wieku. Powstał podczas wojny amerykańsko-hiszpańskiej o niepodległość Kuby oraz o przejęcie wpływów na tym terytorium. Drink jest połączeniem symbolicznych składników każdej ze stron, amerykańskiej coca coli oraz kubańskiego rumu, a całość przypieczętowane kwasowością limonki.",
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -13,7 +13,7 @@
     },{
         "Id":2,
         "Name":"White Russian",
-        "Description": "Kremowość śmietanki, słodycz i aromat kawowego likieru oraz charakterny smak wódki. Ten miks oferuje nam właśnie white russian. Powstał poprzez częste dodawanie śmietanki do innego koktajlu-Black Russian. Co ciekawe, wcale nie wywodzi się z Rosji, Nazwa jest nawiązaniem do tego kraju z powodu wódki, popularnego tam trunku.",
+        "Description":"Kremowość śmietanki, słodycz i aromat kawowego likieru oraz wyrazisty smak wódki – to wszystko oferuje nam White Russian. Ten koktajl powstał jako wariacja innego drinku, Black Russian, poprzez częste dodawanie do niego śmietanki. Co ciekawe, White Russian wcale nie pochodzi z Rosji – jego nazwa nawiązuje do tego kraju ze względu na obecność wódki, która jest tam popularnym trunkiem.",
         "Strength":[3," 25%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -25,7 +25,7 @@
     {
         "Id":3,
         "Name":"Black Russian",
-        "Description": "Pozycja idealna dla smakoszy kawy lub dla tych, co stawiają na prostotę. Jest mocny, i konkretny, a w jego przygotowaniu nikt się nie natrudzi. Łączy ze sobą wódkę oraz meksykański liker kawowy - kahluę. Przez małą liczbę składników drink ten często jest modyfikowany. Najpopularniejszą z jego odmian jest White Russian, który powstał poprzez częste dodawanie śmietany do tego koktajlu.",
+        "Description":"Idealna pozycja dla smakoszy kawy lub tych, którzy stawiają na prostotę. Jest mocny i konkretny, a jego przygotowanie nie sprawia żadnych trudności. Łączy wódkę z meksykańskim likierem kawowym – Kahlúa. Ze względu na niewielką liczbę składników, drink ten często bywa modyfikowany. Najpopularniejszą odmianą jest White Russian, który powstał dzięki częstemu dodawaniu śmietany do tego koktajlu.",
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -37,7 +37,7 @@
     {
         "Id":4,
         "Name":"Mojito",
-        "Description": "Koktajl stworzony z myślą o ciepłych, letnich wieczorach. Słowo „orzeźwiający” to zdecydowanie za mało, aby oddać jego smak. W przypadku tego trunku, łatwiej go przygotować, niż prawidłowo wymówić jego nazwę. Powstał w latach 80 na Kubie i od tamtego czasu, nie było osoby która o nim nie słyszała.",
+        "Description":"Koktajl stworzony z myślą o ciepłych, letnich wieczorach. Słowo „orzeźwiający” to zdecydowanie za mało, by oddać jego wyjątkowy smak. W przypadku tego trunku łatwiej go przygotować, niż poprawnie wymówić jego nazwę. Powstał w latach 80. na Kubie i od tamtej pory trudno znaleźć osobę, która o nim nie słyszała.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -49,7 +49,7 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
-        "Description": "Nazywany „synonimem kobiecości”. Klasyczny już drink łączący w sobie słodki i owocowy smak, a przy tym jest lekki. Swoja popularność zawdzięcza serii „Sex w wielkim mieście”, jednak pierwsze wzmianki i przepisy tego koktajlu sięgają lat 30 XX wieku. Z pewnością drink ten usłyszał niejedną plotkę i towarzyszył wielu ciekawym rozmowom.",
+        "Description":"Często nazywany „synonimem kobiecości”. To klasyczny drink, który łączy w sobie słodki i owocowy smak, a przy tym pozostaje lekki. Swoją popularność zawdzięcza serialowi „Seks w wielkim mieście”, jednak pierwsze wzmianki o tym koktajlu i jego przepisy sięgają lat 30. XX wieku. Z pewnością drink ten był świadkiem niejednej plotki i towarzyszył wielu ciekawym rozmowom.",
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -61,7 +61,7 @@
     {
         "Id":6,
         "Name":"Negroni",
-        "Description": "Klasyk klasyków. Znany na całym świecie i przez wielu uznawany za „króla aperitifu”.Jest stosunkowo mocny, wytrawny i dobrze pobudza apetyt. Prawdopodobnie pierwsze podanie tego koktajlu miało miejsce we florenckiej kawiarni w 1919 roku na prośbę samego hrabiego Camilla Negroniego. Według magazynu „Drinks International” jest 2 najczęściej zamawianym drinkiem na świecie.",
+        "Description":"Klasyk klasyków. Znany na całym świecie i przez wielu uznawany za „króla aperitifów”. Jest stosunkowo mocny, wytrawny i doskonale pobudza apetyt. Pierwsze podanie tego koktajlu miało prawdopodobnie miejsce we florenckiej kawiarni w 1919 roku, na żądanie samego hrabiego Camilla Negroniego. Według magazynu Drinks International jest to drugi najczęściej zamawiany drink na świecie.",
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -73,7 +73,7 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
-        "Description": "Jak wiadomo, alkohol sprzyja różnym nieco bardziej pikantnym rozmowom, dlatego drink ten zapada każdemu w pamięć. Jego popularność trwa nieprzerwanie od lat 80 XX wieku i nie zapowiada się, by miala się zmniejszyć. W USA koktajl ten ma rzesze wiernych fanów, którzy co roku, w dzień National Vodka Day 4 października, rozkoszują się owym trunkiem. Najbardziej przypada do gustu fanom lżejszych, owocowych i letnich napojów. Łączy ze sobą smak brzoskwini, pomarańczy oraz żurawiny.",
+        "Description":"Jak wiadomo, alkohol sprzyja nieco bardziej pikantnym rozmowom, dlatego ten drink zapada w pamięć nie tylko ze względu na nazwę. Jego popularność trwa nieprzerwanie od lat 80. XX wieku i nic nie wskazuje na to, by miała osłabnąć. W USA koktajl ten ma rzesze wiernych fanów, którzy co roku, 4 października, w trakcie National Vodka Day, rozkoszują się jego smakiem. Najbardziej przypadnie do gustu miłośnikom lżejszych, owocowych i letnich napojów, łącząc w sobie nuty brzoskwini, pomarańczy i żurawiny.",
         "Strength":[2,"11,5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -85,7 +85,7 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
-        "Description": "Flagowy koktajl europy południowej, który kradnie serca ludziom na całym świecie. Powstał w latach 50 ubiegłego wieku. Oferuje wytrawny, i niezwykle orzeźwiający smak, idealny na letnią pogodę. Jest to połączenie prosecco oraz znanego włoskiego aperitifu-Aperolu, a całość dopełnia woda gazowana.",
+        "Description":"Flagowy koktajl Europy Południowej, który podbija serca ludzi na całym świecie. Powstał w latach 50. ubiegłego wieku i oferuje wytrawny, niezwykle orzeźwiający smak – idealny na letnią pogodę. To połączenie prosecco oraz znanego włoskiego aperitifu Aperolu, a całość uzupełnia woda gazowana.",
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -97,7 +97,7 @@
     {
         "Id":9,
         "Name":"Tom Collins",
-        "Description": "Koktajl z ponad 100 letnią tradycją. Powstał w 1867 roku w Stanach zjednoczonych, gdzie niejaki Jerry Thomas umieścił ten napój w swojej książce pod tytułem „Przewodnik Barmana”. Jak na drinki na bazie ginu przystało, collins jest niezwykle orzeźwiający. Jego bąbelki tworzą wspaniałą kompozycję ze słodko kwaśnymi cytrusami. Z pewnością jest to propozycja zarówno dla weteranów jak i nowicjuszy barmańskiego świata.",
+        "Description":"Koktajl z ponad 100-letnią tradycją. Powstał w 1867 roku w Stanach Zjednoczonych, kiedy niejaki Jerry Thomas umieścił przepis na ten napój w swojej książce zatytułowanej „Przewodnik Barmana”. Jak przystało na drink bazujący na ginie, Tom Collins jest niezwykle orzeźwiający. Jego musujące bąbelki idealnie współgrają ze słodko-kwaśnymi nutami cytrusów. To z pewnością propozycja zarówno dla weteranów, jak i dla nowicjuszy w świecie barmańskim.",
         "Strength":[2,"15,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -109,7 +109,7 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
-        "Description": "Kiedy nie wiecie co zrobić z nadmiarem jakiegoś składnika, to zróbcie z niego drinka! To właśnie historia moscow mule, który z europejską stolicą ma niewiele wspólnego. Znacznie bliżej mu do Ameryki, gdzie pewien bar w roku 1941 musiał pozbyć się nadmiaru piwa imbirowego. Ten słodki napój najlepiej podawać w miedzianym kubku z lodem, aby był idealnie schłodzony.",
+        "Description":"Gdy nie wiesz, co zrobić z nadmiarem składnika, zrób z niego drinka! Taka jest właśnie historia Moscow Mule, który z europejską stolicą ma niewiele wspólnego. Znacznie bliżej mu do Ameryki, gdzie w 1941 roku pewien bar musiał znaleźć sposób na wykorzystanie nadmiaru piwa imbirowego. Ten słodki napój najlepiej serwować w miedzianym kubku z lodem, aby był idealnie schłodzony.",
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1],
@@ -121,7 +121,7 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
-        "Description": "Jak sama nazwa mówi, mieszanka iście wybuchowa! Połączenie niemieckiego likieru ziołowego z napojem energetyczny z pewnością zapewni wam energię na cały wieczór, albo i dłużej… Jest to koktajl z którym szczególnie radziłbym uważać. Jagerbomb posiada specyficzny sposób podania. Kieliszek z jagerem wrzuca się do szklanicy wypełnionej „energetykiem”, najlepiej jakby wleciał z hukiem. Koktajl w smaku jest bardzo słodki o mocnych korzennych nutach.",
+        "Description":"Jak sama nazwa wskazuje, to mieszanka iście wybuchowa! Połączenie niemieckiego likieru ziołowego z napojem energetycznym z pewnością zapewni energię na cały wieczór, a może i dłużej... To koktajl, z którym warto szczególnie uważać. Jägerbomb ma specyficzny sposób podania: kieliszek z Jägerem wrzuca się do szklanicy wypełnionej „energetykiem”, najlepiej, gdy wleci z hukiem. W smaku jest bardzo słodki, z wyraźnymi korzennymi nutami.",
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -133,7 +133,7 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
-        "Description": "Wielu z nas marzyło o wylegiwaniu się na piaszczystej plaży przy jednoczesnym rozkoszowaniu się malowniczym wschodem słońca. Ten koktajl jest właśnie dla tych osób! Nie zawsze trzeba ruszyć się z domu czy rodzinnego miasta aby przeżyć piękne chwile. Drink ten w smaku jest słodki i owocowy, czyli idealny na lato, a do tego wygląda efektownie. Jeśli odwrócimy proces przygotowania tego koktajlu to powstanie nam nowy- Tequila Sunset.",
+        "Description":"Wielu z nas marzyło o wylegiwaniu się na piaszczystej plaży, przy jednoczesnym rozkoszowaniu się malowniczym zachodem słońca. Ten koktajl jest właśnie dla tych osób! Nie zawsze trzeba wyjeżdżać z domu czy rodzinnego miasta, by przeżyć piękne chwile. Drink ten jest słodki i owocowy, czyli idealny na lato, a do tego wygląda efektownie. Jeśli odwrócimy proces przygotowania tego koktajlu, powstanie nowy – Tequila Sunset.",
         "Strength":[2,"13,5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -145,7 +145,7 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
-        "Description": "Z tym drinkiem lepiej uważać! Jest to połączenie kilku naprawdę mocnych alkoholi takich jak gin czy rum, a dopełnione odrobiną coli dla koloru. Koktajl ten jak sama nazwa mówi pochodzi z Long Island w Stanach Zjednoczonych, i według niektórych historii powstał już w okresie prohibicji, gdzie wspomniana wcześniej cola miała maskować zawartość alkoholu. Dzisiaj nie trzeba już nic ukrywać ale tego drinka bałbym się nadal.",
+        "Description":"Z tym drinkiem lepiej uważać! To połączenie kilku naprawdę mocnych alkoholi, takich jak gin, rum czy tequila, dopełnione odrobiną coli dla nadania koloru. Koktajl ten, jak sama nazwa wskazuje, pochodzi z Long Island w Stanach Zjednoczonych. Według niektórych historii powstał już w okresie prohibicji, kiedy wspomniana cola miała maskować obecność alkoholu. Dziś nie trzeba już nic ukrywać, ale z tym drinkiem warto zachować ostrożność.",
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -157,7 +157,7 @@
     {
         "Id":14,
         "Name":"Krwawa Mary",
-        "Description": "Albo się kocha, albo nienawidzi. Z pewnością koktajl ten budzi wiele kontrowersji na całym świecie. Wszystko za sprawą połączenia alkoholu z sokiem pomidorowym. Posiada wiele różnych wariacji, gdzie zmieniany jest nie tylko bazowy alkohol, a również sosy czy dodatki. Jego przygotowanie i smak przypomina gotowanie polskiej „pomidorówki”, gdzie dodajemy różne przyprawy aby osiągnąć ten jeden idealny smak. Smak tego drinka to kwestia sporna i osobista, lecz jedno jest pewne, jest idealny gdy ciągle czujesz się „wczorajszy”.",
+        "Description":"Koktajl, który albo się kocha, albo nienawidzi. Z pewnością budzi wiele kontrowersji na całym świecie, głównie za sprawą nietypowego połączenia alkoholu z sokiem pomidorowym. Istnieje wiele wariacji tego drinka – zmienia się nie tylko bazowy alkohol, ale także sosy i dodatki. Przygotowanie Krwawej Mary przypomina nieco gotowanie polskiej „pomidorówki” – eksperymentujemy z przyprawami, aby osiągnąć idealny smak. Choć opinie na temat tego koktajlu są podzielone, jedno jest pewne: to idealny wybór, gdy ciągle czujesz się „wczorajszy”.",
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -169,7 +169,7 @@
     {
         "Id":15,
         "Name":"Dirty Martini",
-        "Description": "Jedna z wielu odmian klasycznego wręcz dry martini, koktajlu, który Przez swój prosty skład jest bardzo chętnie modyfikowany. Wersja dirty jest dla tych, dla których jedna mała oliwka w środku to za mało, więc „doprawiają” drink zalewą ze wspomnianych oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitność, wzbogaca już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla tych bardziej otwartych na nowe doznania i smaki. Koktajl ten zaliczyłbym bardziej do letnich trunków – tych bardziej charakternych i trudniejszych w odbiorze.",
+        "Description":"Jedna z wielu odmian klasycznego, wręcz kultowego dry martini, koktajlu, który ze względu na swój prosty skład jest często modyfikowany. Wersja \"dirty\" jest dla tych, którzy uważają, że jedna mała oliwka w środku to za mało, więc \"doprawiają\" drink zalewą z oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitności, wzbogacając już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla osób bardziej otwartych na nowe doznania i smaki. Koktajl ten bardziej pasuje do letnich wieczorów, ale tych, które są pełne charakteru i wymagają nieco większego zaangażowania smakowego.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -181,7 +181,7 @@
     {
         "Id":16,
         "Name":"Pornstar Martini",
-        "Description": "Czasami trzeba wzbudzić kontrowersje aby o czymś było głośno. Zdanie to idealnie opisuje ten ponad 20 letni koktajl, choć jak mówi sam autor, zabieg ten nie był celowy, nazwa ta miała podkreślić styl i elegancję. Co ciekawe mimo nazwy, drink ten wcale nie jest klasyfikowany jako martini. Ta odmienna receptura to połączenie marakui wódki, oraz wanilii, więc z pewnością jest to ciekawy smak. Do drinka podaje się kieliszek szampana i tu według przepisu oba napoje pijemy oddzielnie!",
+        "Description":"Czasami trzeba wzbudzić kontrowersje, aby o czymś było głośno. To zdanie idealnie opisuje ten ponad 20-letni koktajl, choć jak twierdzi sam autor, zabieg ten nie był celowy – nazwa miała na celu podkreślenie stylu i elegancji. Co ciekawe, mimo nazwy, drink ten wcale nie jest klasyfikowany jako martini. Jego odmienna receptura to połączenie marakui, wódki oraz wanilii, co tworzy naprawdę ciekawy smak. Do drinka podaje się kieliszek szampana, a według przepisu oba napoje należy pić oddzielnie!",
         "Strength":[2,"13,5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -193,7 +193,7 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
-        "Description": "Koktajl ten z pewnością może nosić miano „starodawnego” ,albowiem posiada on już ponad 200 letnią historię. Przez ten cały czas sporów o sposób przygotowania tego drinka nie było końca, ilu barmanów tyle różnych wersji i przeróżnych wariacji. Mimo to jedno pozostawało niezmienne, jest to pozycja którą pokochały miliony, szczególnie smakosze whisky czy bourbon, którzy cenią jego wytrawność oraz moc.",
+        "Description":"Ten koktajl z pewnością zasługuje na miano „starodawnego”, gdyż ma już ponad 200-letnią historię. Przez cały ten czas spory o sposób jego przygotowania nie miały końca. Ilu barmanów, tyle wersji i wariacji. Mimo to jedno pozostawało niezmienne: jest to pozycja, którą pokochały miliony, szczególnie smakosze whisky i bourbona, którzy cenią jego wytrawność oraz moc.",
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -205,7 +205,7 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
-        "Description": "W koktajlu tym głównie chodzi o proces jego przygotowania a nie zawarty w nim alkohol. Niczym filozofia gdzie trzeba podążać pewnymi ustalonymi z góry ścieżkami i zasadami. Przygotować go można na różnych alkoholach, zarówno na mocnych jak i słabszych, a wersja na whisky jest po prostu najbardziej popularna. Do tajnych składników sauera zaliczamy sok z cytryny oraz syrop cukrowy, które nadają koktajlowi słodko kwaśnego balansu. Często dodaje się również białko jaja kurzego aby otrzymać niesamowitą piankę i kremową teksturę. Na koniec zaleca się skropić angosturą.",
+        "Description":"W tym koktajlu głównie chodzi o proces jego przygotowania, a nie tylko o zawarty w nim alkohol. Można to porównać do filozofii, gdzie należy podążać określonymi, wcześniej ustalonymi ścieżkami i zasadami. Można go przygotować na różnych alkoholach – zarówno mocniejszych, jak i słabszych, ale wersja na whisky jest zdecydowanie najpopularniejsza. Tajne składniki tego koktajlu to sok z cytryny oraz syrop cukrowy, które nadają mu słodko-kwaśny balans. Często dodaje się także białko jaja kurzego, by uzyskać niesamowitą piankę i kremową teksturę. Na koniec zaleca się skropić angosturą.",
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -217,7 +217,7 @@
     {
         "Id":19,
         "Name":"Margarita",
-        "Description": "Jedna z bardziej rozpoznawalnych, letnich pozycji, łącząca ze sobą cztery główne smaki. Margarita o której mowa pochodzi z Meksyku, a nie z Włoskiego Neapolu z którą często jest mylona. Koktajl z początku wygląda niepozornie lecz należy do tych zdradliwych, głównie przez to że robiony jest na tequili. Dlatego radziłbym nie stracić rachuby sącząc tego słodko kwaśnego drinka gdzieś na pięknej plaży, jeśli nie chcemy odpaść za szybko.",
+        "Description":"Jedna z bardziej rozpoznawalnych letnich pozycji, łącząca cztery główne smaki. Margarita, o której mowa, pochodzi z Meksyku, a nie z włoskiego Neapolu, z którym często jest mylona. Na początku koktajl może wyglądać niepozornie, ale należy do tych zdradliwych, głównie dlatego, że przygotowuje się go na tequili. Dlatego warto uważać, by nie stracić rachuby, sącząc tego słodko-kwaśnego drinka gdzieś na pięknej plaży, jeśli nie chcemy „odpaść” za szybko.",
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -229,7 +229,7 @@
     {
         "Id":20,
         "Name":"Caipirinia",
-       "Description": "Narodowy koktajl Brazylii, który robiony jest na ich domowym alkoholu - cachaça. Trunek ten podobny jest do rumu, lecz zamiast być wytwarzanym z melasy trzciny cukrowej, produkuje się go na świeżym soku z tej właśnie rośliny. Przez to drink ma bardziej kwiatowy posmak, co rożni go od klasycznego daiquiri, który jest robiony na rumie. Oprócz tego ich smak i sposób przygotowania jest identyczny.",
+        "Description":"Narodowy koktajl Brazylii, przygotowywany na ich lokalnym alkoholu – cachaça. Trunek ten jest podobny do rumu, ale zamiast być wytwarzany z melasy trzciny cukrowej, produkuje się go z jej świeżego soku. Dzięki temu drink ma bardziej kwiatowy posmak, co odróżnia go od klasycznego daiquiri, który robiony jest na rumie. Poza tym smak i sposób przygotowania obu koktajli są identyczne.",
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -241,7 +241,7 @@
     {
         "Id":21,
         "Name":"Vesper Martin",
-        "Description": "„Wstrząśnięte, nie zmieszane”. Chyba nikomu nie trzeba przedstawiać osoby, która stoi za tymi słowami. Vesper to specjalna odmiana martini stworzona przez Iana Fleminga, twórcy Jamesa Bonda, który w powieści „Casino Royale” podał dokładny przepis na tego drinka. Od klasycznego martini różni się dodatkiem wódki oraz tym, że jest wstrząsany, a nie tylko mieszany. W towarzystwie wódki znajdziemy również gin i wermut Lillet Blanc. Koktajl ten, gdy tylko na świat wychodzi kolejny film z agentem 007, staje się najchętniej zamawianą pozycją w każdym barze na świecie. Stało się to swoistym rytuałem, że po udanym seansie, należy pójść do baru i wcielić się w naszego ulubionego agenta.",
+        "Description":"„Wstrząśnięte, nie zmieszane”. Chyba nikomu nie trzeba przedstawiać osoby, która stoi za tymi słowami. Vesper to specjalna odmiana martini stworzona przez Iana Fleminga, twórcę Jamesa Bonda, który w powieści „Casino Royale” podał dokładny przepis na ten drink. Różni się on od klasycznego martini dodatkiem wódki oraz tym, że jest wstrząsany, a nie mieszany. W towarzystwie wódki znajdziemy również gin i wermut Lillet Blanc. Koktajl ten, gdy tylko na świat wychodzi nowy film o agencie 007, staje się najchętniej zamawianą pozycją w barach na całym świecie. Stało się to swoistym rytuałem – po udanym seansie należy udać się do baru i wcielić się w naszego ulubionego agenta.",
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -253,7 +253,7 @@
     {
         "Id":22,
         "Name":"Manhattan",
-        "Description": "Styl i elegancja, tak najprościej opisać ten klasyczny już koktajl. Jego wytrawny smak przyciąga swoich zwolenników już od ponad stu lat. Jak opisuje jedna z wielu historii o tym drinku, powstał podczas przyjęcia w Manhattan Club w 1874 roku. Wyprawione zostało przez amerykańską matkę Winstona Churchilla - Jennie Churchill. Autor koktajlu pozostaje jednak nieznany, a szkoda, bo niejeden fan bourbonu i słodkiego wermutu chciałby poznać tę osobę.",
+        "Description":"Styl i elegancja. Tak najprościej można opisać ten klasyczny koktajl, którego wytrawny smak przyciąga miłośników już od ponad stu lat. Według jednej z wielu historii, drink ten powstał podczas przyjęcia w Manhattan Club w 1874 roku, zorganizowanego przez amerykańską matkę Winstona Churchilla – Jennie Churchill. Autor koktajlu pozostaje jednak nieznany, a szkoda, bo niejeden miłośnik bourbonu i słodkiego wermutu z pewnością chciałby poznać tę osobę.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -265,7 +265,7 @@
     {
         "Id":23,
         "Name":"Daiquiri",
-        "Description": "Klasyka, klasyka i jeszcze raz klasyka! Jest to myślę najprostszy koktajl na bazie rumu ze wszystkich, lecz niech nas to nie zwiedzie. Mimo swej prostoty zawiera wszystko co trzeba. Jest to iście karaibska mieszanka, gdyż wszystkie składniki pochodzą z ich „podwórka”. Daiquiri należy do koktajli gdzie nie ilość składników, a jakość liczy się najbardziej. Łączy ze sobą kwasowość limonki i trzcinowy smak rumu, lecz mimo to jest otwarty na eksperymenty. Jego procentowość wskazuję bardziej na powolne delektowanie się, najlepiej na plaży, niż na szybki imprezowy drink.",
+        "Description":"Klasyka, klasyka i jeszcze raz klasyka! To chyba najprostszy koktajl na bazie rumu, jaki istnieje, ale niech nas to nie zwiedzie. Mimo swojej prostoty zawiera wszystko, czego potrzeba. Jest to prawdziwie karaibska mieszanka, ponieważ wszystkie składniki pochodzą z ich „podwórka”. Daiquiri należy do koktajli, w których nie ilość składników, a jakość ma największe znaczenie. Łączy kwasowość limonki z trzcinowym smakiem rumu, ale mimo to jest otwarty na eksperymenty. Jego procentowość wskazuje raczej na powolne delektowanie się, najlepiej na plaży, niż na szybki imprezowy drink.",
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -277,7 +277,7 @@
     {
         "Id":24,
         "Name":"Basil Smash",
-        "Description": "Z czystym sumieniem można powiedzieć, że to jedna z ciekawszych pozycji w barowym menu. Nie często bowiem trafimy na napój, który zawiera w sobie bazylię. Przedtem była zaklepana przez świat kulinarny, lecz w 2008 dołączyłą do grona napojów wyskokowych za sprawą Jorga Meyera który opracował recepturę Basil Smash. Ziołowa mieszanka ginu oraz bazylii sprawia, że koktajl ten jest niezwykle orzeźwiający, idealny do picia na łonie natury, a całość dopieszcza słodko kwaśna cytryna.",
+        "Description":"Z czystym sumieniem można powiedzieć, że to jedna z ciekawszych pozycji w barowym menu. Rzadko trafiamy na napój, który zawiera w sobie bazylię. Przedtem była ona zarezerwowana raczej dla świata kulinarnego, ale w 2008 roku dołączyła do grona napojów alkoholowych za sprawą Jorga Meyera, który opracował recepturę Basil Smash. Ziołowa mieszanka ginu i bazylii sprawia, że koktajl ten jest niezwykle orzeźwiający – idealny do picia na łonie natury. Całość dopełnia słodko-kwaśna cytryna.",
         "Strength":[3,"21,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -289,7 +289,7 @@
     {
         "Id":25,
         "Name":"Dark ’n’stormy",
-        "Description": "Z tym drinkiem lepiej nie kombinować. Jako jeden z niewielu chroniony jest oficjalnym znakiem towarowym, gdzie każde odstępstwo od oryginalnej receptury, przy jednoczesnym pozostawieniu nazwy nie jest zgodne z wytycznymi rodziny Gosling, właścicieli tego znaku. Powstał już podczas I wojny światowej poprzez pomieszanie okolicznego rumu z piwem imbirowym. Imbir oraz limonka odpowiada za jego orzeźwiający i słodki smak który łączy się z gorzkim stworzonym rumem. Może nie należy do najmocniejszych drinków ale to prawdziwa burza w szklance.",
+        "Description":"Z tym drinkiem lepiej nie kombinować. Jako jeden z nielicznych jest chroniony oficjalnym znakiem towarowym, a każde odstępstwo od oryginalnej receptury przy jednoczesnym zachowaniu nazwy nie jest zgodne z wytycznymi rodziny Gosling, właścicieli tego znaku. Koktajl powstał już podczas I wojny światowej, kiedy to pomieszano okoliczny rum z piwem imbirowym. Imbir i limonka odpowiadają za jego orzeźwiający i słodki smak, który łączy się z gorzkawym rumem. Może nie należy do najmocniejszych drinków, ale to prawdziwa burza w szklance.",
         "Strength":[2,"10%"],
         "Taste": [1,6],
         "Alcohol": [25],
@@ -301,7 +301,7 @@
     {
         "Id":26,
         "Name":"Zombie",
-        "Description": "Niektórzy twierdzą, że jak wypijesz go trochę za dużo, to rano skończysz właśnie jako zombie. Ciężko się z tym nie zgodzić, gdyż z  koktajlem tym łatwo przesadzić. Głównie dlatego, że jest on bardzo dobry i niepozorny. Łączy ze sobą 3 rodzaje rumu i dwa likiery a jak wiemy mieszanie alkoholi nie wróży dobrze na kolejny dzień. Całość jest dobrze zamaskowane pod sokami z owoców: ananasowym, limonkowym oraz pomarańczowym, dlatego ciężko jest określić ile się wypiło. Z pewnością poleciłbym go tym, którzy szukają wrażeń i nie boją się poświęcić całego następnego dnia na „odpoczynek”.",
+        "Description":"Niektórzy twierdzą, że jeśli wypijesz go trochę za dużo, rano skończysz właśnie jako zombie. Ciężko się z tym nie zgodzić, bo z tym koktajlem łatwo przesadzić. Głównie dlatego, że jest on bardzo smaczny i niepozorny. Łączy ze sobą trzy rodzaje rumu i dwa likiery, a jak wiemy, mieszanie alkoholi nie wróży dobrze na kolejny dzień. Całość jest dobrze zamaskowana sokami owocowymi: ananasowym, limonkowym i pomarańczowym, dlatego ciężko określić, ile się wypiło. Z pewnością poleciłbym go tym, którzy szukają wrażeń i nie boją się poświęcić całego następnego dnia na „odpoczynek”.",
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -313,7 +313,7 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
-        "Description": "Jak z innymi drinkami sauer, głownie chodzi o sposób przygotowania, i składniki, czyli sok z cytryny czy syrop cukrowy, a nie o bazowy alkohol. Najpopularniejszym mocnym sauerem jest ten na bazie whisky a na słabszym-Amaretto, i na tym właśnie się skupimy. Jest to likier głównie migdałowy wywodzący się z włoch. Często dodaje się go do deserów lub kawy przez jego intrygujący smak, dlatego świetnie sprawdza się również w drinku sauer.",
+        "Description":"Jak w przypadku innych drinków typu sour, głównie chodzi o sposób przygotowania i składniki, takie jak sok z cytryny czy syrop cukrowy, a nie o bazowy alkohol. Najpopularniejszym mocnym sourem jest ten na bazie whisky, natomiast na słabszym alkoholu – Amaretto, na którym się skupimy. Jest to likier migdałowy pochodzący z Włoch. Często dodaje się go do deserów lub kawy ze względu na jego intrygujący smak, dlatego świetnie sprawdza się również w drinku sour.",
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -325,7 +325,7 @@
     {
         "Id":28,
         "Name":"Clover club",
-        "Description": "Powstał na początku XX wieku a swoją nazwę zawdzięcza elitarnemu klubowi w Filadelfii, gdzie drink ten był serwowany. Szybko zyskał sławę na całą Amerykę a potem na świat. Jak w przypadku większości drinków sprzed prohibicji szybko został ogłoszony klasykiem. Koktajl ten to kompozycja ziołowego ginu oraz słodkich malin, czyli lekka i przyjemna w odbiorze. Wzbogacony o sok z cytryny i biały wytrawny wermut, a dla uzyskania lepszej kremowości dodaje się białko jaja kurzego.",
+        "Description":"Powstał na początku XX wieku, a swoją nazwę zawdzięcza elitarnemu klubowi w Filadelfii, gdzie był serwowany. Szybko zyskał sławę w całej Ameryce, a potem na świecie. Jak w przypadku większości drinków sprzed prohibicji, szybko stał się klasykiem. Koktajl ten to kompozycja ziołowego ginu oraz słodkich malin, czyli lekka i przyjemna w odbiorze. Wzbogacony o sok z cytryny i biały, wytrawny wermut, a dla uzyskania lepszej kremowości dodaje się białko jaja kurzego.",
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -337,7 +337,7 @@
     {
         "Id":29,
         "Name":"Americano",
-        "Description": "Jak to mówią, najlepiej zamawiać nieskomplikowane drinki, aby barman musiał naprawdę się postarać, żeby je zepsuć. Do takich koktajli z pewnością zaliczyć Americano. Wywodzi się od innego drinka, Milano-Torino, który jest połączeniem słodkiego wermutu oraz campari. Jego „Amerykańska” wersja powstała po dodaniu do tej mieszanki wody gazowanej, aby koktajl nie był taki mocny. Polecany jest osobom, które lubią zarówno gorzki jak i słodki smak pomarańczy z odrobina ziołowego aromatu.",
+        "Description":"Jak to mówią, najlepiej zamawiać nieskomplikowane drinki, aby barman musiał naprawdę się postarać, by je zepsuć. Do takich koktajli z pewnością należy Americano. Wywodzi się on od innego drinka, Milano-Torino, który jest połączeniem słodkiego wermutu i Campari. Jego „amerykańska” wersja powstała po dodaniu wody gazowanej do tej mieszanki, aby koktajl nie był zbyt mocny. Polecany jest osobom, które lubią zarówno gorzki, jak i słodki smak pomarańczy z odrobiną ziołowego aromatu.",
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -349,7 +349,7 @@
     {
         "Id":30,
         "Name":"Mai Tai",
-        "Description": "Jeden z głównych przedstawicieli drinków „Tiki”, czyli dość specyficznych koktajli które często są bogato zdobione różnymi dodatkami jak palemki , a podawane albo w wydrążonych owocach czy ceramicznych kubkach. Z pewnością tak przygotowane drinki zrobią wrażenie na niejednej osobie. Sączenie takiego napoju bardziej przypomina maoryski rytuał niż zwykły wypad do baru. Mai tai łączy ze sobą smak korzenno-migdałowego syropu falernum z rumem oraz pomarańczowym likierem.",
+        "Description":"Jeden z głównych przedstawicieli drinków Tiki, czyli specyficznych koktajli, które często są bogato zdobione różnymi dodatkami, takimi jak palemki, i podawane w wydrążonych owocach lub ceramicznych kubkach. Z pewnością tak przygotowane drinki zrobią wrażenie na niejednej osobie. Sączenie takiego napoju przypomina raczej maoryski rytuał niż zwykły wypad do baru. Mai Tai łączy ze sobą smak korzenno-migdałowego syropu falernum z rumem i pomarańczowym likierem.",
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -361,7 +361,7 @@
     {
         "Id":31,
         "Name":"Paloma",
-        "Description": "Jeżeli szukasz letniego orzeźwienia w drinku to meksykańska paloma z pewnością przypadnie ci do gustu. Wszystko za sprawą owocowych smaków pochodzących z grejpfruta i limonki których doświadczymy w tym koktajlu. Z pewnością jest to bezpieczna i „lekka” pozycja której nie sposób nie polecić. Nazwa prawdopodobnie pochodzi z hiszpańskiego słowa „pomelo”, czyli grejpfrut.",
+        "Description":"Jeśli szukasz letniego orzeźwienia w drinku, meksykańska Paloma z pewnością przypadnie Ci do gustu. Wszystko za sprawą owocowych nut grejpfruta i limonki, które nadają temu koktajlowi wyjątkowy smak. To bezpieczna i „lekka” propozycja, którą trudno byłoby komuś odradzić. Nazwa prawdopodobnie pochodzi od hiszpańskiego słowa „pomelo”, oznaczającego grejpfrut.",
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -373,7 +373,7 @@
     {
         "Id":32,
         "Name":"Penicylina",
-        "Description": "Może i nie działa jak antybiotyk, ale z pewnością pomoże w te gorsze zimowe dni. Za pomocą swoich składników umili czas, a nawet zapewni trochę witaminy C. Jego skład to połączenie klasycznej whisky z nowoczesnym twistem jakim jest miód, cytryna oraz rozgrzewający imbir. Całość w smaku jest dosyć charakterna i łączy smaki: słodki, kwaśny, dymne nuty whisky oraz ostrość i orzeźwienie imbiru. Jest to koktajl zarówno dla tych co zaczynają swoją przygodę z whisky jak i dla jej „weteranów”.",
+        "Description":"Może i nie działa jak antybiotyk, ale z pewnością pomoże w te gorsze, zimowe dni. Dzięki swoim składnikom umili czas, a nawet dostarczy trochę witaminy C. Jego skład to połączenie klasycznej whisky z nowoczesnym twistem, jakim są miód, cytryna oraz rozgrzewający imbir. Całość w smaku jest dosyć charakterna i łączy słodkie, kwaśne nuty z dymnymi akcentami whisky oraz ostrością i orzeźwieniem imbiru. Jest to koktajl zarówno dla tych, którzy zaczynają swoją przygodę z whisky, jak i dla jej „weteranów”.",
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -385,7 +385,7 @@
     {
         "Id":33,
         "Name":"Dry Martini",
-        "Description": "Jeden z najpopularniejszych drinków na świecie. Każdy przecież kojarzy ten specyficzny, stożkowy kieliszek i symboliczną oliwkę w środku. Mimo swojej popularności, pochodzenie tego koktajlu dalej nie jest do końca znane. Co więcej, dawny przepis na ten napój różnił się od tego dzisiejszego, posiadał więcej słodkich składników. Oprócz tego łączy nazwę z producentem wermutów, które dobrze znamy, a wcale nie było ich pierwotnie w przepisie. Mimo swych ekscesów, ta wytrawna mieszanka ginu i wermutu, jest nieodłącznym elementem świata barmańskiego.",
+        "Description":"Z pewnością jest jednym z najbardziej popularnych drinków na świecie. Każdy kojarzy ten charakterystyczny, stożkowy kieliszek i symboliczną oliwkę w środku. Mimo swojej popularności, pochodzenie tego koktajlu nadal nie jest do końca znane. Co więcej, dawny przepis na ten napój różnił się od współczesnego – zawierał więcej słodkich składników. Dodatkowo, choć nazwa drinka jest związana z producentem wermutu, który dobrze znamy, to pierwotnie nie było go w przepisie. Mimo tych zmian, ta wytrawna mieszanka ginu i wermutu pozostaje nieodłącznym elementem świata barmańskiego.",
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -397,7 +397,7 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
-        "Description": "Kolejna pozycja dla smakoszy kawy. Wykwintna i nieco mocniejsza niż większość popularnych koktajli. Stworzony do powolnego rozkoszowania się i pobudzania zmysłów. Pierwszy raz zamówiony w latach 80 gdy pewna kilentka powiedziała, że chcę czegoś na pobudzenie. Jak sama nazwa mówi koktajl ten to mieszanka wódki, espresso oraz kawowego likieru kahlua, aby dodać drinku słodyczy. Warto mieć tą pozycję na uwadzę, gdy na imprezie zaczniecie czuć się zmęczeni.",
+        "Description":"Kolejna pozycja dla smakoszy kawy. Wykwintna i nieco mocniejsza niż większość popularnych koktajli. Stworzony do powolnego rozkoszowania się i pobudzania zmysłów. Pierwszy raz zamówiony w latach 80., kiedy pewna klientka poprosiła o coś, co ją pobudzi. Jak sama nazwa wskazuje, koktajl ten to mieszanka wódki, espresso oraz kawowego likieru Kahlúa, który dodaje drinkowi słodyczy. Warto mieć tę pozycję na uwadze, gdy na imprezie zaczniecie czuć się zmęczeni.",
         "Strength":[3,"20,5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -409,7 +409,7 @@
     {
         "Id":35,
         "Name":"French 75",
-        "Description": "Koktajl który łączy ze sobą uwielbiany na całym świecie gin oraz francuskiego szampana. Jego smak to mieszanka ziołowego aromatu z kwaśnością cytryny przez co jest bardzo orzeźwiający. Jego powstanie datuje się na okolice I wojny światowej, a mówiło się o nim tak: „Kombinacja ta ma tak dużą siłę rażenia, że odczuwa się to, jak ostrzał z potężnego francuskiego działa polowego kalibru 75 mm”.",
+        "Description":"Koktajl, który łączy uwielbiany na całym świecie gin z francuskim szampanem. Jego smak to mieszanka ziołowego aromatu i kwaśności cytryny, przez co jest bardzo orzeźwiający. Powstanie koktajlu datuje się na czasy I wojny światowej, a mówiło się o nim tak: „Kombinacja ta ma tak dużą siłę rażenia, że odczuwa się to jak ostrzał z potężnego francuskiego działa polowego kalibru 75 mm”.",
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -421,7 +421,7 @@
     {
         "Id":36,
         "Name":"Pina colada",
-        "Description": "„Egzotyczne wakacje w szklance”. Idealny synonim dla tego pysznego, przepełnionego karaibskim smakiem koktajlu, jakim jest Pina Colada. Jego tropikalność i wyjątkowość sprawia, że drink cieszy się niesłabnącą popularnością tych, którzy kochają smak ananasa i kokosa. Do dziś nie wiadomo kto jest odpowiedzialny za stworzenie tej receptury, lecz przyjmuje się, że pochodzi z Portoryko.",
+        "Description":"„Egzotyczne wakacje w szklance”. To idealny opis tego pysznego, przepełnionego karaibskim smakiem koktajlu. Jego tropikalny charakter i wyjątkowość sprawiają, że cieszy się niesłabnącą popularnością wśród miłośników ananasa i kokosa. Do dziś nie wiadomo dokładnie, kto stworzył tę recepturę, jednak przyjmuje się, że pochodzi ona z Portoryko.",
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
