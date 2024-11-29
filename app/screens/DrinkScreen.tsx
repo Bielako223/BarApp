@@ -1,11 +1,12 @@
 
-import {  Text, View, Pressable,TouchableOpacity,Image,SafeAreaView, ScrollView} from 'react-native';
+import {  Text, View, Pressable,TouchableOpacity,Image,SafeAreaView, ScrollView, Button} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import { useState } from 'react';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass, DrinkClass} from '../Classes';
 import Images from '../Images'
+import Popup from '../Popup';
 
 
 
@@ -19,6 +20,22 @@ function DrinkScreen({navigation}: {navigation: any}) {
   const ingredients=route.params?.ingredients
   
   const finalShow:DrinkClass[]=DrinksPoints(taste,strength,alcohols,ingredients,drinksArray);
+
+  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
+  const [prepIngred, setPrepIngred] = useState<Array<string> | null>(null);
+  const [prepInstruct, setPrepInstruct] = useState<Array<string> | null>(null);
+
+  const openPopup = (pIngred: Array<string>,pInstruct: Array<string>) => {
+    setPrepIngred(pIngred)
+    setPrepInstruct(pInstruct)
+    setIsPopupVisible(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupVisible(false);
+    setPrepIngred(null)
+    setPrepInstruct(null)
+  };
 
 
   const [show,setShow]=useState<boolean[]>([true,false,false,false,false])
@@ -62,6 +79,8 @@ function DrinkScreen({navigation}: {navigation: any}) {
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('Description')}</Text> {drink.Description}</Text>
+            <Button title="Przepis" onPress={() => openPopup(drink.PrepIngred,drink.PrepInstruct)} />
+            <Popup isVisible={isPopupVisible} onClose={closePopup} prepIngred={prepIngred} prepInstruct={prepInstruct}/>
             </View>
         </View>
       </TouchableOpacity>

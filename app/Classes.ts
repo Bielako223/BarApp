@@ -2,6 +2,8 @@ export class DrinkClass{
     'Id': number;
     'Name': string;
     'Description': string;
+    "PrepIngred": Array<string>;
+    "PrepInstruct": Array<string>;
     "Strength": Array<any>;
     "Taste": Array<string>;
     "Alcohol": Array<string>;

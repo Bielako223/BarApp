@@ -1,11 +1,13 @@
 import React, { useRef } from 'react';
-import { FlatList, Text, ScrollView, View, SafeAreaView, Image, Pressable, Animated, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
+import { FlatList, Text, ScrollView, View, SafeAreaView, Image, Pressable, Animated, NativeSyntheticEvent, NativeScrollEvent , Button} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
+import { useState } from 'react';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import { DrinkClass, ObjectClass } from '../Classes';
 import Images from '../Images'
 import {GetIngredientsSpecific, GetAlcoholSpecific, GetDrinksSorted, GetTasteSpecific} from '../DataAccess';
+import Popup from '../Popup';
 
 
 const DrinkListScreen = ({ navigation }: { navigation: any }) => {
@@ -13,6 +15,21 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const drinks: DrinkClass[] = GetDrinksSorted();
 
   const scrollY = useRef(new Animated.Value(0)).current;
+
+  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
+  const [currentDrink, setCurrentDrink] = useState<DrinkClass | null>(null); // Aktualny drink dla Popup
+
+  const openPopup = (drink: DrinkClass) => {
+    setCurrentDrink(drink);
+    setIsPopupVisible(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupVisible(false);
+    setCurrentDrink(null);
+  };
+
+
 
   const buttonAnimation = scrollY.interpolate({
     inputRange: [0, 100], // Zakres przewijania
@@ -49,6 +66,7 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v, index, row) => { return <Text key={index}>{row.length - 1 === index ? <Text>{v.value}.</Text> : <Text>{v.value},</Text>} </Text> })}</Text>
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v, index, row) => { return <Text key={index}>{row.length - 1 === index ? <Text>{v.value}.</Text> : <Text>{v.value},</Text>} </Text> })}</Text>
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('Description')}</Text> {drink.Description}</Text>
+          <Button title="Przepis" onPress={() => openPopup(drink)} />
         </View>
       </View>
     )
@@ -58,12 +76,19 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView
-        onScroll={handleScroll}
-        scrollEventThrottle={16}
-      >
-        {arrayDataItems}
+      <ScrollView onScroll={handleScroll} scrollEventThrottle={16}>
+        {drinks.map(renderItem)}
       </ScrollView>
+
+      {/* Popup renderowany raz */}
+      {currentDrink && (
+        <Popup
+          isVisible={isPopupVisible}
+          onClose={closePopup}
+          prepIngred={currentDrink.PrepIngred}
+          prepInstruct={currentDrink.PrepInstruct}
+        />
+      )}
 
       {/* Animowany przycisk */}
       <Animated.View style={[styles.buttonContainer, { transform: [{ translateY: buttonAnimation }] }]}>
