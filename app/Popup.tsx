@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, View, Text, Button, StyleSheet, FlatList } from 'react-native';
+import { Modal, View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 
 interface PopupProps {
   isVisible: boolean;
@@ -33,7 +33,9 @@ const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstr
           <Text>{item}</Text>
         )}
       />
-          <Button title="Zamknij" onPress={onClose} />
+          <TouchableOpacity onPress={onClose}>
+              <Text>Zamknij</Text>
+            </TouchableOpacity>
         </View>
       </View>
     </Modal>

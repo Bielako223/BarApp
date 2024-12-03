@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { FlatList, Text, ScrollView, View, SafeAreaView, Image, Pressable, Animated, NativeSyntheticEvent, NativeScrollEvent , Button} from 'react-native';
+import { FlatList, Text, ScrollView, View,TouchableOpacity, SafeAreaView, Image, Pressable, Animated, NativeSyntheticEvent, NativeScrollEvent} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import { useState } from 'react';
 import styles from '../styles';
@@ -22,6 +22,7 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const openPopup = (drink: DrinkClass) => {
     setCurrentDrink(drink);
     setIsPopupVisible(true);
+    console.log(drink.Id)
   };
 
   const closePopup = () => {
@@ -42,9 +43,12 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   };
 
   const renderItem = (drink: DrinkClass) => {
-    const alcoholsSpecific: ObjectClass[] = GetAlcoholSpecific(drink);
-    const ingredientsSpecific: ObjectClass[] = GetIngredientsSpecific(drink);
-    const tasteSpecific: ObjectClass[] = GetTasteSpecific(drink);
+    const alcohol :ObjectClass[]=t('Lang')=='pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+    const ingredients :ObjectClass[]=t('Lang')=='pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
+    const taste :ObjectClass[]=t('Lang')=='pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
+    const alcoholsSpecific:ObjectClass[]= alcohol.filter(item=> drink.Alcohol.includes(item.key));
+    const ingredientsSpecific:ObjectClass[]= ingredients.filter(item=> drink.Ingredients.includes(item.key));
+    const tasteSpecific:ObjectClass[]= taste.filter(item=> drink.Taste.includes(item.key));
     const ImgPath: string = drink.Img;
     return (
       <View style={styles.othersDrinks} key={drink.Id}>
@@ -66,7 +70,9 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v, index, row) => { return <Text key={index}>{row.length - 1 === index ? <Text>{v.value}.</Text> : <Text>{v.value},</Text>} </Text> })}</Text>
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v, index, row) => { return <Text key={index}>{row.length - 1 === index ? <Text>{v.value}.</Text> : <Text>{v.value},</Text>} </Text> })}</Text>
           <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('Description')}</Text> {drink.Description}</Text>
-          <Button title="Przepis" onPress={() => openPopup(drink)} />
+            <TouchableOpacity onPress={() => openPopup(drink)}>
+              <Text>Przepis</Text>
+            </TouchableOpacity>
         </View>
       </View>
     )

@@ -216,6 +216,23 @@ const styles = StyleSheet.create({
       alignItems: 'center', // Centrowanie przycisku na środku
       zIndex: 100, // Zwiększenie priorytetu, aby przycisk zawsze był nad innymi elementami
     },
+    modalOverlay: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+    modalContent: {
+      width: 300,
+      padding: 20,
+      backgroundColor: 'white',
+      borderRadius: 10,
+      alignItems: 'center',
+    },
+    modalText: {
+      fontSize: 18,
+      marginBottom: 20,
+    }
   });
 
   export default styles;
