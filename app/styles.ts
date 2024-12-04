@@ -232,7 +232,23 @@ const styles = StyleSheet.create({
     modalText: {
       fontSize: 18,
       marginBottom: 20,
-    }
+    },
+    recipeButton: {
+      backgroundColor: '#4CAF50', // Green background for visibility
+      paddingVertical: 12, // Add some vertical padding
+      paddingHorizontal: 20, // Horizontal padding
+      borderRadius: 30, // Rounded edges for a smooth look
+      alignItems: 'center', // Center content horizontally
+      justifyContent: 'center', // Center content vertically
+      marginTop: 15, // Add space from other elements
+      flexDirection: 'row', // This will allow us to add an icon next to text
+    },
+    buttonText1: {
+      fontSize: 18, // Make the text readable
+      color: '#fff', // White text to contrast with the green
+      fontWeight: 'bold', // Bold text to make it stand out
+      marginRight: 10, // Add some space between the text and the icon
+    },
   });
 
   export default styles;
