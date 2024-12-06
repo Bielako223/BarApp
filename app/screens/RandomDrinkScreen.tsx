@@ -1,16 +1,39 @@
-import { Text, View, Pressable, Image, ScrollView, Button } from 'react-native';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Text, View, Pressable, ScrollView } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import { ObjectClass, DrinkClass } from '../Classes';
 import { GetDrinks } from '../DataAccess';
 import Popup from '../Popup';
-import DrinkItem from './DrinkItem'; // Import DrinkItem
+import DrinkItem from '../DrinkItem';
+
+interface ProcessedDrink extends DrinkClass {
+  alcoholsSpecific: ObjectClass[];
+  ingredientsSpecific: ObjectClass[];
+  tasteSpecific: ObjectClass[];
+}
+
 function RandomDrinkScreen({ navigation }: { navigation: any }) {
   const { t } = useTranslation();
-  let drinksArray: DrinkClass[] = GetDrinks();
+  const drinksArray: DrinkClass[] = GetDrinks();
 
-  const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * 36) + 1);
+  const preprocessedDrinks: ProcessedDrink[] = drinksArray.map((drink) => {
+    const alcohol: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+    const ingredients: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
+    const taste: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
+
+    return {
+      ...drink,
+      alcoholsSpecific: alcohol.filter((item) => drink.Alcohol.includes(item.key)),
+      ingredientsSpecific: ingredients.filter((item) => drink.Ingredients.includes(item.key)),
+      tasteSpecific: taste.filter((item) => drink.Taste.includes(item.key)),
+    };
+  });
+
+  const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * preprocessedDrinks.length));
   const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
   const [prepIngred, setPrepIngred] = useState<Array<string> | null>(null);
   const [prepInstruct, setPrepInstruct] = useState<Array<string> | null>(null);
@@ -28,10 +51,11 @@ function RandomDrinkScreen({ navigation }: { navigation: any }) {
   };
 
   const newRandomDrink = () => {
-    setRandomNumber(Math.floor(Math.random() * 36) + 1);
+    setRandomNumber(Math.floor(Math.random() * preprocessedDrinks.length));
   };
 
-  const randomDrink: DrinkClass = drinksArray.find(item => item.Id === randomNumber)!;
+  const randomDrink: ProcessedDrink = preprocessedDrinks[randomNumber];
+
   return (
     <View style={[styles.container, styles.finalDrinkContainer]}>
       <ScrollView>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Modal, View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
-
+import styles from './styles';
+import { useTranslation } from 'react-i18next';
 interface PopupProps {
   isVisible: boolean;
   onClose: () => void;
@@ -9,58 +10,43 @@ interface PopupProps {
 }
 
 const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstruct }) => {
+  const {t}= useTranslation();
   return (
     <Modal
       transparent={true}
       visible={isVisible}
-      onRequestClose={onClose} // Obsługa przycisku "wstecz" na Androidzie
+      onRequestClose={onClose}
     >
       <View style={styles.modalOverlay}>
         <View style={styles.modalContent}>
           <Text style={styles.modalText}>
           </Text>
+          <Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text>
           <FlatList
         data={prepIngred}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
-          <Text>{item}</Text>
+          <Text>• {item}</Text>
         )}
       />
+      <Text></Text>
+      <Text style={styles.drinkTextBold}>{t('PreparationMethod')}</Text>
       <FlatList
         data={prepInstruct}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
-          <Text>{item}</Text>
+          <Text>• {item}</Text>
         )}
       />
-          <TouchableOpacity onPress={onClose}>
-              <Text>Zamknij</Text>
-            </TouchableOpacity>
+          <TouchableOpacity onPress={onClose} style={styles.closeButton}>
+            <Text style={styles.closeButtonText}>{t('Close')}</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </Modal>
   );
 };
 
-const styles = StyleSheet.create({
-  modalOverlay: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  },
-  modalContent: {
-    width: 300,
-    padding: 20,
-    backgroundColor: 'white',
-    borderRadius: 10,
-    alignItems: 'center',
-  },
-  modalText: {
-    fontSize: 18,
-    marginBottom: 20,
-  },
-  
-});
+
 
 export default Popup;

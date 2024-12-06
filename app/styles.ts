@@ -227,20 +227,36 @@ const styles = StyleSheet.create({
       padding: 20,
       backgroundColor: 'white',
       borderRadius: 10,
-      alignItems: 'center',
     },
     modalText: {
       fontSize: 18,
       marginBottom: 20,
     },
+    closeButton: {
+      marginTop: 20,
+      backgroundColor: '#2ECC71',
+      paddingVertical: 10,
+      paddingHorizontal: 30,
+      borderRadius: 25,
+      elevation: 2,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.2,
+      shadowRadius: 4,
+    },
+    closeButtonText: {
+      fontSize: 18,
+      color: '#fff',
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
     recipeButton: {
-      backgroundColor: '#4CAF50', // Green background for visibility
       paddingVertical: 12, // Add some vertical padding
       paddingHorizontal: 20, // Horizontal padding
       borderRadius: 30, // Rounded edges for a smooth look
       alignItems: 'center', // Center content horizontally
       justifyContent: 'center', // Center content vertically
-      marginTop: 15, // Add space from other elements
+      marginTop: 10, // Add space from other elements
       flexDirection: 'row', // This will allow us to add an icon next to text
     },
     buttonText1: {
@@ -249,6 +265,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold', // Bold text to make it stand out
       marginRight: 10, // Add some space between the text and the icon
     },
+    
   });
 
   export default styles;

@@ -30,5 +30,8 @@
     "DrinkTryAgain":"Spróbuj ponownie",
     "RandomDrinkText":"Losowy drink:",
     "RandomDrinkTryAgain":"Losuj ponownie",
-    "Description":"Opis:"
+    "Description":"Opis:",
+    "Close": "Zamknij",
+    "PreparationMethod": "Sposób przygotwania:",
+    "Recipe": " Przepis"
 }

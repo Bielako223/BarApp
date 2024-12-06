@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import {ObjectClass, DrinkClass} from '../Classes';
 import Images from '../Images'
 import Popup from '../Popup';
-
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 function DrinkScreen({navigation}: {navigation: any}) {
@@ -79,7 +79,10 @@ function DrinkScreen({navigation}: {navigation: any}) {
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkAlcohols')}</Text> {alcoholsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text> {ingredientsSpecific.map((v,index,row)=>{return <Text key={index}>{row.length-1===index?<Text>{v.value}.</Text>:<Text>{v.value},</Text>} </Text>})}</Text>
             <Text style={styles.percentageText1}><Text style={styles.drinkTextBold}>{t('Description')}</Text> {drink.Description}</Text>
-            <Button title="Przepis" onPress={() => openPopup(drink.PrepIngred,drink.PrepInstruct)} />
+            <TouchableOpacity style={styles.recipeButton} onPress={() => openPopup(drink.PrepIngred,drink.PrepInstruct)}>
+              <Icon name="book" size={20} color="#fff" />
+              <Text style={styles.buttonText}>{t('Recipe')}</Text>
+            </TouchableOpacity>
             <Popup isVisible={isPopupVisible} onClose={closePopup} prepIngred={prepIngred} prepInstruct={prepInstruct}/>
             </View>
         </View>

@@ -29,5 +29,8 @@
     "DrinkTryAgain":"try again",
     "RandomDrinkText":"Random drink:",
     "RandomDrinkTryAgain":"Random drink",
-    "Description":"Description:"
+    "Description":"Description:",
+    "Close": "Close",
+    "PreparationMethod": "How to prepare the drink:",
+    "Recipe": " Recipe"
 }

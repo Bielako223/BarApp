@@ -1,28 +1,55 @@
-import React, { useRef, useState } from 'react';
-import { FlatList, Animated, NativeSyntheticEvent, NativeScrollEvent, SafeAreaView, Pressable, Text } from 'react-native';
+import React, { useCallback, useRef, useState } from 'react';
+import { FlatList, Animated, SafeAreaView, Pressable, Text } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import { DrinkClass } from '../Classes';
+import { DrinkClass, ObjectClass } from '../Classes';
 import { GetDrinksSorted } from '../DataAccess';
 import Popup from '../Popup';
-import DrinkItem from './DrinkItem';
+import DrinkItem from '../DrinkItem';
+
+interface ProcessedDrink extends DrinkClass {
+  alcoholsSpecific: ObjectClass[];
+  ingredientsSpecific: ObjectClass[];
+  tasteSpecific: ObjectClass[];
+}
 
 const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const { t } = useTranslation();
   const drinks: DrinkClass[] = GetDrinksSorted();
   const scrollY = useRef(new Animated.Value(0)).current;
 
-  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
-  const [currentDrink, setCurrentDrink] = useState<DrinkClass | null>(null);
+  // Preprocess drink data
+  const preprocessedDrinks: ProcessedDrink[] = drinks.map((drink) => {
+    const alcohol: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
+    const ingredients: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/ingredients.json') : require('../assets/ingredientsEng.json');
+    const taste: ObjectClass[] =
+      t('Lang') === 'pl' ? require('../assets/taste.json') : require('../assets/tasteEng.json');
 
-  const openPopup = (drink: DrinkClass) => {
+    return {
+      ...drink,
+      alcoholsSpecific: alcohol.filter((item) => drink.Alcohol.includes(item.key)),
+      ingredientsSpecific: ingredients.filter((item) => drink.Ingredients.includes(item.key)),
+      tasteSpecific: taste.filter((item) => drink.Taste.includes(item.key)),
+    };
+  });
+
+  const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
+  const [currentDrink, setCurrentDrink] = useState<ProcessedDrink | null>(null);
+
+  const openPopup = useCallback((drink: ProcessedDrink) => {
     setCurrentDrink(drink);
     setIsPopupVisible(true);
-  };
+  }, []);
 
   const closePopup = () => {
     setIsPopupVisible(false);
     setCurrentDrink(null);
+  };
+
+  const handleScroll = (event: any) => {
+    scrollY.setValue(event.nativeEvent.contentOffset.y);
   };
 
   const buttonAnimation = scrollY.interpolate({
@@ -31,22 +58,22 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
     extrapolate: 'clamp',
   });
 
-  const handleScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
-    scrollY.setValue(event.nativeEvent.contentOffset.y);
-  };
-
-  const renderItem = ({ item }: { item: DrinkClass }) => (
-    <DrinkItem drink={item} onPress={openPopup} />
+  const renderItem = useCallback(
+    ({ item }: { item: ProcessedDrink }) => <DrinkItem drink={item} onPress={openPopup} />,
+    [openPopup]
   );
 
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={drinks}
+        data={preprocessedDrinks}
         renderItem={renderItem}
         keyExtractor={(item) => item.Id.toString()}
         onScroll={handleScroll}
         scrollEventThrottle={16}
+        initialNumToRender={15} 
+        maxToRenderPerBatch={15} 
+        windowSize={8}
       />
       {currentDrink && (
         <Popup
