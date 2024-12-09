@@ -2,9 +2,18 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
-        "Description":",,Wolna Kuba”. Prosty i słodki drink, często sprowadzany do prostej nazwy ,,rum z colą”. Jego historia sięga końca XIX wieku. Powstał podczas wojny amerykańsko-hiszpańskiej o niepodległość Kuby oraz o przejęcie wpływów na tym terytorium. Drink jest połączeniem symbolicznych składników każdej ze stron, amerykańskiej coca coli oraz kubańskiego rumu, a całość przypieczętowane kwasowością limonki.",
-        "PrepIngred":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum tortor et auctor dictum. Curabitur leo leo, porttitor sit amet.","skladnik1","skladnik1"],
-        "PrepInstruct":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum tortor et auctor dictum. Curabitur leo leo, porttitor sit amet.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum tortor et auctor dictum. Curabitur leo leo, porttitor sit amet.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum tortor et auctor dictum. Curabitur leo leo, porttitor sit amet."],
+        "Description":"„Wolna Kuba”. Prosty i słodki drink, często określany po prostu jako „rum z colą”. Jego historia sięga końca XIX wieku, kiedy powstał podczas wojny amerykańsko-hiszpańskiej o niepodległość Kuby oraz walki o wpływy na tym terytorium. Drink jest symbolicznym połączeniem składników reprezentujących sojusz – amerykańskiej Coca-Coli oraz kubańskiego rumu, a całość dopełnia kwasowość limonki.",
+        "PrepIngred": [
+        "50ml kubańskiego rumu",
+        "100ml Coca-Coli",
+        "1 limonka",
+        "Kostki lodu"
+        ],
+        "PrepInstruct": [
+        "Napełnij szklankę kostkami lodu.",
+        "Wlej rum i wyciśnij sok z połowy limonki, a drugą połówkę wrzuć do szklanki.",
+        "Dolej Coca-Colę i delikatnie zamieszaj."
+        ],
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -16,8 +25,18 @@
         "Id":2,
         "Name":"White Russian",
         "Description":"Kremowość śmietanki, słodycz i aromat kawowego likieru oraz wyrazisty smak wódki – to wszystko oferuje nam White Russian. Ten koktajl powstał jako wariacja innego drinku, Black Russian, poprzez częste dodawanie do niego śmietanki. Co ciekawe, White Russian wcale nie pochodzi z Rosji – jego nazwa nawiązuje do tego kraju ze względu na obecność wódki, która jest tam popularnym trunkiem.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "40ml wódki",
+        "20ml likieru kawowego (np. Kahlúa)",
+        "30ml śmietanki",
+        "Kostki lodu"
+        ],
+        "PrepInstruct": [
+        "Napełnij szklankę kostkami lodu.",
+        "Wlej wódkę i likier kawowy do szklanki.",
+        "Delikatnie dodaj śmietankę na wierzch, nie mieszając.",
+        "Przed wypiciem możesz delikatnie zamieszać składniki, jeśli wolisz jednolity smak."
+        ],
         "Strength":[3," 25%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -30,8 +49,16 @@
         "Id":3,
         "Name":"Black Russian",
         "Description":"Idealna pozycja dla smakoszy kawy lub tych, którzy stawiają na prostotę. Jest mocny i konkretny, a jego przygotowanie nie sprawia żadnych trudności. Łączy wódkę z meksykańskim likierem kawowym – Kahlúa. Ze względu na niewielką liczbę składników, drink ten często bywa modyfikowany. Najpopularniejszą odmianą jest White Russian, który powstał dzięki częstemu dodawaniu śmietany do tego koktajlu.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml wódki",
+        "25ml likieru kawowego (np. Kahlúa)",
+        "Kostki lodu"
+        ],
+        "PrepInstruct": [
+        "Napełnij szklankę kostkami lodu.",
+        "Wlej wódkę i likier kawowy do szklanki.",
+        "Delikatnie zamieszaj składniki, aby się połączyły."
+        ],
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -44,8 +71,22 @@
         "Id":4,
         "Name":"Mojito",
         "Description":"Koktajl stworzony z myślą o ciepłych, letnich wieczorach. Słowo „orzeźwiający” to zdecydowanie za mało, by oddać jego wyjątkowy smak. W przypadku tego trunku łatwiej go przygotować, niż poprawnie wymówić jego nazwę. Powstał w latach 80. na Kubie i od tamtej pory trudno znaleźć osobę, która o nim nie słyszała.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml białego rumu",
+        "1 limonka",
+        "2 łyżeczki cukru trzcinowego",
+        "10 świeżych liści mięty",
+        "Woda gazowana",
+        "Kostki lodu"
+        ],
+        "PrepInstruct": [
+        "Pokrój limonkę na ćwiartki i umieść je w szklance.",
+        "Dodaj cukier trzcinowy i rozgnieć razem z limonką, aby uwolnić sok.",
+        "Włóż liście mięty, delikatnie ugniatając, aby uwolniły aromat.",
+        "Dodaj rum i wypełnij szklankę kostkami lodu.",
+        "Dolej wody gazowanej i delikatnie zamieszaj.",
+        "Udekoruj gałązką mięty i podawaj."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -58,8 +99,20 @@
         "Id":5,
         "Name":"Cosmopolitan",
         "Description":"Często nazywany „synonimem kobiecości”. To klasyczny drink, który łączy w sobie słodki i owocowy smak, a przy tym pozostaje lekki. Swoją popularność zawdzięcza serialowi „Seks w wielkim mieście”, jednak pierwsze wzmianki o tym koktajlu i jego przepisy sięgają lat 30. XX wieku. Z pewnością drink ten był świadkiem niejednej plotki i towarzyszył wielu ciekawym rozmowom.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "40ml wódki cytrynowej",
+        "20ml likieru Cointreau",
+        "20ml soku z żurawiny",
+        "10ml soku z limonki",
+        "Kostki lodu",
+        "Skórka pomarańczowa do dekoracji"
+        ],
+        "PrepInstruct": [
+        "Do shakera wypełnionego lodem wlej wódkę cytrynową, likier Cointreau, sok z żurawiny i sok z limonki.",
+        "Dokładnie wstrząśnij, aby składniki się schłodziły i połączyły.",
+        "Przelej drink do schłodzonego kieliszka koktajlowego przez sitko.",
+        "Udekoruj skórką pomarańczową i podawaj."
+        ],
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -72,8 +125,18 @@
         "Id":6,
         "Name":"Negroni",
         "Description":"Klasyk klasyków. Znany na całym świecie i przez wielu uznawany za „króla aperitifów”. Jest stosunkowo mocny, wytrawny i doskonale pobudza apetyt. Pierwsze podanie tego koktajlu miało prawdopodobnie miejsce we florenckiej kawiarni w 1919 roku, na żądanie samego hrabiego Camilla Negroniego. Według magazynu Drinks International jest to drugi najczęściej zamawiany drink na świecie.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "30ml ginu",
+        "30ml czerwonego wermutu",
+        "30ml Campari",
+        "Kostki lodu",
+        "Plaster pomarańczy do dekoracji"
+        ],
+        "PrepInstruct": [
+        "Do szklanki wypełnionej lodem wlej gin, czerwony wermut i Campari.",
+        "Delikatnie wymieszaj wszystkie składniki łyżką barmańską.",
+        "Udekoruj plasterkiem pomarańczy i podawaj."
+        ],
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -86,8 +149,20 @@
         "Id":7,
         "Name":"Sex On The Beach",
         "Description":"Jak wiadomo, alkohol sprzyja nieco bardziej pikantnym rozmowom, dlatego ten drink zapada w pamięć nie tylko ze względu na nazwę. Jego popularność trwa nieprzerwanie od lat 80. XX wieku i nic nie wskazuje na to, by miała osłabnąć. W USA koktajl ten ma rzesze wiernych fanów, którzy co roku, 4 października, w trakcie National Vodka Day, rozkoszują się jego smakiem. Najbardziej przypadnie do gustu miłośnikom lżejszych, owocowych i letnich napojów, łącząc w sobie nuty brzoskwini, pomarańczy i żurawiny.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "40ml wódki",
+        "20ml likieru brzoskwiniowego",
+        "40ml soku pomarańczowego",
+        "40ml soku żurawinowego",
+        "Kostki lodu",
+        "Plaster pomarańczy do dekoracji"
+        ],
+        "PrepInstruct": [
+        "Do shakera wypełnionego lodem wlej wódkę, likier brzoskwiniowy, sok pomarańczowy i sok żurawinowy.",
+        "Energicznie wstrząśnij, aby dobrze wymieszać składniki.",
+        "Przelej koktajl do szklanki wypełnionej świeżymi kostkami lodu.",
+        "Udekoruj plasterkiem pomarańczy i podawaj."
+        ],
         "Strength":[2,"11,5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -100,8 +175,19 @@
         "Id":8,
         "Name":"Aperol Spritz",
         "Description":"Flagowy koktajl Europy Południowej, który podbija serca ludzi na całym świecie. Powstał w latach 50. ubiegłego wieku i oferuje wytrawny, niezwykle orzeźwiający smak – idealny na letnią pogodę. To połączenie prosecco oraz znanego włoskiego aperitifu Aperolu, a całość uzupełnia woda gazowana.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "60ml Aperolu",
+        "90ml Prosecco",
+        "30ml woda gazowana",
+        "Plaster pomarańczy",
+        "Lód"
+        ],
+        "PrepInstruct": [
+        "Do szklanki napełnionej lodem wlej Aperol.",
+        "Dodaj Prosecco i wodę gazowaną.",
+        "Delikatnie wymieszaj składniki.",
+        "Udekoruj plasterkiem pomarańczy i podawaj."
+        ],
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -114,8 +200,22 @@
         "Id":9,
         "Name":"Tom Collins",
         "Description":"Koktajl z ponad 100-letnią tradycją. Powstał w 1867 roku w Stanach Zjednoczonych, kiedy niejaki Jerry Thomas umieścił przepis na ten napój w swojej książce zatytułowanej „Przewodnik Barmana”. Jak przystało na drink bazujący na ginie, Tom Collins jest niezwykle orzeźwiający. Jego musujące bąbelki idealnie współgrają ze słodko-kwaśnymi nutami cytrusów. To z pewnością propozycja zarówno dla weteranów, jak i dla nowicjuszy w świecie barmańskim.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml ginu",
+        "25ml soku z cytryny",
+        "15ml syropu cukrowego",
+        "Woda gazowana",
+        "Lód",
+        "Plaster cytryny",
+        "Wiśnia koktajlowa"
+        ],
+        "PrepInstruct": [
+        "Do shakera wlej gin, sok z cytryny i syrop cukrowy.",
+        "Dodaj lód i wstrząśnij, aby dobrze wymieszać składniki.",
+        "Przelej do szklanki wypełnionej lodem.",
+        "Uzupełnij wodą gazowaną.",
+        "Udekoruj plasterkiem cytryny i wiśnią koktajlową."
+        ],
         "Strength":[2,"15,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -128,8 +228,20 @@
         "Id":10,
         "Name":"Moscow Mule",
         "Description":"Gdy nie wiesz, co zrobić z nadmiarem składnika, zrób z niego drinka! Taka jest właśnie historia Moscow Mule, który z europejską stolicą ma niewiele wspólnego. Znacznie bliżej mu do Ameryki, gdzie w 1941 roku pewien bar musiał znaleźć sposób na wykorzystanie nadmiaru piwa imbirowego. Ten słodki napój najlepiej serwować w miedzianym kubku z lodem, aby był idealnie schłodzony.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml wódki",
+        "150ml piwa imbirowego",
+        "Sok z połowy limonki",
+        "Lód",
+        "Plaster limonki"
+        ],
+        "PrepInstruct": [
+        "Do miedzianego kubka wrzuć lód.",
+        "Wlej wódkę i sok z limonki.",
+        "Uzupełnij piwem imbirowym.",
+        "Delikatnie wymieszaj.",
+        "Udekoruj plasterkiem limonki."
+        ],
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1],
@@ -142,8 +254,16 @@
         "Id":11,
         "Name":"Jagerbomb",
         "Description":"Jak sama nazwa wskazuje, to mieszanka iście wybuchowa! Połączenie niemieckiego likieru ziołowego z napojem energetycznym z pewnością zapewni energię na cały wieczór, a może i dłużej... To koktajl, z którym warto szczególnie uważać. Jägerbomb ma specyficzny sposób podania: kieliszek z Jägerem wrzuca się do szklanicy wypełnionej „energetykiem”, najlepiej, gdy wleci z hukiem. W smaku jest bardzo słodki, z wyraźnymi korzennymi nutami.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml Jägermeister",
+        "200ml napoju energetycznego"
+        ],
+        "PrepInstruct": [
+        "Wlej napój energetyczny do szklanki.",
+        "Wlej Jägermeister do kieliszka.",
+        "Upuść kieliszek z Jägerem do szklanki z napojem energetycznym.",
+        "Pij natychmiast po wrzuceniu kieliszka."
+        ],
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -156,8 +276,17 @@
         "Id":12,
         "Name":"Tequila Sunrise",
         "Description":"Wielu z nas marzyło o wylegiwaniu się na piaszczystej plaży, przy jednoczesnym rozkoszowaniu się malowniczym zachodem słońca. Ten koktajl jest właśnie dla tych osób! Nie zawsze trzeba wyjeżdżać z domu czy rodzinnego miasta, by przeżyć piękne chwile. Drink ten jest słodki i owocowy, czyli idealny na lato, a do tego wygląda efektownie. Jeśli odwrócimy proces przygotowania tego koktajlu, powstanie nowy – Tequila Sunset.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml Tequila",
+        "100ml sok pomarańczowy",
+        "20ml grenadyna"
+        ],
+        "PrepInstruct": [
+        "Wlej tequilę do szklanki z lodem.",
+        "Dodaj sok pomarańczowy i delikatnie wymieszaj.",
+        "Powoli wlej grenadynę, aby opadła na dno szklanki, tworząc efekt 'wschodu słońca'.",
+        "Nie mieszaj, aby zachować warstwy."
+        ],
         "Strength":[2,"13,5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -170,8 +299,22 @@
         "Id":13,
         "Name":"Long Island Iced Tea",
         "Description":"Z tym drinkiem lepiej uważać! To połączenie kilku naprawdę mocnych alkoholi, takich jak gin, rum czy tequila, dopełnione odrobiną coli dla nadania koloru. Koktajl ten, jak sama nazwa wskazuje, pochodzi z Long Island w Stanach Zjednoczonych. Według niektórych historii powstał już w okresie prohibicji, kiedy wspomniana cola miała maskować obecność alkoholu. Dziś nie trzeba już nic ukrywać, ale z tym drinkiem warto zachować ostrożność.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "15ml wódka",
+        "15ml rum biały",
+        "15ml gin",
+        "15ml tequila",
+        "15ml triple sec",
+        "25ml sok cytrynowy",
+        "30ml cola",
+        "10ml syrop cukrowy"
+        ],
+        "PrepInstruct": [
+        "Wlej wódkę, rum, gin, tequilę, triple sec i sok cytrynowy do szklanki wypełnionej lodem.",
+        "Dodaj syrop cukrowy i wymieszaj.",
+        "Uzupełnij szklankę colą.",
+        "Delikatnie zamieszaj i udekoruj plastrem cytryny."
+        ],
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -184,8 +327,23 @@
         "Id":14,
         "Name":"Krwawa Mary",
         "Description":"Koktajl, który albo się kocha, albo nienawidzi. Z pewnością budzi wiele kontrowersji na całym świecie, głównie za sprawą nietypowego połączenia alkoholu z sokiem pomidorowym. Istnieje wiele wariacji tego drinka – zmienia się nie tylko bazowy alkohol, ale także sosy i dodatki. Przygotowanie Krwawej Mary przypomina nieco gotowanie polskiej „pomidorówki” – eksperymentujemy z przyprawami, aby osiągnąć idealny smak. Choć opinie na temat tego koktajlu są podzielone, jedno jest pewne: to idealny wybór, gdy ciągle czujesz się „wczorajszy”.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml wódka",
+        "120ml sok pomidorowy",
+        "10ml sok z limonki",
+        "2-3 krople sosu Worcestershire",
+        "2-3 krople sosu tabasco",
+        "szczypta soli",
+        "szczypta pieprzu",
+        "serwowanie: lód"
+        ],
+        "PrepInstruct": [
+        "Wlej wódkę i sok pomidorowy do szklanki wypełnionej lodem.",
+        "Dodaj sok z limonki, sos Worcestershire i sos tabasco.",
+        "Dodaj sól i pieprz do smaku.",
+        "Wymieszaj składniki delikatnie.",
+        "Udekoruj selerem naciowym lub plasterkiem limonki."
+        ],
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -198,8 +356,19 @@
         "Id":15,
         "Name":"Dirty Martini",
         "Description":"Jedna z wielu odmian klasycznego, wręcz kultowego dry martini, koktajlu, który ze względu na swój prosty skład jest często modyfikowany. Wersja \"dirty\" jest dla tych, którzy uważają, że jedna mała oliwka w środku to za mało, więc \"doprawiają\" drink zalewą z oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitności, wzbogacając już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla osób bardziej otwartych na nowe doznania i smaki. Koktajl ten bardziej pasuje do letnich wieczorów, ale tych, które są pełne charakteru i wymagają nieco większego zaangażowania smakowego.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml gin",
+        "10ml suchy wermut",
+        "20ml zalewa z oliwek",
+        "Oliwki do dekoracji",
+        "Lód"
+        ],
+        "PrepInstruct": [
+        "Wlej gin, wermut i zalewę z oliwek do shaker'a wypełnionego lodem.",
+        "Wstrząśnij mocno przez około 10-15 sekund.",
+        "Przecedź do schłodzonego kieliszka do martini.",
+        "Udekoruj drink oliwkami."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -212,8 +381,22 @@
         "Id":16,
         "Name":"Pornstar Martini",
         "Description":"Czasami trzeba wzbudzić kontrowersje, aby o czymś było głośno. To zdanie idealnie opisuje ten ponad 20-letni koktajl, choć jak twierdzi sam autor, zabieg ten nie był celowy – nazwa miała na celu podkreślenie stylu i elegancji. Co ciekawe, mimo nazwy, drink ten wcale nie jest klasyfikowany jako martini. Jego odmienna receptura to połączenie marakui, wódki oraz wanilii, co tworzy naprawdę ciekawy smak. Do drinka podaje się kieliszek szampana, a według przepisu oba napoje należy pić oddzielnie!",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "40ml wódka waniliowa",
+        "20ml likier passion fruit",
+        "20ml puree z marakui",
+        "10ml sok z limonki",
+        "10ml cukier trzcinowy",
+        "1/2 świeża marakuja (do dekoracji)",
+        "Prosecco (do podania)"
+        ],
+        "PrepInstruct": [
+        "Wlej wódkę waniliową, likier passion fruit, puree z marakui, sok z limonki i cukier trzcinowy do shakera.",
+        "Wstrząśnij mocno przez około 10-15 sekund.",
+        "Przecedź do schłodzonego kieliszka do martini.",
+        "Dodaj świeżą marakuję do dekoracji.",
+        "Podawaj z kieliszkiem prosecco na boku."
+        ],
         "Strength":[2,"13,5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -226,8 +409,21 @@
         "Id":17,
         "Name":"Old Fashioned",
         "Description":"Ten koktajl z pewnością zasługuje na miano „starodawnego”, gdyż ma już ponad 200-letnią historię. Przez cały ten czas spory o sposób jego przygotowania nie miały końca. Ilu barmanów, tyle wersji i wariacji. Mimo to jedno pozostawało niezmienne: jest to pozycja, którą pokochały miliony, szczególnie smakosze whisky i bourbona, którzy cenią jego wytrawność oraz moc.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml bourbon lub żytni whiskey",
+        "1 kawałek cukru kostkowanego",
+        "2-3 krople Angostura bitters",
+        "Skórka z pomarańczy",
+        "Lód"
+        ],
+        "PrepInstruct": [
+        "Umieść kawałek cukru kostkowanego w szklance.",
+        "Dodaj kilka kropli Angostura bitters i niewielką ilość wody, aby rozpuścić cukier.",
+        "Dodaj lód do szklanki.",
+        "Wlej bourbon lub żytnią whiskey.",
+        "Delikatnie wymieszaj.",
+        "Zakończ, ściskając skórkę pomarańczy nad drinkiem, aby uwolnić olejki, a następnie wrzuć ją do środka."
+        ],
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -240,8 +436,21 @@
         "Id":18,
         "Name":"Whisky Sour",
         "Description":"W tym koktajlu głównie chodzi o proces jego przygotowania, a nie tylko o zawarty w nim alkohol. Można to porównać do filozofii, gdzie należy podążać określonymi, wcześniej ustalonymi ścieżkami i zasadami. Można go przygotować na różnych alkoholach – zarówno mocniejszych, jak i słabszych, ale wersja na whisky jest zdecydowanie najpopularniejsza. Tajne składniki tego koktajlu to sok z cytryny oraz syrop cukrowy, które nadają mu słodko-kwaśny balans. Często dodaje się także białko jaja kurzego, by uzyskać niesamowitą piankę i kremową teksturę. Na koniec zaleca się skropić angosturą.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml bourbon lub whisky",
+        "30ml świeżo wyciśniętego soku z cytryny",
+        "20ml syropu cukrowego",
+        "1 białko jajka (opcjonalnie)",
+        "Lód"
+        ],
+        "PrepInstruct": [
+        "W shakerze połącz bourbon (lub whisky), sok z cytryny i syrop cukrowy.",
+        "Dodaj białko jajka, jeśli używasz (dla uzyskania pianki na wierzchu).",
+        "Wstrząśnij energicznie przez około 10-15 sekund.",
+        "Następnie dodaj lód i ponownie wstrząśnij, aż shaker będzie zimny.",
+        "Przelej do schłodzonego kieliszka, najlepiej typu Old Fashioned.",
+        "Opcjonalnie udekoruj skórką cytryny lub wisienką koktajlową."
+        ],
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -254,8 +463,21 @@
         "Id":19,
         "Name":"Margarita",
         "Description":"Jedna z bardziej rozpoznawalnych letnich pozycji, łącząca cztery główne smaki. Margarita, o której mowa, pochodzi z Meksyku, a nie z włoskiego Neapolu, z którym często jest mylona. Na początku koktajl może wyglądać niepozornie, ale należy do tych zdradliwych, głównie dlatego, że przygotowuje się go na tequili. Dlatego warto uważać, by nie stracić rachuby, sącząc tego słodko-kwaśnego drinka gdzieś na pięknej plaży, jeśli nie chcemy „odpaść” za szybko.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml tequili",
+        "30ml likieru triple sec (np. Cointreau)",
+        "20ml świeżo wyciśniętego soku z limonki",
+        "Lód",
+        "Sól do obtoczenia brzegów kieliszka",
+        "Plasterek limonki do dekoracji"
+        ],
+        "PrepInstruct": [
+        "Przygotuj kieliszek do margarity – zwilż brzeg kieliszka sokiem z limonki, a następnie obtocz go w soli.",
+        "W shakerze połącz tequilę, likier triple sec i sok z limonki.",
+        "Dodaj lód do shakera, a następnie wstrząśnij przez kilka sekund.",
+        "Przelej miksturę do przygotowanego kieliszka.",
+        "Udekoruj plasterkiem limonki."
+        ],
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -268,8 +490,19 @@
         "Id":20,
         "Name":"Caipirinia",
         "Description":"Narodowy koktajl Brazylii, przygotowywany na ich lokalnym alkoholu – cachaça. Trunek ten jest podobny do rumu, ale zamiast być wytwarzany z melasy trzciny cukrowej, produkuje się go z jej świeżego soku. Dzięki temu drink ma bardziej kwiatowy posmak, co odróżnia go od klasycznego daiquiri, który robiony jest na rumie. Poza tym smak i sposób przygotowania obu koktajli są identyczne.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml cachaçy",
+        "1 limonka",
+        "2 łyżeczki cukru",
+        "Lód"
+        ],
+        "PrepInstruct": [
+        "Pokrój limonkę na ćwiartki i włóż do szklanki.",
+        "Dodaj cukier i delikatnie utłucz limonkę z cukrem, aby wydobyć sok.",
+        "Napełnij szklankę lodem.",
+        "Dodaj cachaçę i wymieszaj.",
+        "Podawaj od razu."
+        ],
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -282,8 +515,18 @@
         "Id":21,
         "Name":"Vesper Martin",
         "Description":"„Wstrząśnięte, nie zmieszane”. Chyba nikomu nie trzeba przedstawiać osoby, która stoi za tymi słowami. Vesper to specjalna odmiana martini stworzona przez Iana Fleminga, twórcę Jamesa Bonda, który w powieści „Casino Royale” podał dokładny przepis na ten drink. Różni się on od klasycznego martini dodatkiem wódki oraz tym, że jest wstrząsany, a nie mieszany. W towarzystwie wódki znajdziemy również gin i wermut Lillet Blanc. Koktajl ten, gdy tylko na świat wychodzi nowy film o agencie 007, staje się najchętniej zamawianą pozycją w barach na całym świecie. Stało się to swoistym rytuałem – po udanym seansie należy udać się do baru i wcielić się w naszego ulubionego agenta.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "60ml ginu",
+        "20ml wódki",
+        "10ml wermutu bianco",
+        "Skórka cytryny"
+        ],
+        "PrepInstruct": [
+        "Wlej gin, wódkę i wermut bianco do shakera z lodem.",
+        "Wstrząśnij energicznie przez około 10 sekund.",
+        "Przecedź do schłodzonego kieliszka do martini.",
+        "Udekoruj skórką cytryny."
+        ],
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -296,8 +539,18 @@
         "Id":22,
         "Name":"Manhattan",
         "Description":"Styl i elegancja. Tak najprościej można opisać ten klasyczny koktajl, którego wytrawny smak przyciąga miłośników już od ponad stu lat. Według jednej z wielu historii, drink ten powstał podczas przyjęcia w Manhattan Club w 1874 roku, zorganizowanego przez amerykańską matkę Winstona Churchilla – Jennie Churchill. Autor koktajlu pozostaje jednak nieznany, a szkoda, bo niejeden miłośnik bourbonu i słodkiego wermutu z pewnością chciałby poznać tę osobę.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml bourbonu lub żytniej whisky",
+        "25ml wermutu czerwonego",
+        "2-3 krople angostury",
+        "Czereśnia koktajlowa"
+        ],
+        "PrepInstruct": [
+        "Wlej bourbon lub żytną whisky, wermut czerwony i angosturę do szklanki do mieszania.",
+        "Dodaj lód i mieszaj przez 20-30 sekund.",
+        "Przecedź do schłodzonego kieliszka koktajlowego.",
+        "Udekoruj czereśnią koktajlową."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -310,8 +563,16 @@
         "Id":23,
         "Name":"Daiquiri",
         "Description":"Klasyka, klasyka i jeszcze raz klasyka! To chyba najprostszy koktajl na bazie rumu, jaki istnieje, ale niech nas to nie zwiedzie. Mimo swojej prostoty zawiera wszystko, czego potrzeba. Jest to prawdziwie karaibska mieszanka, ponieważ wszystkie składniki pochodzą z ich „podwórka”. Daiquiri należy do koktajli, w których nie ilość składników, a jakość ma największe znaczenie. Łączy kwasowość limonki z trzcinowym smakiem rumu, ale mimo to jest otwarty na eksperymenty. Jego procentowość wskazuje raczej na powolne delektowanie się, najlepiej na plaży, niż na szybki imprezowy drink.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml białego rumu",
+        "25ml świeżego soku z limonki",
+        "15ml syropu cukrowego"
+        ],
+        "PrepInstruct": [
+        "Wlej rum, sok z limonki i syrop cukrowy do shakera.",
+        "Dodaj lód i energicznie wstrząsaj przez około 10-15 sekund.",
+        "Przecedź do schłodzonego kieliszka koktajlowego."
+        ],
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -324,8 +585,19 @@
         "Id":24,
         "Name":"Basil Smash",
         "Description":"Z czystym sumieniem można powiedzieć, że to jedna z ciekawszych pozycji w barowym menu. Rzadko trafiamy na napój, który zawiera w sobie bazylię. Przedtem była ona zarezerwowana raczej dla świata kulinarnego, ale w 2008 roku dołączyła do grona napojów alkoholowych za sprawą Jorga Meyera, który opracował recepturę Basil Smash. Ziołowa mieszanka ginu i bazylii sprawia, że koktajl ten jest niezwykle orzeźwiający – idealny do picia na łonie natury. Całość dopełnia słodko-kwaśna cytryna.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml ginu",
+        "20ml soku z cytryny",
+        "15ml syropu cukrowego",
+        "6-8 świeżych liści bazylii"
+        ],
+        "PrepInstruct": [
+        "Umieść liście bazylii w shakerze i delikatnie zgnieć je muddlerem, aby uwolnić aromat.",
+        "Dodaj gin, sok z cytryny oraz syrop cukrowy.",
+        "Dodaj lód i energicznie wstrząsaj przez około 10-15 sekund.",
+        "Przecedź do szklanki typu Old Fashioned wypełnionej lodem.",
+        "Udekoruj świeżymi liśćmi bazylii."
+        ],
         "Strength":[3,"21,5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -338,8 +610,17 @@
         "Id":25,
         "Name":"Dark ’n’stormy",
         "Description":"Z tym drinkiem lepiej nie kombinować. Jako jeden z nielicznych jest chroniony oficjalnym znakiem towarowym, a każde odstępstwo od oryginalnej receptury przy jednoczesnym zachowaniu nazwy nie jest zgodne z wytycznymi rodziny Gosling, właścicieli tego znaku. Koktajl powstał już podczas I wojny światowej, kiedy to pomieszano okoliczny rum z piwem imbirowym. Imbir i limonka odpowiadają za jego orzeźwiający i słodki smak, który łączy się z gorzkawym rumem. Może nie należy do najmocniejszych drinków, ale to prawdziwa burza w szklance.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml rumu ciemnego",
+        "100ml piwa imbirowego",
+        "10ml soku z limonki"
+        ],
+        "PrepInstruct": [
+        "Wlej rum do szklanki typu highball wypełnionej lodem.",
+        "Dodaj piwo imbirowe, delikatnie mieszając.",
+        "Dodaj sok z limonki.",
+        "Udekoruj plasterkiem limonki lub skórką z limonki."
+        ],
         "Strength":[2,"10%"],
         "Taste": [1,6],
         "Alcohol": [25],
@@ -352,8 +633,25 @@
         "Id":26,
         "Name":"Zombie",
         "Description":"Niektórzy twierdzą, że jeśli wypijesz go trochę za dużo, rano skończysz właśnie jako zombie. Ciężko się z tym nie zgodzić, bo z tym koktajlem łatwo przesadzić. Głównie dlatego, że jest on bardzo smaczny i niepozorny. Łączy ze sobą trzy rodzaje rumu i dwa likiery, a jak wiemy, mieszanie alkoholi nie wróży dobrze na kolejny dzień. Całość jest dobrze zamaskowana sokami owocowymi: ananasowym, limonkowym i pomarańczowym, dlatego ciężko określić, ile się wypiło. Z pewnością poleciłbym go tym, którzy szukają wrażeń i nie boją się poświęcić całego następnego dnia na „odpoczynek”.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "30ml rumu ciemnego",
+        "30ml rumu jasnego",
+        "30ml rumu overproof",
+        "15ml soku z limonki",
+        "15ml soku pomarańczowego",
+        "15ml soku ananasowego",
+        "15ml syropu grenadynowego",
+        "10ml syropu cukrowego",
+        "2-3 krople angostury",
+        "1/2 łyżeczki cukru trzcinowego"
+        ],
+        "PrepInstruct": [
+        "W shakerze połącz wszystkie składniki: rum ciemny, rum jasny, rum overproof, soki, syropy, cukier i angosturę.",
+        "Napełnij shaker lodem i energicznie wstrząśnij.",
+        "Przelej do wysokiej szklanki wypełnionej lodem.",
+        "Udekoruj miętą, plasterkiem pomarańczy lub wisienką koktajlową.",
+        "Jeśli chcesz, dodaj dodatkowy rum overproof na wierzch i zapal go na chwilę przed podaniem."
+        ],
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -366,8 +664,20 @@
         "Id":27,
         "Name":"Amaretto Sour",
         "Description":"Jak w przypadku innych drinków typu sour, głównie chodzi o sposób przygotowania i składniki, takie jak sok z cytryny czy syrop cukrowy, a nie o bazowy alkohol. Najpopularniejszym mocnym sourem jest ten na bazie whisky, natomiast na słabszym alkoholu – Amaretto, na którym się skupimy. Jest to likier migdałowy pochodzący z Włoch. Często dodaje się go do deserów lub kawy ze względu na jego intrygujący smak, dlatego świetnie sprawdza się również w drinku sour.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml amaretto",
+        "25ml soku z cytryny",
+        "10ml syropu cukrowego",
+        "1 białko jajka (opcjonalnie)",
+        "kostki lodu",
+        "skórka z cytryny (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "W shakerze wymieszaj amaretto, sok z cytryny, syrop cukrowy i białko jajka (jeśli używasz).",
+        "Dodaj lód i energicznie wstrząśnij przez około 10-15 sekund.",
+        "Przelej do szklanki typu old fashioned wypełnionej lodem.",
+        "Udekoruj skórką z cytryny."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -380,8 +690,21 @@
         "Id":28,
         "Name":"Clover club",
         "Description":"Powstał na początku XX wieku, a swoją nazwę zawdzięcza elitarnemu klubowi w Filadelfii, gdzie był serwowany. Szybko zyskał sławę w całej Ameryce, a potem na świecie. Jak w przypadku większości drinków sprzed prohibicji, szybko stał się klasykiem. Koktajl ten to kompozycja ziołowego ginu oraz słodkich malin, czyli lekka i przyjemna w odbiorze. Wzbogacony o sok z cytryny i biały, wytrawny wermut, a dla uzyskania lepszej kremowości dodaje się białko jaja kurzego.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml ginu",
+        "25ml soku z malin",
+        "15ml soku z cytryny",
+        "10ml syropu cukrowego",
+        "1 białko jajka",
+        "kostki lodu",
+        "maliny (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "W shakerze wymieszaj gin, sok z malin, sok z cytryny, syrop cukrowy i białko jajka.",
+        "Dodaj lód i wstrząśnij energicznie przez 10-15 sekund.",
+        "Przelej do schłodzonego kieliszka koktajlowego.",
+        "Udekoruj kilkoma malinami."
+        ],
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -394,8 +717,20 @@
         "Id":29,
         "Name":"Americano",
         "Description":"Jak to mówią, najlepiej zamawiać nieskomplikowane drinki, aby barman musiał naprawdę się postarać, by je zepsuć. Do takich koktajli z pewnością należy Americano. Wywodzi się on od innego drinka, Milano-Torino, który jest połączeniem słodkiego wermutu i Campari. Jego „amerykańska” wersja powstała po dodaniu wody gazowanej do tej mieszanki, aby koktajl nie był zbyt mocny. Polecany jest osobom, które lubią zarówno gorzki, jak i słodki smak pomarańczy z odrobiną ziołowego aromatu.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "30ml Campari",
+        "30ml wermutu czerwonego",
+        "woda gazowana",
+        "kostki lodu",
+        "skórka pomarańczowa (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "Wypełnij szklankę kostkami lodu.",
+        "Wlej Campari i wermut czerwony do szklanki.",
+        "Dopełnij wodą gazowaną.",
+        "Delikatnie wymieszaj.",
+        "Udekoruj skórką pomarańczową."
+        ],
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -408,8 +743,23 @@
         "Id":30,
         "Name":"Mai Tai",
         "Description":"Jeden z głównych przedstawicieli drinków Tiki, czyli specyficznych koktajli, które często są bogato zdobione różnymi dodatkami, takimi jak palemki, i podawane w wydrążonych owocach lub ceramicznych kubkach. Z pewnością tak przygotowane drinki zrobią wrażenie na niejednej osobie. Sączenie takiego napoju przypomina raczej maoryski rytuał niż zwykły wypad do baru. Mai Tai łączy ze sobą smak korzenno-migdałowego syropu falernum z rumem i pomarańczowym likierem.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "30ml ciemnego rumu",
+        "30ml jasnego rumu",
+        "15ml likieru pomarańczowego (Triple Sec lub Curaçao)",
+        "15ml syropu orgeat (syrop migdałowy)",
+        "10ml soku z limonki",
+        "kostki lodu",
+        "poczwórny kawałek skórki z limonki (do dekoracji)",
+        "mięta (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "W shakerze wymieszaj ciemny rum, jasny rum, likier pomarańczowy, syrop orgeat i sok z limonki.",
+        "Wstrząśnij dobrze, aby składniki się połączyły.",
+        "Wypełnij szklankę kostkami lodu.",
+        "Wlej zawartość shakera do szklanki.",
+        "Udekoruj skórką limonki i miętą."
+        ],
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -422,8 +772,23 @@
         "Id":31,
         "Name":"Paloma",
         "Description":"Jeśli szukasz letniego orzeźwienia w drinku, meksykańska Paloma z pewnością przypadnie Ci do gustu. Wszystko za sprawą owocowych nut grejpfruta i limonki, które nadają temu koktajlowi wyjątkowy smak. To bezpieczna i „lekka” propozycja, którą trudno byłoby komuś odradzić. Nazwa prawdopodobnie pochodzi od hiszpańskiego słowa „pomelo”, oznaczającego grejpfrut.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml tequili",
+        "100ml soku grejpfrutowego",
+        "10ml soku z limonki",
+        "soda",
+        "kostki lodu",
+        "sól (do obtoczenia brzegów szklanki)",
+        "plastry limonki (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "Obrzeża szklanki zwilż sokiem z limonki, a następnie obtocz w soli.",
+        "Wypełnij szklankę kostkami lodu.",
+        "Wlej tequilę, sok grejpfrutowy i sok z limonki do szklanki.",
+        "Delikatnie wymieszaj.",
+        "Dolej sodę, aby uzyskać pożądaną intensywność.",
+        "Udekoruj plasterkiem limonki."
+        ],
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -436,8 +801,21 @@
         "Id":32,
         "Name":"Penicylina",
         "Description":"Może i nie działa jak antybiotyk, ale z pewnością pomoże w te gorsze, zimowe dni. Dzięki swoim składnikom umili czas, a nawet dostarczy trochę witaminy C. Jego skład to połączenie klasycznej whisky z nowoczesnym twistem, jakim są miód, cytryna oraz rozgrzewający imbir. Całość w smaku jest dosyć charakterna i łączy słodkie, kwaśne nuty z dymnymi akcentami whisky oraz ostrością i orzeźwieniem imbiru. Jest to koktajl zarówno dla tych, którzy zaczynają swoją przygodę z whisky, jak i dla jej „weteranów”.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "50ml szkockiej whisky",
+        "20ml miodu",
+        "20ml soku z cytryny",
+        "15ml świeżego soku imbirowego",
+        "2-3 krople syropu imbirowego (opcjonalnie)",
+        "kostki lodu",
+        "plastry imbiru (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "W shakerze połącz whisky, miód, sok z cytryny, świeży sok imbirowy i opcjonalnie syrop imbirowy.",
+        "Dodaj lód i energicznie wstrząśnij.",
+        "Przecedź do schłodzonego szklanego kieliszka do koktajli.",
+        "Udekoruj plasterkami świeżego imbiru."
+        ],
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -450,8 +828,18 @@
         "Id":33,
         "Name":"Dry Martini",
         "Description":"Z pewnością jest jednym z najbardziej popularnych drinków na świecie. Każdy kojarzy ten charakterystyczny, stożkowy kieliszek i symboliczną oliwkę w środku. Mimo swojej popularności, pochodzenie tego koktajlu nadal nie jest do końca znane. Co więcej, dawny przepis na ten napój różnił się od współczesnego – zawierał więcej słodkich składników. Dodatkowo, choć nazwa drinka jest związana z producentem wermutu, który dobrze znamy, to pierwotnie nie było go w przepisie. Mimo tych zmian, ta wytrawna mieszanka ginu i wermutu pozostaje nieodłącznym elementem świata barmańskiego.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "60ml ginu",
+        "10ml wytrawnego wermutu",
+        "kostki lodu",
+        "oliwka lub twist z cytryny (do dekoracji)"
+        ],
+        "PrepInstruct": [
+        "Do szklanki typu mixing glass wlej gin i wermut.",
+        "Napełnij szklankę lodem i wymieszaj przez około 30 sekund.",
+        "Przecedź do schłodzonego kieliszka do martini.",
+        "Udekoruj oliwką lub twistem z cytryny."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -464,8 +852,19 @@
         "Id":34,
         "Name":"Espresso Martini",
         "Description":"Kolejna pozycja dla smakoszy kawy. Wykwintna i nieco mocniejsza niż większość popularnych koktajli. Stworzony do powolnego rozkoszowania się i pobudzania zmysłów. Pierwszy raz zamówiony w latach 80., kiedy pewna klientka poprosiła o coś, co ją pobudzi. Jak sama nazwa wskazuje, koktajl ten to mieszanka wódki, espresso oraz kawowego likieru Kahlúa, który dodaje drinkowi słodyczy. Warto mieć tę pozycję na uwadze, gdy na imprezie zaczniecie czuć się zmęczeni.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "40ml wódki",
+        "20ml likieru kawowego (np. Kahlúa)",
+        "30ml świeżo zaparzonego espresso",
+        "kostki lodu",
+        "ziarna kawy do dekoracji"
+        ],
+        "PrepInstruct": [
+        "Do shakera wlej wódkę, likier kawowy i świeżo zaparzone espresso.",
+        "Napełnij shaker lodem i energicznie wstrząśnij przez około 15-20 sekund.",
+        "Przecedź do schłodzonego kieliszka do martini.",
+        "Udekoruj kilkoma ziarnami kawy."
+        ],
         "Strength":[3,"20,5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -478,8 +877,21 @@
         "Id":35,
         "Name":"French 75",
         "Description":"Koktajl, który łączy uwielbiany na całym świecie gin z francuskim szampanem. Jego smak to mieszanka ziołowego aromatu i kwaśności cytryny, przez co jest bardzo orzeźwiający. Powstanie koktajlu datuje się na czasy I wojny światowej, a mówiło się o nim tak: „Kombinacja ta ma tak dużą siłę rażenia, że odczuwa się to jak ostrzał z potężnego francuskiego działa polowego kalibru 75 mm”.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "30ml ginu",
+        "15ml soku z cytryny",
+        "10ml syropu cukrowego",
+        "szampan lub wino musujące",
+        "kostki lodu",
+        "skórka cytrynowa do dekoracji"
+        ],
+        "PrepInstruct": [
+        "W shakerze wymieszaj gin, sok z cytryny i syrop cukrowy.",
+        "Napełnij shaker lodem i energicznie wstrząśnij.",
+        "Przecedź do schłodzonego kieliszka do szampana.",
+        "Dopełnij szampanem lub winem musującym.",
+        "Udekoruj skórką cytrynową."
+        ],
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -492,8 +904,20 @@
         "Id":36,
         "Name":"Pina colada",
         "Description":"„Egzotyczne wakacje w szklance”. To idealny opis tego pysznego, przepełnionego karaibskim smakiem koktajlu. Jego tropikalny charakter i wyjątkowość sprawiają, że cieszy się niesłabnącą popularnością wśród miłośników ananasa i kokosa. Do dziś nie wiadomo dokładnie, kto stworzył tę recepturę, jednak przyjmuje się, że pochodzi ona z Portoryko.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "PrepIngred": [
+        "45ml rumu białego",
+        "30ml kremu kokosowego",
+        "90ml soku ananasowego",
+        "kostki lodu",
+        "plasterek ananasa do dekoracji",
+        "czereśnia koktajlowa do dekoracji"
+        ],
+        "PrepInstruct": [
+        "W blenderze połącz rum, krem kokosowy, sok ananasowy i kostki lodu.",
+        "Zmiksuj wszystkie składniki na gładką masę.",
+        "Przelej do szklanki typu hurricane.",
+        "Udekoruj plasterkiem ananasa i czereśnią koktajlową."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],

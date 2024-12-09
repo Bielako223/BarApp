@@ -2,9 +2,20 @@
     {
         "Id":1,
         "Name":"Cuba Libre",
-        "Description": "\"Free Cuba.\" A simple and sweet drink, often referred to simply as \"rum and cola.\" Its history dates back to the late 19th century, originating during the Spanish-American War for Cuban independence and the battle for influence over the territory. The drink combines symbolic ingredients from each side, American cola and Cuban rum, all enhanced by the tartness of lime.",
-        "PrepIngred":["zse1","zse2"],
-        "PrepInstruct":["zse1","zse2"],
+        "Description": "\"Free Cuba\".The Cuba Libre is a simple yet refreshing cocktail, often referred to as \"rum and coke.\" Its origins trace back to the late 19th century, during the Spanish-American War and Cuba's fight for independence. The drink became a symbolic union of two powerful forces—American Coca-Cola and Cuban rum, perfectly complemented by the tang of lime. This cocktail is often associated with the call for Cuba's freedom, and its straightforward yet satisfying combination of flavors makes it a timeless classic, especially popular in warmer weather or as a casual, easy drink for any occasion.",
+        "PrepIngred": [
+            "45ml white rum",
+            "120ml cola",
+            "Juice of half a lime",
+            "Ice cubes",
+            "Lime wedge for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice cubes.",
+            "Add the rum and lime juice.",
+            "Top with cola and stir gently.",
+            "Garnish with a lime wedge."
+        ],
         "Strength":[2,"13-18%"],
         "Taste": [1],
         "Alcohol": [2],
@@ -16,10 +27,19 @@
     {
         "Id":2,
         "Name":"White Russian",
-        "Description": "Creamy with a blend of sweetness and the aroma of coffee liqueur balanced by vodka’s strong character. The White Russian evolved from the Black Russian, simply by adding cream. Despite its name, it’s not Russian, but named for its vodka content, commonly associated with Russia.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
-        "Strength":[3,"25%"],
+        "Description": "The creaminess of heavy cream, the sweetness and aroma of coffee liqueur, and the bold flavor of vodka—all come together in the White Russian. This cocktail was created as a variation of another drink, the Black Russian, with the frequent addition of cream. Interestingly, the White Russian doesn't originate from Russia; its name simply references the country due to vodka, a beverage famously associated with Russian culture.",
+        "PrepIngred": [
+            "50ml vodka",
+            "25ml coffee liqueur",
+            "25ml heavy cream",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Pour in the vodka and coffee liqueur.",
+            "Top with cream and stir gently."
+        ],
+        "Strength":[3," 25%"],
         "Taste": [1],
         "Alcohol": [1,3],
         "Ingredients": [3],
@@ -30,9 +50,17 @@
     {
         "Id":3,
         "Name":"Black Russian",
-        "Description": "Ideal for coffee lovers and fans of simplicity. It’s strong and straightforward, combining vodka and the Mexican coffee liqueur Kahlúa. This minimal-ingredient drink is often modified; the most popular version, White Russian, simply adds cream to the mix.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Perfect Choice for Coffee Lovers or Fans of Simplicity. The Black Russian is strong and straightforward, with an easy preparation process. It combines vodka with the Mexican coffee liqueur Kahlúa. Due to its minimal ingredients, this cocktail is often modified, with the most popular variation being the White Russian, created by frequently adding cream to the original recipe.",
+        "PrepIngred": [
+            "50ml vodka",
+            "25ml coffee liqueur",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Pour in the vodka and coffee liqueur.",
+            "Stir gently."
+        ],
         "Strength":[3,"32%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -44,9 +72,21 @@
     {
         "Id":4,
         "Name":"Mojito",
-        "Description": "Created with warm summer nights in mind, the word \"refreshing\" barely captures its taste. This drink, easier to make than to pronounce, was born in Cuba in the 1980s, and since then, almost everyone has heard of it.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Cocktail Made for Warm Summer Evenings. The word \"refreshing\" hardly does justice to its exceptional flavor. With Mojito, it’s easier to make than to pronounce the name correctly. Created in the 1980s in Cuba, this cocktail has since become nearly impossible to overlook, with its fame spreading far and wide.",
+        "PrepIngred": [
+            "50ml white rum",
+            "1 lime (cut into wedges)",
+            "10-12 mint leaves",
+            "2 teaspoons sugar",
+            "Soda water",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Muddle the lime wedges, mint leaves, and sugar in a glass.",
+            "Fill the glass with ice.",
+            "Pour in the rum and top with soda water.",
+            "Stir well and garnish with a mint sprig."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
@@ -58,9 +98,20 @@
     {
         "Id":5,
         "Name":"Cosmopolitan",
-        "Description": "Dubbed a \"synonym for femininity,\" this classic drink combines sweetness with a fruity flavor in a light cocktail. Popularized by the series \"Sex and the City,\" its origins trace back to the 1930s. This cocktail has undoubtedly accompanied many interesting conversations and juicy gossip.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Often Called a “Synonym for Femininity”. This classic cocktail blends sweet and fruity flavors while remaining light and refreshing. Its popularity skyrocketed thanks to the series Sex and the City, but the first mentions of the Cosmopolitan and its recipes date back to the 1930s. Undoubtedly, this drink has been a witness to countless secrets and has accompanied many intriguing conversations.",
+        "PrepIngred": [
+            "45ml vodka",
+            "15ml Cointreau or triple sec",
+            "15ml lime juice",
+            "30ml cranberry juice",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a cocktail shaker with ice.",
+            "Add the vodka, Cointreau, lime juice, and cranberry juice.",
+            "Shake well and strain into a chilled martini glass.",
+            "Garnish with a lime twist or zest."
+        ],
         "Strength":[3,"27%"],
         "Taste": [1,5],
         "Alcohol": [1,4],
@@ -72,9 +123,19 @@
     {
         "Id":6,
         "Name":"Negroni",
-        "Description": "A true classic, often hailed as the \"king of aperitifs.\" It’s relatively strong and dry, stimulating the appetite. Its first appearance was likely in a Florence café in 1919 at the request of Count Camillo Negroni. According to \"Drinks International\" magazine, it’s the second most-ordered cocktail worldwide.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Classic of Classics. Known worldwide and often regarded as the \"king of aperitifs,\" the Negroni is bold, dry, and perfectly stimulates the appetite. The first serving of this cocktail likely took place in a café in Florence in 1919, at the request of Count Camillo Negroni himself. According to Drinks International, it is the second most ordered cocktail in the world.",
+        "PrepIngred": [
+            "30ml gin",
+            "30ml Campari",
+            "30ml sweet vermouth",
+            "Ice cubes",
+            "Orange slice for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Pour in the gin, Campari, and sweet vermouth.",
+            "Stir gently and garnish with an orange slice."
+        ],
         "Strength":[3,"24%"],
         "Taste": [1,2],
         "Alcohol": [5,6,7],
@@ -86,9 +147,20 @@
     {
         "Id":7,
         "Name":"Sex On The Beach",
-        "Description": "Known for sparking lively conversations, this cocktail has remained popular since the 1980s, especially in the U.S., where it’s celebrated annually on National Vodka Day, October 4th. It’s a favorite for those who enjoy lighter, fruity drinks, combining flavors of peach, orange, and cranberry.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "As we know, alcohol often sparks spicier conversations, which is why this drink is memorable not just for its name. Its popularity has been steady since the 1980s, and there’s no sign of it waning. In the U.S., Sex on the Beach has a devoted fan base, with many enjoying it every year on National Vodka Day, October 4th. This cocktail is especially favored by those who enjoy lighter, fruity, and summery drinks, combining notes of peach, orange, and cranberry for a refreshing taste.",
+        "PrepIngred": [
+            "40ml vodka",
+            "20ml peach schnapps",
+            "40ml cranberry juice",
+            "40ml orange juice",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the vodka, peach schnapps, cranberry juice, and orange juice.",
+            "Shake well and strain into a highball glass filled with ice.",
+            "Garnish with an orange slice or cherry."
+        ],
         "Strength":[2,"11.5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
@@ -100,9 +172,20 @@
     {
         "Id":8,
         "Name":"Aperol Spritz",
-        "Description": "The iconic cocktail of Southern Europe, capturing hearts worldwide. Created in the 1950s, it offers a dry and incredibly refreshing taste, perfect for summer. It’s a mix of prosecco and the famous Italian aperitif, Aperol, topped with sparkling water.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Signature Cocktail of Southern Europe. This iconic drink wins hearts across the globe. Originating in the 1950s, it delivers a dry, exceptionally refreshing flavor—perfect for summer days. It's a blend of prosecco and the renowned Italian aperitif Aperol, completed with a splash of sparkling water.",
+        "PrepIngred": [
+            "90ml Prosecco",
+            "60ml Aperol",
+            "Splash of soda water",
+            "Ice cubes",
+            "Orange slice for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a wine glass with ice.",
+            "Pour in the Prosecco and Aperol.",
+            "Add a splash of soda water.",
+            "Stir gently and garnish with an orange slice."
+        ],
         "Strength":[2,"11%"],
         "Taste": [2,6],
         "Alcohol": [9,10],
@@ -114,9 +197,21 @@
     {
         "Id":9,
         "Name":"Tom Collins",
-        "Description": "A cocktail with over 100 years of tradition, originating in 1867 in the United States, where Jerry Thomas featured it in his \"Bartender’s Guide.\" A gin-based drink, it’s exceptionally refreshing, combining citrusy sweetness and bubbles. Suitable for both cocktail veterans and newcomers.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Cocktail with Over 100 Years of Tradition. Created in 1867 in the United States, the Tom Collins was first featured in Jerry Thomas's Bartender’s Guide. As a gin-based drink, it is incredibly refreshing, with its sparkling bubbles perfectly complementing the sweet-and-sour citrus notes. This timeless cocktail is an excellent choice for both cocktail veterans and newcomers to the world of bartending.",
+        "PrepIngred": [
+            "50ml gin",
+            "25ml lemon juice",
+            "15ml simple syrup",
+            "Soda water",
+            "Ice cubes",
+            "Lemon slice for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a tall glass with ice.",
+            "Add the gin, lemon juice, and simple syrup.",
+            "Top with soda water and stir.",
+            "Garnish with a lemon slice."
+        ],
         "Strength":[2,"15.5%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -128,9 +223,20 @@
     {
         "Id":10,
         "Name":"Moscow Mule",
-        "Description": "When you have too much of one ingredient, turn it into a drink! That’s the story of the Moscow Mule, which actually has little to do with the Russian capital. Created in 1941 in the U.S., when a bar needed to use up a surplus of ginger beer. This sweet cocktail is best served in a copper mug over ice for the perfect chill.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "When You Have Extra Ingredients, Make a Cocktail! This is precisely the origin of the Moscow Mule, a drink with little connection to the European capital but much closer ties to America. In 1941, a bar in the U.S. needed a way to use up an excess supply of ginger beer—and thus, this iconic cocktail was born. Best enjoyed in a copper mug filled with ice, it’s the perfect blend of sweetness and refreshment, served ice-cold.",
+        "PrepIngred": [
+            "50ml vodka",
+            "100ml ginger beer",
+            "10ml lime juice",
+            "Ice cubes",
+            "Lime wedge for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a mule mug with ice.",
+            "Add the vodka and lime juice.",
+            "Top with ginger beer.",
+            "Stir gently and garnish with a lime wedge."
+        ],
         "Strength":[2,"11%"],
         "Taste": [1],
         "Alcohol": [1],
@@ -142,9 +248,17 @@
     {
         "Id":11,
         "Name":"Jagerbomb",
-        "Description": "As the name suggests, it’s an explosive blend! This cocktail combines German herbal liqueur with an energy drink, delivering a surge of energy for the evening. The unique serving method involves dropping a shot of Jägermeister into a glass of energy drink, best done with a loud clink. Sweet with intense herbal notes.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "An Explosive Mix. As the name suggests, this is an explosive combination! The mix of German herbal liqueur and an energy drink will definitely keep you energized for the evening—and maybe even longer. This cocktail should be approached with caution. The classic way to serve a Jägerbomb is by dropping a shot of Jägermeister into a glass filled with energy drink, ideally with a satisfying splash. The taste is very sweet, with distinct spicy, herbal notes.",
+        "PrepIngred": [
+            "25ml Jägermeister",
+            "1/2 cup energy drink",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Pour the energy drink into a glass.",
+            "Fill a shot glass with Jägermeister.",
+            "Drop the shot glass into the energy drink and drink immediately."
+        ],
         "Strength":[1,"8%"],
         "Taste": [1],
         "Alcohol": [12],
@@ -156,9 +270,20 @@
     {
         "Id":12,
         "Name":"Tequila Sunrise",
-        "Description": "A cocktail for those dreaming of lounging on a sandy beach at sunset. With its sweet, fruity taste, it’s a summer favorite and visually stunning. Reversing the preparation process creates a new variation: the Tequila Sunset.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Many of us have dreamt of lounging on a sandy beach while enjoying a picturesque sunset. This cocktail is made for those moments! You don't always need to leave home or your hometown to experience beautiful moments. The Tequila Sunrise is sweet and fruity, making it the perfect drink for summer, and it’s visually striking as well. If you reverse the preparation process, you get a new drink—Tequila Sunset.",
+        "PrepIngred": [
+            "50ml tequila",
+            "100ml orange juice",
+            "10ml grenadine",
+            "Ice cubes",
+            "Orange slice for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Pour in the tequila and orange juice.",
+            "Slowly add grenadine to create a sunrise effect.",
+            "Garnish with an orange slice."
+        ],
         "Strength":[2,"13.5%"],
         "Taste": [1],
         "Alcohol": [13],
@@ -170,9 +295,24 @@
     {
         "Id":13,
         "Name":"Long Island Iced Tea",
-        "Description": "Handle with caution! This cocktail combines several strong spirits, such as gin and rum, with a splash of cola for color. Originating from Long Island, USA, some say it dates back to Prohibition, when cola masked its alcohol content. Today, no disguise is needed, but the potency remains a cause for caution.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Drink to Be Cautious With! This cocktail combines several potent spirits, including gin, rum, and tequila, topped off with a splash of cola for color. As the name suggests, it hails from Long Island, New York. According to some stories, it was created during Prohibition, with the cola serving to mask the alcohol’s presence. Today, there's no need to hide anything, but this drink still requires caution due to its strong kick.",
+        "PrepIngred": [
+            "20ml vodka",
+            "20ml gin",
+            "20ml rum",
+            "20ml tequila",
+            "20ml triple sec",
+            "20ml lemon juice",
+            "10ml simple syrup",
+            "Splash of cola",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a tall glass with ice.",
+            "Add the vodka, gin, rum, tequila, triple sec, lemon juice, and simple syrup.",
+            "Top with a splash of cola.",
+            "Stir gently and garnish with a lemon slice."
+        ],
         "Strength":[3,"22%"],
         "Taste": [1,3],
         "Alcohol": [1,5,2,13,14],
@@ -184,9 +324,24 @@
     {
         "Id":14,
         "Name":"Bloody Mary",
-        "Description": "A drink you either love or hate. Its combination of alcohol and tomato juice is polarizing, with countless variations that alter both the base alcohol and the seasonings. Its taste is as controversial as it is personal, but one thing is certain: it’s perfect for those “morning after” recovery days.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Cocktail You Either Love or Hate. The Bloody Mary is a drink that stirs controversy worldwide, primarily due to its unusual combination of alcohol and tomato juice. There are countless variations of this cocktail, with changes not only in the base alcohol but also in the sauces and garnishes. Preparing a Bloody Mary is somewhat like making a bowl of Polish \"pomidorówka\" (tomato soup)—you experiment with spices to achieve the perfect flavor. Though opinions about this cocktail are divided, one thing is certain: it's the ideal choice when you’re still feeling a bit \"morning after.\"",
+        "PrepIngred": [
+            "50ml vodka",
+            "150ml tomato juice",
+            "1 tablespoon lemon juice",
+            "Dash of Worcestershire sauce",
+            "Dash of hot sauce",
+            "Pinch of salt",
+            "Pinch of pepper",
+            "Ice cubes",
+            "Celery stalk for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add vodka, tomato juice, lemon juice, Worcestershire sauce, hot sauce, salt, and pepper.",
+            "Shake gently and strain into a glass with ice.",
+            "Garnish with a celery stalk."
+        ],
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
@@ -198,9 +353,20 @@
     {
         "Id":15,
         "Name":"Dirty Martini",
-        "Description": "One of many variations on the classic dry martini, a cocktail renowned for its simple yet versatile composition. The Dirty Martini is for those who think one small olive isn’t enough and prefer to \"season\" the drink with a splash of olive brine. This addition gives the cocktail depth, smoothness, and an intriguing new layer of flavor. While still a dry drink, it is enriched with distinctive salty notes, making it perfect for those open to exploring bold and unique tastes. It's best enjoyed as a summer drink, though one with character and complexity.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Dirty Martini is a variation of the iconic Dry Martini, one of the most famous cocktails in the world. While the original Martini is known for its simplicity, the \"dirty\" version adds a twist for those who feel that a single olive is not enough. By incorporating olive brine into the mix, this cocktail gains a deeper, smoother flavor, enhancing the already dry and crisp notes of the gin or vodka base. The result is a unique, savory experience that's perfect for those open to new and bold flavors. While typically enjoyed on summer evenings, the Dirty Martini is a drink that packs a punch and invites a more adventurous, flavorful drinking experience.",
+        "PrepIngred": [
+            "60ml vodka",
+            "10ml dry vermouth",
+            "15ml olive brine",
+            "Ice cubes",
+            "Olive for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the vodka, dry vermouth, and olive brine.",
+            "Shake well and strain into a chilled martini glass.",
+            "Garnish with an olive."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -212,9 +378,21 @@
     {
         "Id":16,
         "Name":"Pornstar Martini",
-        "Description": "Sometimes controversy is necessary for attention, a sentiment embodied by this cocktail. Despite the name, it’s not a true martini. Created 20 years ago, this distinct recipe combines passion fruit, vodka, and vanilla, resulting in a unique flavor. A shot of champagne is served alongside, sipped separately from the cocktail.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Sometimes, controversy is the key to getting noticed, and this over 20-year-old cocktail perfectly embodies that idea. However, as the creator himself claims, the provocative name wasn’t intentional—it was meant to emphasize style and elegance. Interestingly, despite its name, this drink is not classified as a martini. Its unique recipe combines passion fruit, vodka, and vanilla, creating a truly intriguing flavor. A glass of champagne is served alongside the cocktail, and according to the recipe, both drinks should be enjoyed separately!",
+        "PrepIngred": [
+            "50ml vanilla vodka",
+            "30ml passion fruit purée",
+            "15ml lime juice",
+            "10ml simple syrup",
+            "Champagne on the side",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the vanilla vodka, passion fruit purée, lime juice, and simple syrup.",
+            "Shake well and strain into a chilled martini glass.",
+            "Serve with a shot of champagne on the side."
+        ],
         "Strength":[2,"13.5%"],
         "Taste": [1,5],
         "Alcohol": [16,17],
@@ -226,9 +404,19 @@
     {
         "Id":17,
         "Name":"Old Fashioned",
-        "Description": "Truly deserving of its \"old-fashioned\" label, this cocktail boasts over 200 years of history. Its preparation has seen endless debates among bartenders, each with their unique take. Loved by millions, it’s a favorite among whiskey and bourbon aficionados who appreciate its dry, potent flavor.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "This cocktail truly earns its title of \"old-fashioned,\" with a history spanning more than 200 years. Over the decades, debates about the proper way to prepare it have never ceased. For every bartender, there's a different version or variation. However, one thing has remained constant: the Old Fashioned is a beloved classic, particularly among whisky and bourbon aficionados who appreciate its dry, bold flavor and strength.",
+        "PrepIngred": [
+            "50ml bourbon",
+            "1 sugar cube",
+            "2 dashes Angostura bitters",
+            "Ice cubes",
+            "Orange peel for garnish"
+        ],
+        "PrepInstruct": [
+            "Muddle the sugar cube and bitters in a glass.",
+            "Add ice cubes and bourbon.",
+            "Stir gently and garnish with orange peel."
+        ],
         "Strength":[3,"32%"],
         "Taste": [2],
         "Alcohol": [18],
@@ -240,9 +428,20 @@
     {
         "Id":18,
         "Name":"Whisky Sour",
-        "Description": "This cocktail’s focus is more on the process than the alcohol. With a foundation of lemon juice and sugar syrup, it’s a sweet and sour balance. Egg whites are often added for a creamy texture, topped with a dash of Angostura for extra depth.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Whisky Sour is a drink where the process of preparation is just as important as the alcohol itself. It's akin to a philosophy that requires following specific, pre-determined paths and rules. While it can be made with various spirits—both strong and light—the whisky version remains by far the most popular. The secret ingredients in this cocktail are lemon juice and simple syrup, which create a perfect sweet-and-sour balance. Often, egg white is added to achieve a rich foam and creamy texture. Finally, a dash of Angostura bitters is recommended to complete the drink.",
+        "PrepIngred": [
+            "50ml whiskey",
+            "25ml lemon juice",
+            "15ml simple syrup",
+            "Ice cubes",
+            "Maraschino cherry for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add whiskey, lemon juice, and simple syrup.",
+            "Shake well and strain into a glass.",
+            "Garnish with a maraschino cherry."
+        ],
         "Strength":[2,"15%"],
         "Taste": [3],
         "Alcohol": [19],
@@ -254,9 +453,20 @@
     {
         "Id":19,
         "Name":"Margarita",
-        "Description": "One of the most recognizable summer cocktails, blending four primary flavors. The Margarita originates from Mexico, not to be confused with Italy’s Naples. Although seemingly unassuming, its tequila base makes it deceptively strong.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "One of the most recognizable summer drinks, the Margarita combines four key flavors. This iconic cocktail hails from Mexico, not the Italian Naples, as it is often mistakenly thought to. At first glance, the Margarita may seem harmless, but it’s one of those deceptively strong drinks, primarily because it’s made with tequila. So, it's wise to keep track of how many you're having while sipping this sweet-and-sour cocktail on a beautiful beach, unless you want to \"drop out\" too soon.",
+        "PrepIngred": [
+            "50ml tequila",
+            "25ml lime juice",
+            "15ml triple sec",
+            "Salt for rimming the glass",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Rim the glass with salt.",
+            "Fill a shaker with ice.",
+            "Add the tequila, lime juice, and triple sec.",
+            "Shake well and strain into the prepared glass."
+        ],
         "Strength":[3,"33%"],
         "Taste": [1],
         "Alcohol": [4,13],
@@ -268,9 +478,18 @@
     {
         "Id":20,
         "Name":"Caipirinha",
-        "Description": "Brazil’s national cocktail, made with their traditional spirit, cachaça. Similar to rum, cachaça uses fresh sugarcane juice instead of molasses. This floral-flavored cocktail distinguishes it from the classic daiquiri, though their preparation and taste are similar.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Caipirinha is Brazil's national cocktail, made with their local spirit, cachaça. While similar to rum, cachaça is made from fresh sugarcane juice rather than molasses, giving the drink a more floral flavor. This distinction sets it apart from the classic daiquiri, which is made with rum. Aside from this, the taste and preparation of both cocktails are virtually identical.",
+        "PrepIngred": [
+            "50ml cachaça",
+            "1 lime (cut into wedges)",
+            "2 teaspoons sugar",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Muddle the lime wedges and sugar in a glass.",
+            "Fill the glass with ice.",
+            "Add the cachaça and stir."
+        ],
         "Strength":[3,"30%"],
         "Taste": [3,6],
         "Alcohol": [20],
@@ -282,9 +501,20 @@
     {
         "Id":21,
         "Name":"Vesper Martini",
-        "Description": "\"Shaken, not stirred.\" Surely no one needs an introduction to the person behind these famous words. The Vesper is a special variation of the martini, created by Ian Fleming, author of Casino Royale, where the exact recipe for the drink is described. Unlike the classic martini, the Vesper includes vodka and is shaken rather than stirred. Alongside vodka, you’ll find gin and Lillet Blanc vermouth in this cocktail. Whenever a new James Bond film is released, this drink becomes one of the most ordered items at bars worldwide. It has become something of a ritual: after a successful screening, fans head to the bar to channel their favorite agent.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Vesper Martini is a special variation of the classic martini, made famous by none other than Ian Fleming, the creator of James Bond. In his 1953 novel Casino Royale, Fleming introduced this unique cocktail with a detailed recipe, and it became forever linked to the iconic spy. What sets the Vesper apart from the traditional martini is its use of vodka in addition to gin, and the fact that it is shaken rather than stirred, as famously instructed by Bond in the line \"Shaken, not stirred.\"The drink combines gin, vodka, and Lillet Blanc vermouth, resulting in a slightly smoother, yet potent mix compared to the classic martini. Every time a new James Bond film is released, the Vesper Martini often sees a surge in popularity, becoming a must-have order in bars worldwide. It’s become a kind of ritual—after watching Bond in action, fans head to the bar to channel their inner 007 with this distinctive, elegant cocktail.",
+        "PrepIngred": [
+            "60ml gin",
+            "20ml vodka",
+            "10ml Lillet Blanc",
+            "Ice cubes",
+            "Lemon peel for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the gin, vodka, and Lillet Blanc.",
+            "Shake well and strain into a chilled martini glass.",
+            "Garnish with a lemon peel."
+        ],
         "Strength":[3,"31%"],
         "Taste": [6],
         "Alcohol": [1,5],
@@ -296,9 +526,20 @@
     {
         "Id":22,
         "Name":"Manhattan",
-        "Description": "Style and elegance best describe this classic cocktail with a dry, sophisticated flavor that’s captivated fans for over a century. One story suggests it was created at a party at the Manhattan Club in 1874, hosted by Winston Churchill's American mother, Jennie Churchill. The drink’s creator remains unknown, leaving bourbon and sweet vermouth fans intrigued.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Style and Elegance.This classic cocktail exudes sophistication, with its dry and refined flavor captivating enthusiasts for over a century. According to one of many origin stories, the drink was created during a party at the Manhattan Club in 1874, hosted by Winston Churchill's American mother, Jennie Churchill. The creator of the cocktail, however, remains unknown—a pity, as many fans of bourbon and sweet vermouth would surely love to meet the mastermind behind this timeless concoction.",
+        "PrepIngred": [
+            "50ml rye whiskey",
+            "25ml sweet vermouth",
+            "2 dashes Angostura bitters",
+            "Ice cubes",
+            "Maraschino cherry for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a mixing glass with ice.",
+            "Add the rye whiskey, sweet vermouth, and bitters.",
+            "Stir gently and strain into a chilled glass.",
+            "Garnish with a maraschino cherry."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [18,22],
@@ -310,9 +551,18 @@
     {
         "Id":23,
         "Name":"Daiquiri",
-        "Description": "A quintessential classic, simple yet impactful. Despite its few ingredients, the quality is key. This Caribbean blend features lime’s acidity with sugarcane rum, encouraging slow savoring, especially on a beach.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Classic of Classics. The Daiquiri is perhaps the simplest rum-based cocktail, but don't be fooled by its simplicity. Despite its minimalistic ingredients, it contains everything that's needed for the perfect drink. It's a true Caribbean mix, as all the ingredients hail from the region. The Daiquiri belongs to the category of cocktails where quality, not quantity, matters most. It combines the acidity of lime with the sugary taste of rum, yet it remains open to experimentation. Its alcohol content suggests it's more for leisurely sipping, ideally on a beach, than for a quick party drink.",
+        "PrepIngred": [
+            "50ml white rum",
+            "25ml lime juice",
+            "15ml simple syrup",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the rum, lime juice, and simple syrup.",
+            "Shake well and strain into a chilled glass."
+        ],
         "Strength":[3,"20-25%"],
         "Taste": [3],
         "Alcohol": [2],
@@ -323,24 +573,45 @@
     },
     {
         "Id":24,
-        "Name":"Pina Colada",
-        "Description": "\"Exotic vacation in a glass.\" The perfect description for this delicious Caribbean-flavored cocktail. Its tropical taste and unique flavor have sustained its popularity with those who love the flavors of pineapple and coconut. While its creator is unknown, it’s generally accepted that it originated in Puerto Rico.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
-        "Strength":[2,"13%"],
-        "Taste": [5,1],
-        "Alcohol": [21,2],
-        "Ingredients": [25,26],
+        "Name":"Basil Smash",
+        "Description":"The Basil Smash is undoubtedly one of the more intriguing cocktails on the bar menu. It's rare to find a drink that incorporates basil, which was traditionally reserved for the culinary world. However, in 2008, basil made its debut in the world of cocktails, thanks to Jörg Meyer, who created the Basil Smash recipe. The herbal mix of gin and basil makes this cocktail incredibly refreshing—perfect for sipping in nature. The sweet-and-sour lemon balances the drink, completing its unique flavor profile.",
+        "PrepIngred": [
+            "50ml gin",
+            "10-12 basil leaves",
+            "25ml lemon juice",
+            "15ml simple syrup",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Muddle the basil leaves in a shaker.",
+            "Add the gin, lemon juice, simple syrup, and ice.",
+            "Shake well and strain into a glass filled with ice."
+        ],
+        "Strength":[3,"21,5%"],
+        "Taste": [6],
+        "Alcohol": [5],
+        "Ingredients": [10,14,25],
         "Points": 0,
-        "PointsMax":12,
+        "PointsMax":10,
         "Img":"image24"
     },
     {
         "Id":25,
         "Name":"Dark ’n’ Stormy",
-        "Description": "Not a cocktail for experimentation, as it’s protected by trademark. The original mix, crafted during WWI, combines local rum and ginger beer with a twist of lime. This drink has a stormy yet sweet flavor that doesn’t pack too much of a punch.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Dark ‘n’ Stormy is a drink that should not be tampered with. As one of the few cocktails protected by an official trademark, any deviation from the original recipe while still using its name is not in accordance with the guidelines set by the Gosling family, the owners of the trademark. The cocktail originated during World War I when local rum was mixed with ginger beer. The combination of ginger and lime gives it a refreshing, sweet flavor that blends perfectly with the slightly bitter rum. While it may not be the strongest drink, it's definitely a storm in a glass.",
+        "PrepIngred": [
+            "50ml dark rum",
+            "100ml ginger beer",
+            "10ml lime juice",
+            "Ice cubes",
+            "Lime wedge for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Add the dark rum and lime juice.",
+            "Top with ginger beer and stir gently.",
+            "Garnish with a lime wedge."
+        ],
         "Strength":[2,"10%"],
         "Taste": [1,6],
         "Alcohol": [25],
@@ -352,9 +623,22 @@
     {
         "Id":26,
         "Name":"Zombie",
-        "Description": "Said to make you feel like a zombie the next morning if overindulged. This blend of three types of rum and two liqueurs is expertly masked by pineapple, lime, and orange juices, making it hard to gauge intake. Perfect for thrill-seekers willing to dedicate the next day to recovery.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Some say that if you drink too much of a Zombie, you'll end up feeling like a zombie the next morning. It's hard to disagree, as this cocktail is easy to overindulge in, mainly because it's both delicious and deceptively smooth. The Zombie combines three types of rum and two liqueurs, and as we know, mixing alcohol is never a good idea for the day after. The entire drink is well-masked by tropical fruit juices: pineapple, lime, and orange making it hard to gauge how much you've actually consumed. This is definitely a drink for those seeking a thrill and who don't mind spending the next day \"recovering.\"",
+        "PrepIngred": [
+            "45ml light rum",
+            "45ml dark rum",
+            "25ml apricot brandy",
+            "25ml lime juice",
+            "25ml orange juice",
+            "10ml grenadine",
+            "1 dash Angostura bitters",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the light rum, dark rum, apricot brandy, lime juice, orange juice, grenadine, and bitters.",
+            "Shake well and strain into a glass filled with ice."
+        ],
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
@@ -366,9 +650,20 @@
     {
         "Id":27,
         "Name":"Amaretto Sour",
-        "Description": "Like other sour cocktails, the focus is on the ingredients rather than the base spirit. This sweet sour is made with Amaretto, a popular almond liqueur from Italy, often used in desserts and coffee for its intriguing flavor.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "Like other sour-style cocktails, the focus of the Amaretto Sour is more on the preparation and ingredients, such as lemon juice and simple syrup, rather than the base alcohol. While the most popular sour is made with whiskey, this version uses Amaretto, an almond liqueur from Italy, which brings a unique, slightly sweet and nutty flavor to the drink. Amaretto is often added to desserts or coffee due to its intriguing taste, making it a perfect fit for this classic sour cocktail.",
+        "PrepIngred": [
+            "50ml amaretto",
+            "25ml lemon juice",
+            "15ml simple syrup",
+            "Ice cubes",
+            "Maraschino cherry for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the amaretto, lemon juice, and simple syrup.",
+            "Shake well and strain into a glass.",
+            "Garnish with a maraschino cherry."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,3],
         "Alcohol": [18,28],
@@ -380,9 +675,20 @@
     {
         "Id":28,
         "Name":"Clover Club",
-        "Description": "Born in the early 20th century, this cocktail takes its name from an exclusive club in Philadelphia where it was originally served. It quickly gained fame across America and eventually around the world. Like many pre-Prohibition cocktails, it was soon declared a classic. The Clover Club is a delightful combination of herbal gin and sweet raspberries, offering a light and approachable flavor. Enhanced with lemon juice and dry white vermouth, the cocktail gains extra creaminess with the addition of egg white.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Clover Club was created in the early 20th century and owes its name to an exclusive club in Philadelphia, where it was first served. It quickly gained fame across America and later worldwide, becoming a beloved classic, especially before Prohibition. This cocktail blends herbal gin with the sweetness of fresh raspberries, creating a light and enjoyable drink. The addition of lemon juice and dry white vermouth adds complexity, while the egg white contributes a smooth, creamy texture.",
+        "PrepIngred": [
+            "50ml gin",
+            "25ml raspberry syrup",
+            "15ml lemon juice",
+            "Ice cubes",
+            "Raspberry for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the gin, raspberry syrup, and lemon juice.",
+            "Shake well and strain into a chilled glass.",
+            "Garnish with a raspberry."
+        ],
         "Strength":[2,"11%"],
         "Taste": [1,5],
         "Alcohol": [5,29],
@@ -394,9 +700,20 @@
     {
         "Id":29,
         "Name":"Americano",
-        "Description": "Simplicity at its finest. The Americano evolved from the Milano-Torino, a mix of sweet vermouth and Campari, with soda added to lighten the flavor. It’s perfect for those who enjoy both the sweet and bitter notes of orange and herbal undertones.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "As the saying goes, it's best to order simple drinks, so the bartender really has to work hard to mess them up. The Americano is definitely one of those cocktails. It originates from another drink, the Milano-Torino, which combines sweet vermouth and Campari. The \"American\" version was created by adding soda water to this mix, making it a bit lighter. It's recommended for those who enjoy both the bitter and sweet notes of orange, complemented by a touch of herbal aroma.",
+        "PrepIngred": [
+            "30ml Campari",
+            "30ml sweet vermouth",
+            "Soda water",
+            "Ice cubes",
+            "Orange slice for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a glass with ice.",
+            "Add the Campari and sweet vermouth.",
+            "Top with soda water and stir.",
+            "Garnish with an orange slice."
+        ],
         "Strength":[2,"10%"],
         "Taste": [1,2],
         "Alcohol": [7,22],
@@ -408,9 +725,20 @@
     {
         "Id":30,
         "Name":"Mai Tai",
-        "Description": "A staple of Tiki-style cocktails, often served in elaborately decorated vessels or hollowed fruits. Sipping this cocktail feels more like a ritual than a casual outing. Mai Tai combines the spiced, nutty flavors of falernum syrup with rum and orange liqueur.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Mai Tai is one of the main representatives of Tiki drinks, a style known for its elaborate garnishes like little umbrellas and being served in hollowed-out fruits or ceramic mugs. These cocktails, often designed to impress, transform sipping into an experience that feels more like a Māori ritual than a casual visit to the bar. The Mai Tai blends the spicy, almond-flavored falernum syrup with rum and orange liqueur, creating a vibrant and exotic flavor profile.",
+        "PrepIngred": [
+            "30ml white rum",
+            "30ml dark rum",
+            "15ml orange curaçao",
+            "10ml lime juice",
+            "10ml orgeat syrup",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the white rum, dark rum, orange curaçao, lime juice, and orgeat syrup.",
+            "Shake well and strain into a glass filled with ice."
+        ],
         "Strength":[3,"20%"],
         "Taste": [1,5],
         "Alcohol": [30,25,26],
@@ -422,9 +750,22 @@
     {
         "Id":31,
         "Name":"Paloma",
-        "Description": "If you're looking for a refreshing summer drink, the Mexican Paloma will likely be your favorite. It features fruity flavors from grapefruit and lime, making it a light and easy recommendation. Its name likely comes from the Spanish word \"pomelo,\" meaning grapefruit.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "A Perfect Summer Refreshment. If you're looking for a refreshing summer drink, the Mexican Paloma is sure to please. Its unique flavor comes from the fruity notes of grapefruit and lime, making it a light and delightful choice. This cocktail is a safe bet that's hard to resist. The name likely comes from the Spanish word pomelo, meaning grapefruit.",
+        "PrepIngred": [
+            "50ml tequila",
+            "100ml grapefruit soda",
+            "10ml lime juice",
+            "Ice cubes",
+            "Salt for rimming the glass",
+            "Lime wedge for garnish"
+        ],
+        "PrepInstruct": [
+            "Rim the glass with salt.",
+            "Fill the glass with ice.",
+            "Add the tequila and lime juice.",
+            "Top with grapefruit soda and stir gently.",
+            "Garnish with a lime wedge."
+        ],
         "Strength":[2,"11%"],
         "Taste": [3,5],
         "Alcohol": [13],
@@ -436,9 +777,19 @@
     {
         "Id":32,
         "Name":"Penicillin",
-        "Description": "It may not work like an antibiotic, but it will surely help during those cold winter days. With its unique blend of ingredients, it brings comfort and even provides a dose of vitamin C. This cocktail combines classic whisky with a modern twist: honey, lemon, and warming ginger. Its flavor is bold, balancing sweet, sour, and smoky whisky notes with the spiciness and freshness of ginger. It’s a drink that appeals both to beginners exploring whisky and to seasoned aficionados.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "While it may not act as an antibiotic, the Penicylina cocktail is a perfect companion for those colder, winter days. Its combination of classic whisky with a modern twist makes it both soothing and refreshing, providing a dose of vitamin C thanks to its ingredients: honey, lemon, and invigorating ginger. The taste is bold, blending sweet and sour notes with the smoky depth of whisky and the zesty, warming kick of ginger. This drink appeals to both whisky newcomers and seasoned enthusiasts, offering comfort and a little extra warmth for the soul.",
+        "PrepIngred": [
+            "50ml blended Scotch whisky",
+            "20ml honey syrup",
+            "20ml lemon juice",
+            "15ml ginger liqueur",
+            "Ice cubes"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the blended Scotch whisky, honey syrup, lemon juice, and ginger liqueur.",
+            "Shake well and strain into a glass filled with ice."
+        ],
         "Strength":[2,"19%"],
         "Taste": [3,4],
         "Alcohol": [19],
@@ -450,9 +801,19 @@
     {
         "Id":33,
         "Name":"Dry Martini",
-        "Description": "One of the most iconic cocktails in the world. Everyone recognizes the signature cone-shaped glass and the symbolic olive garnish. Despite its popularity, the origins of the Dry Martini remain a mystery. What’s more, the original recipe for this cocktail differed from today’s version, as it included sweeter ingredients. Interestingly, its name is also associated with a well-known vermouth brand, though that wasn’t part of the original mix. Regardless of its history, this dry blend of gin and vermouth has become an essential element of bartending culture.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The Dry Martini is undoubtedly one of the most iconic and widely recognized cocktails in the world. Its signature conical glass and the ever-present olive or twist of lemon peel inside have become symbols of cocktail culture. Despite its fame, the exact origin of the Martini remains shrouded in mystery, with various stories and claims about its invention. Interestingly, the original recipe for this drink was quite different from the modern version, often featuring sweeter ingredients. Moreover, while the name “Martini” is closely associated with a popular vermouth brand, it was not originally part of the cocktail’s recipe.Today, the Dry Martini is made with a blend of gin and dry vermouth, creating a crisp, dry drink that has endured for more than a century as a staple of the bartending world.",
+        "PrepIngred": [
+            "60ml gin",
+            "10ml dry vermouth",
+            "Ice cubes",
+            "Olive for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a mixing glass with ice.",
+            "Add the gin and dry vermouth.",
+            "Stir well and strain into a chilled martini glass.",
+            "Garnish with an olive."
+        ],
         "Strength":[3,"30%"],
         "Taste": [2],
         "Alcohol": [1,15],
@@ -464,9 +825,20 @@
     {
         "Id":34,
         "Name":"Espresso Martini",
-        "Description": "A treat for coffee aficionados, this drink is both sophisticated and strong, created to be savored slowly. First ordered in the 1980s when a customer requested something to “wake them up,” it blends vodka, espresso, and the coffee liqueur Kahlúa.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "For coffee lovers, the Espresso Martini is a sophisticated and slightly stronger option compared to most popular cocktails. Created in the 1980s, it was first ordered by a customer who asked for a drink that would \"wake her up.\" As the name suggests, this cocktail is a blend of vodka, espresso, and Kahlúa, a coffee liqueur that adds a touch of sweetness. It's the perfect choice for those moments when you're starting to feel tired at a party and need an energizing pick-me-up, all wrapped up in a deliciously smooth drink.",
+        "PrepIngred": [
+            "50ml vodka",
+            "30ml espresso coffee",
+            "20ml coffee liqueur",
+            "Ice cubes",
+            "Coffee beans for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the vodka, espresso coffee, and coffee liqueur.",
+            "Shake well and strain into a chilled martini glass.",
+            "Garnish with coffee beans."
+        ],
         "Strength":[3,"20.5%"],
         "Taste": [1],
         "Alcohol": [1,3],
@@ -478,9 +850,21 @@
     {
         "Id":35,
         "Name":"French 75",
-        "Description": "This cocktail combines the world-favorite gin with French champagne. With a blend of herbal and citrus notes, it’s exceptionally refreshing. Created around WWI, it was known for having a kick “as powerful as a French 75mm field gun.”",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "The French 75 is a cocktail that beautifully combines the world-renowned gin with French champagne. Its taste is a refreshing blend of herbal aromas and the tartness of lemon, making it a delightful and crisp drink. The creation of this cocktail dates back to World War I, and it was said to have \"such a powerful impact that it feels like being hit by a shell from a mighty French 75mm field gun.\"",
+        "PrepIngred": [
+            "30ml gin",
+            "15ml lemon juice",
+            "10ml simple syrup",
+            "Top with champagne",
+            "Ice cubes",
+            "Lemon peel for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a shaker with ice.",
+            "Add the gin, lemon juice, and simple syrup.",
+            "Shake well and strain into a champagne flute.",
+            "Top with champagne and garnish with a lemon peel."
+        ],
         "Strength":[2,"19%"],
         "Taste": [6],
         "Alcohol": [5],
@@ -492,9 +876,20 @@
     {
         "Id":36,
         "Name":"Pina Colada",
-        "Description": "\"Exotic vacation in a glass.\" The perfect description for this delicious Caribbean-flavored cocktail. Its tropical taste and unique flavor have sustained its popularity with those who love the flavors of pineapple and coconut. While its creator is unknown, it’s generally accepted that it originated in Puerto Rico.",
-        "PrepIngred":[],
-        "PrepInstruct":[],
+        "Description": "\"Exotic Vacation in a Glass\". This is the perfect description for this delicious cocktail, bursting with Caribbean flavors. Its tropical character and uniqueness have made it a timeless favorite among pineapple and coconut lovers. While the exact creator of the recipe remains unknown, it is widely believed to have originated in Puerto Rico.",
+        "PrepIngred": [
+            "50ml white rum",
+            "30ml coconut cream",
+            "60ml pineapple juice",
+            "Ice cubes",
+            "Pineapple wedge for garnish"
+        ],
+        "PrepInstruct": [
+            "Fill a blender with ice.",
+            "Add the rum, coconut cream, and pineapple juice.",
+            "Blend until smooth and pour into a glass.",
+            "Garnish with a pineapple wedge."
+        ],
         "Strength":[2,"13%"],
         "Taste": [1,6],
         "Alcohol": [2],
