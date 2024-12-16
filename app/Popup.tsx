@@ -24,6 +24,7 @@ const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstr
           <Text style={styles.drinkTextBold}>{t('DrinkIngredients')}</Text>
           <FlatList
         data={prepIngred}
+        scrollEnabled={false}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
           <Text>• {item}</Text>
@@ -33,6 +34,7 @@ const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstr
       <Text style={styles.drinkTextBold}>{t('PreparationMethod')}</Text>
       <FlatList
         data={prepInstruct}
+        scrollEnabled={false}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
           <Text>• {item}</Text>
