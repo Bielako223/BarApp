@@ -41,7 +41,7 @@ ingredients.sort((a, b) => {
     return (
       <TouchableOpacity
         onPress={() => handleSelect(item.key)}
-        style={[styles.item, isSelected && styles.selectedItem]}>
+        style={[styles.itemReverseColors, isSelected && styles.selectedItemReverseColors]}>
         <Text style={styles.itemText}>{item.value}</Text>
       </TouchableOpacity>
     );

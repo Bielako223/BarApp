@@ -33,5 +33,6 @@
     "Description":"Opis:",
     "Close": "Zamknij",
     "PreparationMethod": "Sposób przygotwania:",
-    "Recipe": " Przepis"
+    "Recipe": " Przepis",
+    "None": " Brak"
 }

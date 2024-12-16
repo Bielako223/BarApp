@@ -32,5 +32,6 @@
     "Description":"Description:",
     "Close": "Close",
     "PreparationMethod": "How to prepare the drink:",
-    "Recipe": " Recipe"
+    "Recipe": " Recipe",
+    "None": " None"
 }

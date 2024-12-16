@@ -107,14 +107,21 @@ function DrinkScreen({navigation}: {navigation: any}) {
     return (
       <SafeAreaView style={styles.container}>
         <ScrollView>
-        <Text style={styles.topText}>{t('DrinkBestMatching')}</Text>
+          {finalShow.length==5?
+          
+        <View>
+          <Text style={styles.topText}>{t('DrinkBestMatching')}</Text>
       {show[0]?selectedDrink(finalShow[0],0):notSelectedDrink(finalShow[0],0)}
       <Text style={styles.topText}>{t('DrinkYouCanLike')}</Text>
       {show[1]?selectedDrink(finalShow[1],1):notSelectedDrink(finalShow[1],1)}
       {show[2]?selectedDrink(finalShow[2],2):notSelectedDrink(finalShow[2],2)}
       {show[3]?selectedDrink(finalShow[3],3):notSelectedDrink(finalShow[3],3)}
       {show[4]?selectedDrink(finalShow[4],4):notSelectedDrink(finalShow[4],4)}
-      
+        </View>
+        
+      :
+            <Text style={styles.noDrinksText}>{t('None')}</Text>
+    }
       <View style={styles.finalDrinkbuttonContainer}>
     <Pressable style={[styles.startButton]} onPress={() =>
         navigation.navigate("Main")

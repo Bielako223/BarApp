@@ -11,6 +11,16 @@ const styles = StyleSheet.create({
     selectedItem: {
       backgroundColor: '#F39C12',
     },
+    itemReverseColors: {
+      padding: 20,
+      marginVertical: 8,
+      marginHorizontal: 16,
+      backgroundColor: '#F39C12',
+      borderRadius:25,
+    },
+    selectedItemReverseColors: {
+      backgroundColor: '#27AE60',
+    },
     itemText: {
       fontSize: 18,
       color:'white'
@@ -65,14 +75,14 @@ const styles = StyleSheet.create({
     container: {
       height: '100%', 
       paddingTop: StatusBar.currentHeight,
-      backgroundColor:'#E8F8F5'
+      backgroundColor:'#E8F8F5',
+      position: 'relative'
       
     },
     topText:{
       textAlign: 'center',
       fontSize:20,
       margin:5,
-      marginTop:50,
       padding:5,
       fontWeight: '500',
     },
@@ -251,21 +261,25 @@ const styles = StyleSheet.create({
       textAlign: 'center',
     },
     recipeButton: {
-      paddingVertical: 12, // Add some vertical padding
-      paddingHorizontal: 20, // Horizontal padding
-      borderRadius: 30, // Rounded edges for a smooth look
-      alignItems: 'center', // Center content horizontally
-      justifyContent: 'center', // Center content vertically
-      marginTop: 10, // Add space from other elements
-      flexDirection: 'row', // This will allow us to add an icon next to text
+      paddingVertical: 12,
+      paddingHorizontal: 20,
+      borderRadius: 30,
+      alignItems: 'center', 
+      justifyContent: 'center',
+      marginTop: 10, 
+      flexDirection: 'row', 
     },
     buttonText1: {
-      fontSize: 18, // Make the text readable
-      color: '#fff', // White text to contrast with the green
-      fontWeight: 'bold', // Bold text to make it stand out
-      marginRight: 10, // Add some space between the text and the icon
+      fontSize: 18, 
+      color: '#fff', 
+      fontWeight: 'bold', 
+      marginRight: 10,
     },
-    
+    noDrinksText: {
+      textAlign: 'center',
+      margin: 100,
+      fontSize: 50
+    },
   });
 
   export default styles;
