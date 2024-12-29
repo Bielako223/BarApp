@@ -100,7 +100,7 @@
         "Name":"Cosmopolitan",
         "Description":"Często nazywany „synonimem kobiecości”. To klasyczny drink, który łączy w sobie słodki i owocowy smak, a przy tym pozostaje lekki. Swoją popularność zawdzięcza serialowi „Seks w wielkim mieście”, jednak pierwsze wzmianki o tym koktajlu i jego przepisy sięgają lat 30. XX wieku. Z pewnością drink ten był świadkiem niejednej plotki i towarzyszył wielu ciekawym rozmowom.",
         "PrepIngred": [
-        "40ml wódki cytrynowej",
+        "40ml wódki",
         "20ml likieru Cointreau",
         "20ml soku z żurawiny",
         "10ml soku z limonki",
@@ -166,7 +166,7 @@
         "Strength":[2,"11,5%"],
         "Taste": [1,5],
         "Alcohol": [8,1],
-        "Ingredients": [6,8],
+        "Ingredients": [6,12],
         "Points": 0,
         "PointsMax":16,
         "Img":"image7"
@@ -328,26 +328,25 @@
         "Name":"Krwawa Mary",
         "Description":"Koktajl, który albo się kocha, albo nienawidzi. Z pewnością budzi wiele kontrowersji na całym świecie, głównie za sprawą nietypowego połączenia alkoholu z sokiem pomidorowym. Istnieje wiele wariacji tego drinka – zmienia się nie tylko bazowy alkohol, ale także sosy i dodatki. Przygotowanie Krwawej Mary przypomina nieco gotowanie polskiej „pomidorówki” – eksperymentujemy z przyprawami, aby osiągnąć idealny smak. Choć opinie na temat tego koktajlu są podzielone, jedno jest pewne: to idealny wybór, gdy ciągle czujesz się „wczorajszy”.",
         "PrepIngred": [
-        "50ml wódka",
-        "120ml sok pomidorowy",
-        "10ml sok z limonki",
-        "2-3 krople sosu Worcestershire",
-        "2-3 krople sosu tabasco",
+        "40 ml wódki",
+        "100 ml soku pomidorowego",
         "szczypta soli",
-        "szczypta pieprzu",
-        "serwowanie: lód"
+        "świeżo mielony pieprz",
+        "sos worcester",
+        "tabasco",
+        "chrzan"
         ],
         "PrepInstruct": [
-        "Wlej wódkę i sok pomidorowy do szklanki wypełnionej lodem.",
-        "Dodaj sok z limonki, sos Worcestershire i sos tabasco.",
-        "Dodaj sól i pieprz do smaku.",
-        "Wymieszaj składniki delikatnie.",
-        "Udekoruj selerem naciowym lub plasterkiem limonki."
+        "Schłódź szklankę kostkami lodu lub wstaw ją do zamrażarki.",
+        "W szklanicy wymieszaj 40 ml wódki, 80 ml soku pomidorowego, sól, pieprz, sos worcester, tabasco i chrzan.",
+        "Dodaj kostki lodu do szklanicy, wymieszaj.",
+        "Odcedź wodę z lodu w szklance, przelej mieszankę do szklanki przez sitko barmańskie.",
+        "Uzupełnij sokiem pomidorowym."
         ],
         "Strength":[2,"10%"],
         "Taste": [2,4],
         "Alcohol": [1],
-        "Ingredients": [15,16,17,18,19,20],
+        "Ingredients": [37, 16, 17, 18, 19, 20],
         "Points": 0,
         "PointsMax":14,
         "Img":"image14"
@@ -358,7 +357,7 @@
         "Description":"Jedna z wielu odmian klasycznego, wręcz kultowego dry martini, koktajlu, który ze względu na swój prosty skład jest często modyfikowany. Wersja \"dirty\" jest dla tych, którzy uważają, że jedna mała oliwka w środku to za mało, więc \"doprawiają\" drink zalewą z oliwek. Dodatek ten nadaje koktajlowi głębi i aksamitności, wzbogacając już wcześniej wytrawny drink o nowe, ciekawe walory smakowe. Jest to z pewnością pozycja dla osób bardziej otwartych na nowe doznania i smaki. Koktajl ten bardziej pasuje do letnich wieczorów, ale tych, które są pełne charakteru i wymagają nieco większego zaangażowania smakowego.",
         "PrepIngred": [
         "50ml gin",
-        "10ml suchy wermut",
+        "10ml wytrawny wermut",
         "20ml zalewa z oliwek",
         "Oliwki do dekoracji",
         "Lód"
@@ -371,7 +370,7 @@
         ],
         "Strength":[3,"30%"],
         "Taste": [2],
-        "Alcohol": [1,15],
+        "Alcohol": [5,15],
         "Ingredients": [31],
         "Points": 0,
         "PointsMax":12,
@@ -440,11 +439,12 @@
         "50ml bourbon lub whisky",
         "30ml świeżo wyciśniętego soku z cytryny",
         "20ml syropu cukrowego",
+        "Kilka kropel angostura bitter",
         "1 białko jajka (opcjonalnie)",
         "Lód"
         ],
         "PrepInstruct": [
-        "W shakerze połącz bourbon (lub whisky), sok z cytryny i syrop cukrowy.",
+        "W shakerze połącz bourbon (lub whisky), sok z cytryny, syrop cukrowy i dodaj kilka kropel angostura bitter.",
         "Dodaj białko jajka, jeśli używasz (dla uzyskania pianki na wierzchu).",
         "Wstrząśnij energicznie przez około 10-15 sekund.",
         "Następnie dodaj lód i ponownie wstrząśnij, aż shaker będzie zimny.",
@@ -613,13 +613,15 @@
         "PrepIngred": [
         "50ml rumu ciemnego",
         "100ml piwa imbirowego",
-        "10ml soku z limonki"
+        "10ml soku z limonki",
+        "2 dashe Angostura bitters"
         ],
         "PrepInstruct": [
-        "Wlej rum do szklanki typu highball wypełnionej lodem.",
-        "Dodaj piwo imbirowe, delikatnie mieszając.",
-        "Dodaj sok z limonki.",
-        "Udekoruj plasterkiem limonki lub skórką z limonki."
+            "Wlej rum do szklanki typu highball wypełnionej lodem.",
+            "Dodaj piwo imbirowe, delikatnie mieszając.",
+            "Dodaj sok z limonki.",
+            "Dodaj 2 dashe Angostura bitters.",
+            "Udekoruj plasterkiem limonki lub skórką z limonki."
         ],
         "Strength":[2,"10%"],
         "Taste": [1,6],
@@ -634,28 +636,25 @@
         "Name":"Zombie",
         "Description":"Niektórzy twierdzą, że jeśli wypijesz go trochę za dużo, rano skończysz właśnie jako zombie. Ciężko się z tym nie zgodzić, bo z tym koktajlem łatwo przesadzić. Głównie dlatego, że jest on bardzo smaczny i niepozorny. Łączy ze sobą trzy rodzaje rumu i dwa likiery, a jak wiemy, mieszanie alkoholi nie wróży dobrze na kolejny dzień. Całość jest dobrze zamaskowana sokami owocowymi: ananasowym, limonkowym i pomarańczowym, dlatego ciężko określić, ile się wypiło. Z pewnością poleciłbym go tym, którzy szukają wrażeń i nie boją się poświęcić całego następnego dnia na „odpoczynek”.",
         "PrepIngred": [
-        "30ml rumu ciemnego",
-        "30ml rumu jasnego",
-        "30ml rumu overproof",
-        "15ml soku z limonki",
-        "15ml soku pomarańczowego",
-        "15ml soku ananasowego",
-        "15ml syropu grenadynowego",
-        "10ml syropu cukrowego",
-        "2-3 krople angostury",
-        "1/2 łyżeczki cukru trzcinowego"
+        "40 ml jasnego rumu",
+        "40 ml złotego rumu",
+        "40 ml ciemnego rumu",
+        "10 ml grand marnier",
+        "10 ml likieru morelowego",
+        "40 ml soku pomarańczowego",
+        "40 ml soku ananasowego",
+        "20 ml soku z limonki",
+        "10 ml grenadiny"
         ],
         "PrepInstruct": [
-        "W shakerze połącz wszystkie składniki: rum ciemny, rum jasny, rum overproof, soki, syropy, cukier i angosturę.",
-        "Napełnij shaker lodem i energicznie wstrząśnij.",
-        "Przelej do wysokiej szklanki wypełnionej lodem.",
-        "Udekoruj miętą, plasterkiem pomarańczy lub wisienką koktajlową.",
-        "Jeśli chcesz, dodaj dodatkowy rum overproof na wierzch i zapal go na chwilę przed podaniem."
+        "Napełnij shaker lodem, dodaj składniki i energicznie wstrząśnij.",
+        "Przelej do wysokiego szkła",
+        "Udekoruj ananasem na krawędzi szklanki (plasterek z puszki lub kawałek świeżego ananasa)."
         ],
         "Strength":[2,"18%"],
         "Taste": [5],
         "Alcohol": [30,25,26,27,2],
-        "Ingredients": [7,13],
+        "Ingredients": [7,8, 13, 12],
         "Points": 0,
         "PointsMax":18,
         "Img":"image26"
@@ -665,18 +664,19 @@
         "Name":"Amaretto Sour",
         "Description":"Jak w przypadku innych drinków typu sour, głównie chodzi o sposób przygotowania i składniki, takie jak sok z cytryny czy syrop cukrowy, a nie o bazowy alkohol. Najpopularniejszym mocnym sourem jest ten na bazie whisky, natomiast na słabszym alkoholu – Amaretto, na którym się skupimy. Jest to likier migdałowy pochodzący z Włoch. Często dodaje się go do deserów lub kawy ze względu na jego intrygujący smak, dlatego świetnie sprawdza się również w drinku sour.",
         "PrepIngred": [
-        "50ml amaretto",
-        "25ml soku z cytryny",
-        "10ml syropu cukrowego",
-        "1 białko jajka (opcjonalnie)",
-        "kostki lodu",
-        "skórka z cytryny (do dekoracji)"
+        "30 ml amaretto",
+        "30 ml bourbonu",
+        "15 ml świeżo wyciśniętego soku z cytryny",
+        "15 ml syropu cukrowego (lub więcej, w zależności od preferencji",
+        "Lód",
+        "Plasterek cytryny i/lub wisienka koktajlowa do dekoracji"
         ],
         "PrepInstruct": [
-        "W shakerze wymieszaj amaretto, sok z cytryny, syrop cukrowy i białko jajka (jeśli używasz).",
-        "Dodaj lód i energicznie wstrząśnij przez około 10-15 sekund.",
-        "Przelej do szklanki typu old fashioned wypełnionej lodem.",
-        "Udekoruj skórką z cytryny."
+        "Do shakera wlej amaretto, bourbon, sok z cytryny, syrop cukrowy oraz (jeśli używasz) białko jajka.",
+        "Najpierw wstrząśnij wszystkie składniki bez lodu przez około 10-15 sekund, aby dobrze połączyły się z białkiem jaja (jeśli go używasz).",
+        "Następnie dodaj lód do shakera i wstrząśnij ponownie przez około 10-15 sekund, aby koktajl dobrze się schłodził.",
+        "Przecedź koktajl do szklanki typu rocks (niskiej szklanki do whisky) wypełnionej lodem.",
+        "Udekoruj koktajl plasterkiem cytryny i/lub wisienką koktajlową."
         ],
         "Strength":[2,"13%"],
         "Taste": [1,3],
@@ -691,19 +691,17 @@
         "Name":"Clover club",
         "Description":"Powstał na początku XX wieku, a swoją nazwę zawdzięcza elitarnemu klubowi w Filadelfii, gdzie był serwowany. Szybko zyskał sławę w całej Ameryce, a potem na świecie. Jak w przypadku większości drinków sprzed prohibicji, szybko stał się klasykiem. Koktajl ten to kompozycja ziołowego ginu oraz słodkich malin, czyli lekka i przyjemna w odbiorze. Wzbogacony o sok z cytryny i biały, wytrawny wermut, a dla uzyskania lepszej kremowości dodaje się białko jaja kurzego.",
         "PrepIngred": [
-        "50ml ginu",
-        "25ml soku z malin",
-        "15ml soku z cytryny",
-        "10ml syropu cukrowego",
+        "60 ml ginu",
+        "20 ml białego wermutu wytrawnego",
+        "20 ml soku z cytryny",
         "1 białko jajka",
-        "kostki lodu",
-        "maliny (do dekoracji)"
+        "10 malin"
         ],
         "PrepInstruct": [
-        "W shakerze wymieszaj gin, sok z malin, sok z cytryny, syrop cukrowy i białko jajka.",
-        "Dodaj lód i wstrząśnij energicznie przez 10-15 sekund.",
-        "Przelej do schłodzonego kieliszka koktajlowego.",
-        "Udekoruj kilkoma malinami."
+        "Zmroź kieliszek (włóż do zamrażalnika lub napełnij lodem).",
+        "Wgnieć połowę malin w szklanicy, dodaj sok z cytryny, gin i białko jajka.",
+        "Wstrząśnij w shakerze przez 15 sekund, dodaj lód i wstrząśnij ponownie.",
+        "Odcedź do kieliszka, udekoruj malinami."
         ],
         "Strength":[2,"11%"],
         "Taste": [1,5],
@@ -747,14 +745,14 @@
         "30ml ciemnego rumu",
         "30ml jasnego rumu",
         "15ml likieru pomarańczowego (Triple Sec lub Curaçao)",
-        "15ml syropu orgeat (syrop migdałowy)",
+        "15ml syropu falernum",
         "10ml soku z limonki",
         "kostki lodu",
         "poczwórny kawałek skórki z limonki (do dekoracji)",
         "mięta (do dekoracji)"
         ],
         "PrepInstruct": [
-        "W shakerze wymieszaj ciemny rum, jasny rum, likier pomarańczowy, syrop orgeat i sok z limonki.",
+        "W shakerze wymieszaj ciemny rum, jasny rum, likier pomarańczowy, syrop falernum i sok z limonki.",
         "Wstrząśnij dobrze, aby składniki się połączyły.",
         "Wypełnij szklankę kostkami lodu.",
         "Wlej zawartość shakera do szklanki.",
@@ -842,7 +840,7 @@
         ],
         "Strength":[3,"30%"],
         "Taste": [2],
-        "Alcohol": [1,15],
+        "Alcohol": [5,15],
         "Ingredients": [36],
         "Points": 0,
         "PointsMax":12,
