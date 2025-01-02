@@ -1,5 +1,5 @@
-import React, { useCallback, useRef, useState } from 'react';
-import { FlatList, Animated, SafeAreaView, Pressable, Text } from 'react-native';
+import React, { useCallback, useRef, useState } from 'react'; 
+import { FlatList, Animated, SafeAreaView, Pressable, Text, TextInput, View } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import { DrinkClass, ObjectClass } from '../Classes';
@@ -18,7 +18,6 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const drinks: DrinkClass[] = GetDrinksSorted();
   const scrollY = useRef(new Animated.Value(0)).current;
 
-  // Preprocess drink data
   const preprocessedDrinks: ProcessedDrink[] = drinks.map((drink) => {
     const alcohol: ObjectClass[] =
       t('Lang') === 'pl' ? require('../assets/alcohol.json') : require('../assets/alcoholEng.json');
@@ -37,6 +36,11 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
 
   const [isPopupVisible, setIsPopupVisible] = useState<boolean>(false);
   const [currentDrink, setCurrentDrink] = useState<ProcessedDrink | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
+  const filteredDrinks = preprocessedDrinks.filter((drink) =>
+    drink.Name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   const openPopup = useCallback((drink: ProcessedDrink) => {
     setCurrentDrink(drink);
@@ -65,8 +69,16 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <View style={styles.searchContainer}>
+        <TextInput
+          style={styles.searchInput}
+          placeholder={t('SearchPlaceholder')}
+          value={searchQuery}
+          onChangeText={setSearchQuery}
+        />
+      </View>
       <FlatList
-        data={preprocessedDrinks}
+        data={filteredDrinks}
         renderItem={renderItem}
         keyExtractor={(item) => item.Id.toString()}
         onScroll={handleScroll}

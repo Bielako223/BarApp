@@ -33,5 +33,6 @@
     "Close": "Close",
     "PreparationMethod": "How to prepare the drink:",
     "Recipe": " Recipe",
-    "None": " None"
+    "None": " None",
+    "SearchPlaceholder" : "Search for a drink"
 }

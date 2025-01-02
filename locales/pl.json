@@ -34,5 +34,6 @@
     "Close": "Zamknij",
     "PreparationMethod": "Sposób przygotwania:",
     "Recipe": " Przepis",
-    "None": " Brak"
+    "None": " Brak",
+    "SearchPlaceholder" : "Szukaj drinka"
 }

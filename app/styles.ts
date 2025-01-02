@@ -280,6 +280,16 @@ const styles = StyleSheet.create({
       margin: 100,
       fontSize: 50
     },
+    searchContainer: {
+  padding: 10
+},
+searchInput: {
+  height: 40,
+  borderColor: '#ccc',
+  borderWidth: 1,
+  borderRadius: 5,
+  paddingHorizontal: 10,
+}
   });
 
   export default styles;
