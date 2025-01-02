@@ -35,5 +35,14 @@
     "PreparationMethod": "Sposób przygotwania:",
     "Recipe": " Przepis",
     "None": " Brak",
-    "SearchPlaceholder" : "Szukaj drinka"
+    "SearchPlaceholder" : "Szukaj drinka",
+    "MainFourthButton" : "Drinki z moich składników",
+    "WelcomeDescription": "Podaj alkohole i składniki, które masz w domu, a my pokażemy Ci, jakie drinki możesz przygotować.",
+    "Step1": "1. Wybierz wszystkie alkohole, które masz, np. wódka, rum, gin.",
+    "Step2": "2. Wybierz składniki, takie jak cytryna, cukier, mięta.",
+    "Step3": "3. Otrzymasz listę drinków, które możesz przygotować z dostępnych składników!",
+    "ButtonTextContinue": "Rozpocznij",
+    "SelectAlcoholMyIngredients":"Wybierz swoje alkohole.",
+    "SelectIngrednientsMyIngredients":"Wybierz swoje składniki.",
+    "MyIngrednietsNoneMessage": "Niestety, nie znaleźliśmy żadnych drinków, które można przygotować z dostępnych składników. Spróbuj dodać inne składniki i alkohole."
 }

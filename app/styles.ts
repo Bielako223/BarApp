@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
       color: '#fff',
       fontSize: 18,
       fontWeight: 'bold',
+      textAlign: 'center'
     },
     topBlock:{
       position: 'absolute',
@@ -125,7 +126,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
       borderRightColor:'black',
-      marginBottom:25
+      marginBottom:25,
     },
     mainDrink:{
       padding: 20,
@@ -289,6 +290,56 @@ searchInput: {
   borderWidth: 1,
   borderRadius: 5,
   paddingHorizontal: 10,
+},
+instructionTextTop:{
+  fontSize: 25,
+  fontWeight: 'bold',
+  marginBottom: 30,
+},
+instructionTextList:{
+  fontSize: 20,
+  marginBottom: 15,
+},
+
+containerInstruction: {
+  flex: 1, // Flex: 1 sprawia, że kontener rozciąga się na cały ekran
+  paddingTop: StatusBar.currentHeight, // Ustawia górny padding równy wysokości paska stanu
+  backgroundColor: '#E8F8F5',
+},
+contentContainerInstruction: {
+  flex: 1, // Kontener na teksty wypełnia resztę dostępnej przestrzeni
+  justifyContent: 'flex-start', // Centruje treść na górze
+  padding: 10, // Odstępy wewnątrz kontenera
+},
+buttonsContainerInstruction: {
+  flexDirection: 'row', // Ustawia przyciski obok siebie
+  justifyContent: 'space-between', // Rozdziela przyciski na równe przestrzenie
+  position: 'absolute', // Ustawia kontener przycisków na dole
+  bottom: 20, // Ustawia kontener 20px od dołu
+  left: 20, // Ustawia kontener 20px od lewej krawędzi
+  right: 20, // Ustawia kontener 20px od prawej krawędzi
+  marginBottom: 35
+},
+buttonInstruction: {
+  width: '48%', // Ustawia szerokość przycisku na 48%, aby zmieściły się obok siebie
+  backgroundColor: '#2ECC71',
+  padding: 15,
+  borderRadius: 30,
+  alignItems: 'center',
+  justifyContent: 'center',
+  
+},
+button2Instruction: {
+  width: '48%', // Ustawia szerokość przycisku na 48%, aby zmieściły się obok siebie
+  backgroundColor: '#2ECC71',
+  padding: 15,
+  borderRadius: 30,
+  alignItems: 'center',
+  justifyContent: 'center',
+},
+textNoneResultMessage: {
+  fontSize: 25,
+  padding: 10
 }
   });
 

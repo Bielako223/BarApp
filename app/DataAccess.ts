@@ -39,6 +39,20 @@ export function GetDrinksSorted(){
     return sortedDrinks;
 }
 
+export function MyIngredientsGetDrinks(alcohols:Array<string>, ingredients:Array<string>){
+    const {t}= useTranslation();
+    const drinks: DrinkClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
+    // Filter drinks by Alcohol and Ingredients
+    const filteredDrinks = drinks.filter(drink => {
+        const alcoholMatch = drink.Alcohol.every(alcohol => alcohols.includes(alcohol));
+        const ingredientsMatch = drink.Ingredients.every(ingredient => ingredients.includes(ingredient));
+        return alcoholMatch && ingredientsMatch;
+    });
+
+    const sortedDrinks = filteredDrinks.sort((a, b) => a.Name.localeCompare(b.Name));
+    return sortedDrinks;
+}
+
 export function GetTasteSpecific(drink: DrinkClass){
     const taste:ObjectClass[] = GetTaste();
     const tasteSpecific: ObjectClass[] = taste.filter(item => drink.Taste.includes(item.key));

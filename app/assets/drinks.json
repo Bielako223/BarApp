@@ -529,7 +529,7 @@
         ],
         "Strength":[3,"31%"],
         "Taste": [6],
-        "Alcohol": [1,5],
+        "Alcohol": [1,5, 29],
         "Ingredients": [],
         "Points": 0,
         "PointsMax":12,

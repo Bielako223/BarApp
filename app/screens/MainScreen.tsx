@@ -26,6 +26,9 @@ function MainScreen({navigation}: {navigation: any}) {
       <Pressable style={styles.startButton} onPress={() =>navigation.navigate("DrinkList")}>
         <Text style={styles.buttonText} >{t('MainThirdButton')}</Text>
       </Pressable>
+      <Pressable style={styles.startButton} onPress={() =>navigation.navigate("WelcomeScreen")}>
+        <Text style={styles.buttonText} >{t('MainFourthButton')}</Text>
+      </Pressable>
     </SafeAreaView>
     </View>
   );

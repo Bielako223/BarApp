@@ -34,5 +34,14 @@
     "PreparationMethod": "How to prepare the drink:",
     "Recipe": " Recipe",
     "None": " None",
-    "SearchPlaceholder" : "Search for a drink"
+    "SearchPlaceholder" : "Search for a drink",
+    "MainFourthButton" : "Drinks made with my ingredients",
+    "WelcomeDescription": "Enter the alcohols and ingredients you have at home, and we'll suggest drinks you can make.",
+    "Step1": "1. Select all the alcohols you have, such as vodka, rum, or gin.",
+    "Step2": "2. Select ingredients like lemon, sugar, or mint.",
+    "Step3": "3. You'll receive a list of drinks you can prepare with the ingredients you have!",
+    "ButtonTextContinue": "Get Started",
+    "SelectAlcoholMyIngredients": "Select your alcohols.",
+    "SelectIngrednientsMyIngredients": "Select your ingredients.",
+    "MyIngrednietsNoneMessage": "Unfortunately, we couldn't find any drinks with the ingredients you have. Try adding more ingredients and alcohols."
 }
