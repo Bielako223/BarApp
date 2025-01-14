@@ -13,19 +13,37 @@ interface DrinkItemProps {
     Img: string;
     Strength: string[];
     Description: string;
+    PointsIngredients: number;
+    PointsIngredientsMax: number;
     alcoholsSpecific: ObjectClass[];
     ingredientsSpecific: ObjectClass[];
     tasteSpecific: ObjectClass[];
   };
   onPress: (drink: any) => void;
+  isIngredientsElement : boolean;
 }
 
-const DrinkItem: React.FC<DrinkItemProps> = memo(({ drink, onPress }) => {
+const DrinkItem: React.FC<DrinkItemProps> = memo(({ drink, onPress, isIngredientsElement=false }) => {
   const ImgPath = drink.Img;
   const {t}= useTranslation();
   return (
     <View style={styles.othersDrinks} key={drink.Id}>
       <Text style={[styles.itemText, { marginBottom: 7 }]}>{drink.Name}</Text>
+
+      {isIngredientsElement == true ? 
+    drink.PointsIngredientsMax > 4 ? 
+        <Text style={[styles.itemText, { marginBottom: 7 }]}>
+            {drink.PointsIngredients}/{drink.PointsIngredientsMax} składników.
+        </Text> 
+        : 
+        <Text style={[styles.itemText, { marginBottom: 7 }]}>
+            {drink.PointsIngredients}/{drink.PointsIngredientsMax} składniki.
+        </Text>
+    : 
+    <View></View>
+}
+
+
       <View>
         <View style={styles.drinkImgContainer2}>
           <View style={styles.drinkImgContainer}>

@@ -18,3 +18,8 @@ export  type  ObjectClass={
     key: string;
     value: string;
   }
+
+  export class DrinkPointsClass extends DrinkClass{
+    'PointsIngredients': number = 0;
+    'PointsIngredientsMax': number = 0;
+  }

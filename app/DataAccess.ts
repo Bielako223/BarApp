@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import {ObjectClass, DrinkClass} from './Classes';
+import {ObjectClass, DrinkClass, DrinkPointsClass} from './Classes';
 
 
 export function GetStrength(){
@@ -32,6 +32,11 @@ export function GetDrinks(){
     return drinks;
 }
 
+export function GetDrinksIngredienClass(){
+    const {t}= useTranslation();
+    const drinks: DrinkPointsClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
+    return drinks;
+}
 export function GetDrinksSorted(){
     const {t}= useTranslation();
     const drinks: DrinkClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
@@ -39,17 +44,27 @@ export function GetDrinksSorted(){
     return sortedDrinks;
 }
 
+export function GetDrinksIngredienClassSorted(){
+    const {t}= useTranslation();
+    const drinks: DrinkPointsClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
+    const sortedDrinks = drinks.sort((a, b) => a.Name.localeCompare(b.Name));
+    return sortedDrinks;
+}
+
 export function MyIngredientsGetDrinks(alcohols:Array<string>, ingredients:Array<string>){
     const {t}= useTranslation();
-    const drinks: DrinkClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
-    // Filter drinks by Alcohol and Ingredients
-    const filteredDrinks = drinks.filter(drink => {
-        const alcoholMatch = drink.Alcohol.every(alcohol => alcohols.includes(alcohol));
-        const ingredientsMatch = drink.Ingredients.every(ingredient => ingredients.includes(ingredient));
-        return alcoholMatch && ingredientsMatch;
-    });
+    const drinks: DrinkPointsClass[] = t('Lang') == 'pl' ? require('./assets/drinks.json') : require('./assets/drinksEng.json');
+    drinks.forEach((drink)=>{
+        drink.PointsIngredientsMax = drink.Alcohol.length + drink.Ingredients.length
+        drink.PointsIngredients = 0;
+        drink.Alcohol.forEach((x) => { alcohols.forEach((y) => { if (x == y) drink.PointsIngredients += 1; }); });
+        drink.Ingredients.forEach((x) => { ingredients.forEach((y) => { if (x == y) drink.PointsIngredients += 1; }); });
+    })
+    const filteredDrinks = drinks.filter((drink) => drink.PointsIngredients !== 0);
 
-    const sortedDrinks = filteredDrinks.sort((a, b) => a.Name.localeCompare(b.Name));
+const sortedDrinks = filteredDrinks.sort(
+    (a, b) => (a.PointsIngredientsMax - a.PointsIngredients) - (b.PointsIngredientsMax - b.PointsIngredients)
+);
     return sortedDrinks;
 }
 

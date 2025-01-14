@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Text, View, Pressable, ScrollView } from 'react-native';
+import { Text, View, Pressable, ScrollView, SafeAreaView } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import { ObjectClass, DrinkClass } from '../Classes';
-import { GetDrinks } from '../DataAccess';
+import { ObjectClass, DrinkClass, DrinkPointsClass } from '../Classes';
+import { GetDrinksIngredienClass } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
 
-interface ProcessedDrink extends DrinkClass {
+interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
   ingredientsSpecific: ObjectClass[];
   tasteSpecific: ObjectClass[];
@@ -15,7 +15,7 @@ interface ProcessedDrink extends DrinkClass {
 
 function RandomDrinkScreen({ navigation }: { navigation: any }) {
   const { t } = useTranslation();
-  const drinksArray: DrinkClass[] = GetDrinks();
+  const drinksArray: DrinkPointsClass[] = GetDrinksIngredienClass();
 
   const preprocessedDrinks: ProcessedDrink[] = drinksArray.map((drink) => {
     const alcohol: ObjectClass[] =
@@ -57,12 +57,14 @@ function RandomDrinkScreen({ navigation }: { navigation: any }) {
   const randomDrink: ProcessedDrink = preprocessedDrinks[randomNumber];
 
   return (
-    <View style={[styles.container, styles.finalDrinkContainer]}>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.finalDrinkContainer}>
       <ScrollView>
         <Text style={styles.topText}>{t('RandomDrinkText')}</Text>
         <DrinkItem
           drink={randomDrink}
           onPress={() => openPopup(randomDrink.PrepIngred, randomDrink.PrepInstruct)}
+          isIngredientsElement = {false}
         />
 
         <Popup isVisible={isPopupVisible} onClose={closePopup} prepIngred={prepIngred} prepInstruct={prepInstruct} />
@@ -77,6 +79,7 @@ function RandomDrinkScreen({ navigation }: { navigation: any }) {
         </View>
       </ScrollView>
     </View>
+    </SafeAreaView>
   );
 }
 

@@ -3,12 +3,12 @@ import { FlatList, Animated, SafeAreaView, Pressable, Text, TextInput, View } fr
 import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import { DrinkClass, ObjectClass } from '../Classes';
+import { DrinkClass, ObjectClass, DrinkPointsClass } from '../Classes';
 import { MyIngredientsGetDrinks } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
 
-interface ProcessedDrink extends DrinkClass {
+interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
   ingredientsSpecific: ObjectClass[];
   tasteSpecific: ObjectClass[];
@@ -19,7 +19,7 @@ const MyIngredientsResutScreen = ({ navigation }: { navigation: any }) => {
   let route: RouteProp<{params: {alcohols:Array<string>, ingredients:Array<string>}}, 'params'> = useRoute();
     const alcohols=route.params?.alcohols
     const ingredients=route.params?.ingredients
-  const drinks: DrinkClass[] = MyIngredientsGetDrinks(alcohols, ingredients);
+  const drinks: DrinkPointsClass[] = MyIngredientsGetDrinks(alcohols, ingredients);
   const scrollY = useRef(new Animated.Value(0)).current;
 
   const preprocessedDrinks: ProcessedDrink[] = drinks.map((drink) => {
@@ -62,7 +62,7 @@ const MyIngredientsResutScreen = ({ navigation }: { navigation: any }) => {
   });
 
   const renderItem = useCallback(
-    ({ item }: { item: ProcessedDrink }) => <DrinkItem drink={item} onPress={openPopup} />,
+    ({ item }: { item: ProcessedDrink }) => <DrinkItem drink={item} onPress={openPopup} isIngredientsElement = {true} />,
     [openPopup]
   );
 

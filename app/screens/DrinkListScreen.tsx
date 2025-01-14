@@ -2,12 +2,12 @@ import React, { useCallback, useRef, useState } from 'react';
 import { FlatList, Animated, SafeAreaView, Pressable, Text, TextInput, View } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
-import { DrinkClass, ObjectClass } from '../Classes';
-import { GetDrinksSorted } from '../DataAccess';
+import { DrinkClass, ObjectClass, DrinkPointsClass } from '../Classes';
+import { GetDrinksIngredienClassSorted } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
 
-interface ProcessedDrink extends DrinkClass {
+interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
   ingredientsSpecific: ObjectClass[];
   tasteSpecific: ObjectClass[];
@@ -15,7 +15,7 @@ interface ProcessedDrink extends DrinkClass {
 
 const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const { t } = useTranslation();
-  const drinks: DrinkClass[] = GetDrinksSorted();
+  const drinks: DrinkPointsClass[] = GetDrinksIngredienClassSorted();
   const scrollY = useRef(new Animated.Value(0)).current;
 
   const preprocessedDrinks: ProcessedDrink[] = drinks.map((drink) => {
@@ -63,7 +63,7 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   });
 
   const renderItem = useCallback(
-    ({ item }: { item: ProcessedDrink }) => <DrinkItem drink={item} onPress={openPopup} />,
+    ({ item }: { item: ProcessedDrink }) => <DrinkItem drink={item} onPress={openPopup} isIngredientsElement={false}/>,
     [openPopup]
   );
 
