@@ -43,5 +43,7 @@
     "ButtonTextContinue": "Get Started",
     "SelectAlcoholMyIngredients": "Select your alcohols.",
     "SelectIngrednientsMyIngredients": "Select your ingredients.",
-    "MyIngrednietsNoneMessage": "Unfortunately, we couldn't find any drinks with the ingredients you have. Try adding more ingredients and alcohols."
+    "MyIngrednietsNoneMessage": "Unfortunately, we couldn't find any drinks with the ingredients you have. Try adding more ingredients and alcohols.",
+    "skladnikow" : " ingredients.",
+    "skladniki" : " ingredients."
 }

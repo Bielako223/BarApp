@@ -44,5 +44,7 @@
     "ButtonTextContinue": "Rozpocznij",
     "SelectAlcoholMyIngredients":"Wybierz swoje alkohole.",
     "SelectIngrednientsMyIngredients":"Wybierz swoje składniki.",
-    "MyIngrednietsNoneMessage": "Niestety, nie znaleźliśmy żadnych drinków, które można przygotować z dostępnych składników. Spróbuj dodać inne składniki i alkohole."
+    "MyIngrednietsNoneMessage": "Niestety, nie znaleźliśmy żadnych drinków, które można przygotować z dostępnych składników. Spróbuj dodać inne składniki i alkohole.",
+    "skladnikow" : " składników.",
+    "skladniki" : " składniki."
 }

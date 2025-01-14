@@ -33,11 +33,11 @@ const DrinkItem: React.FC<DrinkItemProps> = memo(({ drink, onPress, isIngredient
       {isIngredientsElement == true ? 
     drink.PointsIngredientsMax > 4 ? 
         <Text style={[styles.itemText, { marginBottom: 7 }]}>
-            {drink.PointsIngredients}/{drink.PointsIngredientsMax} składników.
+            {drink.PointsIngredients}/{drink.PointsIngredientsMax} {t('skladnikow')}
         </Text> 
         : 
         <Text style={[styles.itemText, { marginBottom: 7 }]}>
-            {drink.PointsIngredients}/{drink.PointsIngredientsMax} składniki.
+            {drink.PointsIngredients}/{drink.PointsIngredientsMax} {t('skladniki')}
         </Text>
     : 
     <View></View>
