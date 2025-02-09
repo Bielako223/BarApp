@@ -15,11 +15,11 @@ const styles = StyleSheet.create({
       padding: 20,
       marginVertical: 8,
       marginHorizontal: 16,
-      backgroundColor: '#F39C12',
+      backgroundColor: '#27AE60',
       borderRadius:25,
     },
     selectedItemReverseColors: {
-      backgroundColor: '#27AE60',
+      backgroundColor: '#ff4d4d',
     },
     itemText: {
       fontSize: 18,
@@ -75,10 +75,9 @@ const styles = StyleSheet.create({
     },
     container: {
       height: '100%', 
-      paddingTop: StatusBar.currentHeight,
       backgroundColor:'#E8F8F5',
-      position: 'relative'
-      
+      position: 'relative',
+      flex: 1
     },
     topText:{
       textAlign: 'center',

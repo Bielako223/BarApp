@@ -9,8 +9,8 @@ function MainScreen({navigation}: {navigation: any}) {
   let route = useRoute();
   const {t}= useTranslation();
     return (
-      <View style={styles.container}>
-         <SafeAreaView style={styles.imgContainer}>
+      <SafeAreaView style={styles.container}>
+         <View style={styles.imgContainer}>
       <ChangeLang/>
       <Image
         source={require('../assets/barIcon6.png')}
@@ -29,8 +29,8 @@ function MainScreen({navigation}: {navigation: any}) {
       <Pressable style={styles.startButton} onPress={() =>navigation.navigate("WelcomeScreen")}>
         <Text style={styles.buttonText} >{t('MainFourthButton')}</Text>
       </Pressable>
-    </SafeAreaView>
     </View>
+    </SafeAreaView>
   );
 }
 

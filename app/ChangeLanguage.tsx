@@ -3,6 +3,7 @@ import { Text, View,Image,TouchableOpacity  } from 'react-native';
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
 import i18next from '../services/i18next';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 function ChangeLang() {
   const [changeLanguage, setchangeLanguage] = useState(false);
@@ -10,7 +11,7 @@ function ChangeLang() {
     return (
          <View style={styles.langContainer}>
             {!changeLanguage &&(<TouchableOpacity style={styles.langContainer}  onPress={() => setchangeLanguage(true)}>
-        <Text style={{fontSize:15,fontWeight: 400}}>{t('ChangeLangText')}</Text>
+            <Icon name="translate" size={30} color="#000" />
       </TouchableOpacity>)}
       {changeLanguage &&(<View style={styles.langContainer}>
           <View >
