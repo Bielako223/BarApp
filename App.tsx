@@ -23,6 +23,7 @@ export default function App() {
   return (
     <I18nextProvider i18n={i18next}>
    <NavigationContainer>
+   <StatusBar barStyle="dark-content" backgroundColor="#fff" />
       <Stack.Navigator initialRouteName='Main'>
         <Stack.Screen
           name="Main"
