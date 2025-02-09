@@ -17,8 +17,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#E8F8F5"
       },
       "package": "com.bielako223.DrinkDecider"
     },
