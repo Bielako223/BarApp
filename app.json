@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bielako223.DrinkDecider"
     },
     "web": {
       "favicon": "./assets/favicon.png"
