@@ -17,14 +17,12 @@ function ChangeLang() {
           <View >
           <TouchableOpacity style={styles.langflagContainer} onPress={() => {i18next.changeLanguage('en'); setchangeLanguage(false)}}>
         <Image source={require('../assets/img/eng.png')} style={{width:40,height:20}} />
-        <Text style={{fontSize:12}}>English</Text>
       </TouchableOpacity>
           </View>
           <View >
       <TouchableOpacity style={styles.langflagContainer} onPress={() => {i18next.changeLanguage('pl'); setchangeLanguage(false)}}>
         <Image source={require('../assets/img/pl.png')} style={{width:40,height:20}} />
         
-      <Text style={{fontSize:12}}>Polski</Text>
       </TouchableOpacity>
       </View>
           </View>)}

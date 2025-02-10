@@ -175,13 +175,18 @@ const styles = StyleSheet.create({
       fontWeight: '500',
     },
     langContainer:{
-      position: 'absolute',
-    top: 30,
-    right: 20,
-    width: 120,
+      
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    },
+    changeLanguageContainer: {
+      width: '90%',
+      height: 40,
+      justifyContent: 'flex-end', 
+      alignItems: 'flex-end', 
+      marginTop: 5 ,
+      marginBottom: 5
     },
     langflagContainer:{
       flex: 1,

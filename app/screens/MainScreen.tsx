@@ -11,7 +11,7 @@ function MainScreen({navigation}: {navigation: any}) {
     return (
       <SafeAreaView style={styles.container}>
          <View style={styles.imgContainer}>
-      <ChangeLang/>
+      <View style={styles.changeLanguageContainer}><ChangeLang/></View>
       <Image
         source={require('../assets/barIcon6.png')}
         style={styles.image}
