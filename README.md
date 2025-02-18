@@ -1,5 +1,5 @@
 # DrinkDecider 🍹
-DrinkDecider is a mobile application that helps you discover and create amazing drinks based on your preferences and available ingredients. Whether you're hosting a party, experimenting with mixology, or just looking for something new, DrinkDecider has you covered!
+DrinkDecider is a mobile application that helps you discover amazing drinks based on your preferences and available ingredients. Whether you're hosting a party, experimenting with mixology, or just looking for something new, DrinkDecider has you covered!
 # Features 📱
 <b>1. Main Menu</b></br>
 The app starts with a user-friendly Main Menu that allows you to navigate to the following sections:
