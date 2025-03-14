@@ -20,10 +20,12 @@ const Stack = createNativeStackNavigator();
 
 
 export default function App() {
+  
   return (
+    
     <I18nextProvider i18n={i18next}>
    <NavigationContainer>
-   <StatusBar barStyle="dark-content" backgroundColor="#E8F8F5" />
+   <StatusBar barStyle="light-content" backgroundColor="#050712" />
       <Stack.Navigator initialRouteName='Main'>
         <Stack.Screen
           name="Main"

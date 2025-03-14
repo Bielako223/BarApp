@@ -7,8 +7,8 @@ const WelcomeScreen = ({ navigation }: { navigation: any }) => {
     const { t } = useTranslation();
   
     return (
-      <SafeAreaView style={styles.containerInstruction}>
-        <View style={styles.contentContainerInstruction}>
+      <SafeAreaView style={styles.container}>
+        <View style={styles.containerInstruction}>
           <Text style={styles.instructionTextTop}>
               {t('WelcomeDescription')}
           </Text>
@@ -19,14 +19,13 @@ const WelcomeScreen = ({ navigation }: { navigation: any }) => {
           </View>
         </View>
   
-        <View style={styles.buttonsContainerInstruction}>
-          <Pressable style={styles.buttonInstruction} onPress={() => navigation.goBack()}>
+        
+          <Pressable style={styles.button} onPress={() => navigation.goBack()}>
             <Text style={styles.buttonText}>{t('ButtonTextBack')}</Text>
           </Pressable>
-          <Pressable style={styles.button2Instruction} onPress={() => navigation.navigate("MyIngredientsAlcohol")}>
+          <Pressable style={styles.button2} onPress={() => navigation.navigate("MyIngredientsAlcohol")}>
             <Text style={styles.buttonText}>{t('ButtonTextNext')}</Text>
           </Pressable>
-        </View>
       </SafeAreaView>
     );
   };

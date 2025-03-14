@@ -11,7 +11,7 @@ function ChangeLang() {
     return (
          <View style={styles.langContainer}>
             {!changeLanguage &&(<TouchableOpacity style={styles.langContainer}  onPress={() => setchangeLanguage(true)}>
-            <Icon name="translate" size={30} color="#000" />
+            <Icon name="translate" size={30} color="#FFF" />
       </TouchableOpacity>)}
       {changeLanguage &&(<View style={styles.langContainer}>
           <View >

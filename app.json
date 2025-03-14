@@ -35,6 +35,14 @@
     },
     "updates": {
       "url": "https://u.expo.dev/eb4950e8-ef31-40f1-af6e-d0f9ec1a1f31"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/DancingScript-VariableFont_wght.ttf"]
+        }
+      ]
+    ]
   }
 }
