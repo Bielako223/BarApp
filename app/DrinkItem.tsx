@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import React, { memo, useContext } from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import Images from './Images';
 import { ObjectClass } from './Classes';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { useTranslation } from 'react-i18next';
-
+import { ThemeContext } from "../ThemeContext";
 interface DrinkItemProps {
   drink: {
     Id: number;
@@ -26,8 +26,11 @@ interface DrinkItemProps {
 const DrinkItem: React.FC<DrinkItemProps> = memo(({ drink, onPress, isIngredientsElement=false }) => {
   const ImgPath = drink.Img;
   const {t}= useTranslation();
+  const themeContext = useContext(ThemeContext);
+         if (!themeContext) return null;
+        const { theme } = themeContext;
   return (
-    <View style={styles.othersDrinks} key={drink.Id}>
+    <View style={[styles.othersDrinks, theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode]} key={drink.Id}>
       <Text style={[styles.itemText, { marginBottom: 7 }]}>{drink.Name}</Text>
 
       {isIngredientsElement == true ? 

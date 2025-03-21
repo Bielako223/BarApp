@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import { Modal, View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { useTranslation } from 'react-i18next';
+import { ThemeContext } from "../ThemeContext";
 interface PopupProps {
   isVisible: boolean;
   onClose: () => void;
@@ -11,6 +12,9 @@ interface PopupProps {
 
 const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstruct }) => {
   const {t}= useTranslation();
+  const themeContext = useContext(ThemeContext);
+           if (!themeContext) return null;
+          const { theme } = themeContext;
   return (
     <Modal
       transparent={true}
@@ -40,7 +44,7 @@ const Popup: React.FC<PopupProps> = ({ isVisible, onClose, prepIngred, prepInstr
           <Text>• {item}</Text>
         )}
       />
-          <TouchableOpacity onPress={onClose} style={styles.closeButton}>
+          <TouchableOpacity onPress={onClose} style={[styles.closeButton,theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode]}>
             <Text style={styles.closeButtonText}>{t('Close')}</Text>
           </TouchableOpacity>
         </View>

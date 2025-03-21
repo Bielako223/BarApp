@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { FlatList, Text, TouchableOpacity, View,SafeAreaView, StyleSheet, Pressable } from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass} from '../Classes';
 import {GetIngredients} from '../DataAccess';
-
+import { ThemeContext } from "../../ThemeContext";
 
 
 const IngredientsScreen = ({navigation}: {navigation: any}) => {
   const {t}= useTranslation();
+  const themeContext = useContext(ThemeContext);
+         if (!themeContext) return null;
+        const { theme } = themeContext;
   const ingredients :ObjectClass[]= GetIngredients();
 ingredients.sort((a, b) => {
   if (a.value < b.value) {
@@ -41,15 +44,19 @@ ingredients.sort((a, b) => {
     return (
       <TouchableOpacity
         onPress={() => handleSelect(item.key)}
-        style={[styles.itemReverseColors, isSelected && styles.selectedItemReverseColors]}>
+        style={[
+          styles.item, 
+          theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode, 
+          isSelected && (theme === "dark" ? styles.bgButtonSelectedColorDarkMode : styles.bgbuttonSelectedColorWhiteMode)
+        ]}>
         <Text style={styles.itemText}>{item.value}</Text>
       </TouchableOpacity>
     );
   };
   
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.topText1}>{t('IngredientsText1')}{"\n"} <Text style={styles.boldText}>{t('IngredientsText2')}</Text>{t('IngredientsText3')}</Text>
+    <SafeAreaView style={[styles.container, theme === "dark" ? styles.bgColorDarkMode : styles.bgColorWhiteMode]}>
+      <Text style={[styles.topText1, theme === "dark" ? styles.fontColorDarkMode : styles.fontColorWhiteMode]}>{t('IngredientsText1')}{"\n"} <Text style={styles.boldText}>{t('IngredientsText2')}</Text>{t('IngredientsText3')}</Text>
     <FlatList
     style={styles.bottomSpace}
       data={ingredients}
@@ -58,10 +65,10 @@ ingredients.sort((a, b) => {
       extraData={selectedItems}
     />
       <View>
-      <Pressable style={styles.button} onPress={() => navigation.goBack()}>
+      <Pressable style={[styles.button, theme === "dark" ? styles.bottomButtonDarkMode : styles.bottomButtonWhiteMode]} onPress={() => navigation.goBack()}>
         <Text style={styles.buttonText} >{t('ButtonTextBack')}</Text>
       </Pressable>
-      <Pressable style={styles.button2} onPress={() =>{
+      <Pressable style={[styles.button2, theme === "dark" ? styles.bottomButtonDarkMode : styles.bottomButtonWhiteMode]} onPress={() =>{
      navigation.navigate("Drink",{taste:taste,strength:strength,alcohols:alcohols,ingredients:selectedItems})
     }  
       }>

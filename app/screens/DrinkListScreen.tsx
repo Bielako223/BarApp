@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react'; 
+import React, { useCallback, useRef, useState, useContext } from 'react'; 
 import { FlatList, Animated, SafeAreaView, Pressable, Text, TextInput, View } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,7 @@ import { DrinkClass, ObjectClass, DrinkPointsClass } from '../Classes';
 import { GetDrinksIngredienClassSorted } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
+import { ThemeContext } from "../../ThemeContext";
 
 interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
@@ -15,6 +16,9 @@ interface ProcessedDrink extends DrinkPointsClass {
 
 const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   const { t } = useTranslation();
+    const themeContext = useContext(ThemeContext);
+         if (!themeContext) return null;
+        const { theme } = themeContext;
   const drinks: DrinkPointsClass[] = GetDrinksIngredienClassSorted();
   const scrollY = useRef(new Animated.Value(0)).current;
 
@@ -68,13 +72,14 @@ const DrinkListScreen = ({ navigation }: { navigation: any }) => {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, theme === "dark" ? styles.bgColorDarkMode : styles.bgColorWhiteMode]}>
       <View style={styles.searchContainer}>
-        <TextInput
-          style={styles.searchInput}
+      <TextInput
+          style={[styles.searchInput, theme === "dark" ? styles.fontColorDarkMode : styles.fontColorWhiteMode]}
           placeholder={t('SearchPlaceholder')}
           value={searchQuery}
           onChangeText={setSearchQuery}
+          placeholderTextColor={theme === "dark" ? 'white' : 'black'}
         />
       </View>
       <FlatList

@@ -1,17 +1,20 @@
 
 import {  Text, View, Pressable,TouchableOpacity,Image,SafeAreaView, ScrollView, Button} from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
 import {ObjectClass, DrinkClass} from '../Classes';
 import Images from '../Images'
 import Popup from '../Popup';
 import Icon from 'react-native-vector-icons/FontAwesome';
-
+import { ThemeContext } from "../../ThemeContext";
 
 function DrinkScreen({navigation}: {navigation: any}) {
   const {t}= useTranslation();
+  const themeContext = useContext(ThemeContext);
+         if (!themeContext) return null;
+        const { theme } = themeContext;
   let drinksArray: DrinkClass[] = t('Lang')=='pl' ? require('../assets/drinks.json') : require('../assets/drinksEng.json');
   let route: RouteProp<{params: {taste: Array<string>,strength: string,alcohols: Array<string>,ingredients: Array<string>}}, 'params'> = useRoute();
   const taste=route.params?.taste
@@ -58,9 +61,9 @@ function DrinkScreen({navigation}: {navigation: any}) {
     return(
       <TouchableOpacity
       key={position}
-        onPress={() => {const newBool = [...show];newBool[position] = !newBool[position];setShow(newBool)}}
+        onPress={() => {const newBool = [...show];newBool[position] = !newBool[position];setShow(newBool)} } activeOpacity={1}
         >
-        <View style={position==0?styles.mainDrink:styles.othersDrinks}>
+        <View style={[position==0?styles.mainDrink:styles.othersDrinks, position!=0 &&(theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode)]}>
             <Text style={[styles.itemText,{marginBottom:7}]}>{drink.Name}</Text>
             <View>
             <Text style={styles.percentageText1}>{t('DrinkPercentageText1')}<Text style={styles.drinkTextBold}>{drink.Percentage>100?'100':drink.Percentage}%</Text>{t('DrinkPercentageText2')}</Text>
@@ -96,7 +99,12 @@ function DrinkScreen({navigation}: {navigation: any}) {
         key={position}
         onPress={() => {setSpecificBoolean(position)}}
         >
-          <View style={position==0?styles.mainDrink:styles.othersDrinks}>
+          <View style={[
+                        position === 0 
+                          ? styles.mainDrink 
+                          : styles.othersDrinks, 
+                        position !== 0 && (theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode)
+                      ]}>
             <Text style={styles.itemText}>{drink.Name} <Text style={styles.percentageText}>{t('DrinkMatchingPercentage')}{drink.Percentage>100?'100':drink.Percentage}%.</Text></Text>
         </View>
         </TouchableOpacity>
@@ -105,14 +113,14 @@ function DrinkScreen({navigation}: {navigation: any}) {
 
 
     return (
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView style={[styles.container, theme === "dark" ? styles.bgColorDarkMode : styles.bgColorWhiteMode]}>
         <ScrollView>
           {finalShow.length==5?
           
         <View>
-          <Text style={styles.topText}>{t('DrinkBestMatching')}</Text>
+          <Text style={[styles.topText, theme === "dark" ? styles.fontColorDarkMode : styles.fontColorWhiteMode]}>{t('DrinkBestMatching')}</Text>
       {show[0]?selectedDrink(finalShow[0],0):notSelectedDrink(finalShow[0],0)}
-      <Text style={styles.topText}>{t('DrinkYouCanLike')}</Text>
+      <Text style={[styles.topText, theme === "dark" ? styles.fontColorDarkMode : styles.fontColorWhiteMode]}>{t('DrinkYouCanLike')}</Text>
       {show[1]?selectedDrink(finalShow[1],1):notSelectedDrink(finalShow[1],1)}
       {show[2]?selectedDrink(finalShow[2],2):notSelectedDrink(finalShow[2],2)}
       {show[3]?selectedDrink(finalShow[3],3):notSelectedDrink(finalShow[3],3)}
@@ -123,7 +131,7 @@ function DrinkScreen({navigation}: {navigation: any}) {
             <Text style={styles.noDrinksText}>{t('None')}</Text>
     }
       <View style={styles.finalDrinkbuttonContainer}>
-    <Pressable style={[styles.startButton]} onPress={() =>
+    <Pressable style={[styles.startButton, , theme === "dark" ? styles.bottomButtonDarkMode : styles.buttonWhiteMode]} onPress={() =>
         navigation.navigate("Main")
       }>
         <Text style={styles.buttonText} >{t('DrinkTryAgain')}</Text>

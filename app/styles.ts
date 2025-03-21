@@ -1,12 +1,41 @@
 import { StyleSheet,StatusBar } from 'react-native';
 
 const styles = StyleSheet.create({
+    bgColorDarkMode:{
+      backgroundColor: '#050712'
+    },
+    bgColorWhiteMode:{
+      backgroundColor: '#E8F8F5'
+    },
+    fontColorDarkMode:{
+      color: 'white'
+    },
+    fontColorWhiteMode:{
+      color: 'black'
+    },
+    buttonDarkMode:{
+      backgroundColor: '#FF5E57'
+    },
+    buttonWhiteMode:{
+      backgroundColor: '#2ECC71'
+    },
+    bgButtonSelectedColorDarkMode:{
+      backgroundColor: '#27AE60'
+    },
+    bgbuttonSelectedColorWhiteMode:{
+      backgroundColor: '#F39C12'
+    },
+    bottomButtonDarkMode:{
+      backgroundColor: '#fe4a43'
+    },
+    bottomButtonWhiteMode:{
+      backgroundColor: '#2ECC71'
+    },
     item: {
       padding: 20,
       marginVertical: 8,
       marginHorizontal: 16,
-      backgroundColor: '#27AE60',
-      borderRadius:25,
+      borderRadius:20,
     },
     selectedItem: {
       backgroundColor: '#F39C12',
@@ -31,9 +60,8 @@ const styles = StyleSheet.create({
       left: 20,
       right: 20,
       width:'43%',
-      backgroundColor: '#2ECC71',
       padding: 15,
-      borderRadius:30,
+      borderRadius:20,
       alignItems: 'center',
       justifyContent: 'center',
       borderRightColor:'black',
@@ -45,20 +73,12 @@ const styles = StyleSheet.create({
       width:'43%',
       backgroundColor: '#2ECC71',
       padding: 15,
-      borderRadius:30,
+      borderRadius:20,
       alignItems: 'center',
       justifyContent: 'center',
     },
     button2off: {
-        position: 'absolute',
-        bottom: 20,
-        right: 20,
-        width:'43%',
         backgroundColor: '#A9A6A6',
-        padding: 15,
-        borderRadius:30,
-        alignItems: 'center',
-        justifyContent: 'center',
       },
     buttonText: {
       color: '#fff',
@@ -75,7 +95,6 @@ const styles = StyleSheet.create({
     },
     container: {
       height: '100%', 
-      backgroundColor:'#E8F8F5',
       position: 'relative',
       flex: 1
     },
@@ -104,8 +123,9 @@ const styles = StyleSheet.create({
       marginBottom:'20%'
     },
     image: {
-      width: 230,
-      height: 230,
+      width: 240,
+      height: 300,
+      marginBottom: 40
     },
     imgContainer:{
       flex: 1,
@@ -118,10 +138,9 @@ const styles = StyleSheet.create({
       marginBottom:40
     },
     startButton: {
-      width:'50%',
-      backgroundColor: '#2ECC71',
+      width:'64%',
       padding: 15,
-      borderRadius:30,
+      borderRadius:20,
       alignItems: 'center',
       justifyContent: 'center',
       borderRightColor:'black',
@@ -132,7 +151,7 @@ const styles = StyleSheet.create({
       marginVertical: 8,
       marginHorizontal: 16,
       backgroundColor: '#F39C12',
-      borderRadius:25,
+      borderRadius:20,
     justifyContent: 'center',
     alignItems: 'center',
     },
@@ -140,8 +159,7 @@ const styles = StyleSheet.create({
       padding: 20,
       marginVertical: 8,
       marginHorizontal: 16,
-      backgroundColor: '#27AE60',
-      borderRadius:25,
+      borderRadius:20,
     justifyContent: 'center',
     alignItems: 'center',
     },
@@ -249,7 +267,6 @@ const styles = StyleSheet.create({
     },
     closeButton: {
       marginTop: 20,
-      backgroundColor: '#2ECC71',
       paddingVertical: 10,
       paddingHorizontal: 30,
       borderRadius: 25,
@@ -294,8 +311,7 @@ searchInput: {
   borderWidth: 1,
   borderRadius: 5,
   paddingHorizontal: 10,
-},
-instructionTextTop:{
+},instructionTextTop:{
   fontSize: 25,
   fontWeight: 'bold',
   marginBottom: 30,
@@ -306,44 +322,28 @@ instructionTextList:{
 },
 
 containerInstruction: {
-  flex: 1, // Flex: 1 sprawia, że kontener rozciąga się na cały ekran
-  paddingTop: StatusBar.currentHeight, // Ustawia górny padding równy wysokości paska stanu
-  backgroundColor: '#E8F8F5',
+  padding: 20,
+  marginTop: 50
 },
 contentContainerInstruction: {
   flex: 1, // Kontener na teksty wypełnia resztę dostępnej przestrzeni
   justifyContent: 'flex-start', // Centruje treść na górze
   padding: 10, // Odstępy wewnątrz kontenera
 },
-buttonsContainerInstruction: {
-  flexDirection: 'row', // Ustawia przyciski obok siebie
-  justifyContent: 'space-between', // Rozdziela przyciski na równe przestrzenie
-  position: 'absolute', // Ustawia kontener przycisków na dole
-  bottom: 20, // Ustawia kontener 20px od dołu
-  left: 20, // Ustawia kontener 20px od lewej krawędzi
-  right: 20, // Ustawia kontener 20px od prawej krawędzi
-  marginBottom: 35
-},
-buttonInstruction: {
-  width: '48%', // Ustawia szerokość przycisku na 48%, aby zmieściły się obok siebie
-  backgroundColor: '#2ECC71',
-  padding: 15,
-  borderRadius: 30,
-  alignItems: 'center',
-  justifyContent: 'center',
-  
-},
-button2Instruction: {
-  width: '48%', // Ustawia szerokość przycisku na 48%, aby zmieściły się obok siebie
-  backgroundColor: '#2ECC71',
-  padding: 15,
-  borderRadius: 30,
-  alignItems: 'center',
-  justifyContent: 'center',
-},
 textNoneResultMessage: {
   fontSize: 25,
   padding: 10
+},
+mt:{
+  paddingLeft:5
+},
+iconscontainer:{
+    marginTop: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+},
+iconstext:{
+  fontSize: 35
 }
   });
 

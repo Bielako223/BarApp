@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react'; 
+import React, { useCallback, useRef, useState, useContext } from 'react'; 
 import { FlatList, Animated, SafeAreaView, Pressable, Text, TextInput, View } from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from '../styles';
@@ -7,6 +7,7 @@ import { DrinkClass, ObjectClass, DrinkPointsClass } from '../Classes';
 import { MyIngredientsGetDrinks } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
+import { ThemeContext } from "../../ThemeContext";
 
 interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
@@ -16,6 +17,10 @@ interface ProcessedDrink extends DrinkPointsClass {
 
 const MyIngredientsResutScreen = ({ navigation }: { navigation: any }) => {
   const { t } = useTranslation();
+  const themeContext = useContext(ThemeContext);
+           if (!themeContext) return null;
+          const { theme } = themeContext;
+
   let route: RouteProp<{params: {alcohols:Array<string>, ingredients:Array<string>}}, 'params'> = useRoute();
     const alcohols=route.params?.alcohols
     const ingredients=route.params?.ingredients
@@ -67,7 +72,7 @@ const MyIngredientsResutScreen = ({ navigation }: { navigation: any }) => {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, theme === "dark" ? styles.bgColorDarkMode : styles.bgColorWhiteMode]}>
        {preprocessedDrinks.length > 0 ? (
           <FlatList
             data={preprocessedDrinks}

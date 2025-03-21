@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Text, View, Pressable, ScrollView, SafeAreaView } from 'react-native';
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,7 @@ import { ObjectClass, DrinkClass, DrinkPointsClass } from '../Classes';
 import { GetDrinksIngredienClass } from '../DataAccess';
 import Popup from '../Popup';
 import DrinkItem from '../DrinkItem';
+import { ThemeContext } from "../../ThemeContext";
 
 interface ProcessedDrink extends DrinkPointsClass {
   alcoholsSpecific: ObjectClass[];
@@ -15,6 +16,9 @@ interface ProcessedDrink extends DrinkPointsClass {
 
 function RandomDrinkScreen({ navigation }: { navigation: any }) {
   const { t } = useTranslation();
+  const themeContext = useContext(ThemeContext);
+         if (!themeContext) return null;
+        const { theme } = themeContext;
   const drinksArray: DrinkPointsClass[] = GetDrinksIngredienClass();
 
   const preprocessedDrinks: ProcessedDrink[] = drinksArray.map((drink) => {
@@ -57,10 +61,10 @@ function RandomDrinkScreen({ navigation }: { navigation: any }) {
   const randomDrink: ProcessedDrink = preprocessedDrinks[randomNumber];
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, theme === "dark" ? styles.bgColorDarkMode : styles.bgColorWhiteMode]}>
       <View style={styles.finalDrinkContainer}>
       <ScrollView>
-        <Text style={styles.topText}>{t('RandomDrinkText')}</Text>
+        <Text style={[styles.topText, theme === "dark" ? styles.fontColorDarkMode : styles.fontColorWhiteMode]}>{t('RandomDrinkText')}</Text>
         <DrinkItem
           drink={randomDrink}
           onPress={() => openPopup(randomDrink.PrepIngred, randomDrink.PrepInstruct)}
@@ -70,10 +74,10 @@ function RandomDrinkScreen({ navigation }: { navigation: any }) {
         <Popup isVisible={isPopupVisible} onClose={closePopup} prepIngred={prepIngred} prepInstruct={prepInstruct} />
 
         <View style={styles.finalDrinkbuttonContainer}>
-          <Pressable style={[styles.startButton, { marginBottom: 15 }]} onPress={newRandomDrink}>
+          <Pressable style={[styles.startButton, , theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode, { marginBottom: 15 }]} onPress={newRandomDrink}>
             <Text style={styles.buttonText}>{t('RandomDrinkTryAgain')}</Text>
           </Pressable>
-          <Pressable style={[styles.startButton]} onPress={() => navigation.navigate('Main')}>
+          <Pressable style={[styles.startButton, , theme === "dark" ? styles.buttonDarkMode : styles.buttonWhiteMode]} onPress={() => navigation.navigate('Main')}>
             <Text style={styles.buttonText}>{t('ButtonTextBack')}</Text>
           </Pressable>
         </View>
