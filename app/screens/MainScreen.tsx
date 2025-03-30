@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, {useContext } from 'react';
 import { Text, View, Image, SafeAreaView, Pressable } from 'react-native';
 import { useRoute } from "@react-navigation/native";
 import styles from '../styles';

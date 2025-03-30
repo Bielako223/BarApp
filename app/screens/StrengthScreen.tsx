@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { FlatList, Text, TouchableOpacity, StatusBar,SafeAreaView, StyleSheet, Pressable, Button, View } from 'react-native';
+import { FlatList, Text, TouchableOpacity,SafeAreaView, Pressable, View } from 'react-native';
 import { useRoute, RouteProp } from "@react-navigation/native"
 import styles from '../styles';
 import { useTranslation } from 'react-i18next';
