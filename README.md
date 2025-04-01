@@ -1,4 +1,8 @@
 # DrinkDecider 🍹
+<a href="https://play.google.com/store/apps/details?id=com.bielako223.DrinkDecider&hl=en" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Drink Decider">
+</a>
+
 DrinkDecider is a mobile application that helps you discover and create amazing drinks based on your preferences and available ingredients. Whether you're hosting a party, experimenting with mixology, or just looking for something new, DrinkDecider has you covered!
 # Features 📱
 <b>1. Main Menu</b></br>
